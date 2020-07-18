@@ -10,8 +10,7 @@
 #For macOS
 brew install yarn
 ```
-For windows, follow the instructions for Yarn installation here 
-https://classic.yarnpkg.com/en/docs/install/#windows-stable
+For windows, follow the instructions for Yarn installation: https://classic.yarnpkg.com/en/docs/install/#windows-stable
 
 ## Install all dependencies in the repository
 ```bash
@@ -22,21 +21,20 @@ yarn
 ```
 
 ## Install and initialize git flow
+For windows, first check if your git version is 2.5.3 and above. \
+If not, download the latest version: https://git-scm.com/download/win
 ```bash
 #For macOS
 brew install git-flow
 
-#For windows, first check if your git version is 2.5.3 and above. If not, download the latest version below
-https://git-scm.com/download/win
-
-
 #Initialize git flow
 git flow init
 ```
-There will be a series of prompts. Just click enter on all of them. 
-**Create feature branches for the sites you're working on**
-**Create pull request to develop after you're done with your branch**
-**NEVER push to develop or to master**
+There will be a series of prompts. Just click enter on all of them.\
+**Create feature branches for the sites you're working on**\
+**Create pull request to develop after you're done with your branch**\
+**NEVER push to develop or to master**\
+For more info on git-flow: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Run the development server:
 
