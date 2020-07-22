@@ -1,10 +1,9 @@
 import {NavMobileWrapper} from './styles'
-import Hamburger from '../../public/assets/img/hamburger.svg'
 
 const NavBar = () => (
     <NavMobileWrapper>
-        <img src="img/logo.svg" alt="CompSAt Logo"/>
-        <img src={Hamburger} alt="Hamburger Icon"/>
+        <img src="/static/img/logo.svg" alt="CompSAt Logo"/>
+        <img src="/static/img/hamburger.svg" alt="Hamburger Icon"/>
     </NavMobileWrapper>
 );
 

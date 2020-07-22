@@ -11,6 +11,9 @@ export const NavMobileWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    position: sticky;
+    z-index: 999;
+
     .img{
         height: max-content;
     }
