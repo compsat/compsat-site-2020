@@ -29,6 +29,9 @@ brew install git-flow
 
 #Initialize git flow
 git flow init
+
+#Create a feature branch
+git flow feature start name-of-branch
 ```
 There will be a series of prompts. Just click enter on all of them.\
 **Create feature branches for the sites you're working on**\
@@ -42,10 +45,12 @@ For more info on git-flow: https://www.atlassian.com/git/tutorials/comparing-wor
 #if you have npm
 npm run dev 
 # or
-yarn run dev
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+To access your deployed branch (make sure you push your branch before checking) [http://feature-name-of-branch--compsat.netlify.app](http://feature-name-of-branch--compsat.netlify.app)
 
 Open [http://compsat.netlify.app/admin](http://compsat.netlify.app/admin) with your browser to access the Netlify CMS.
 
