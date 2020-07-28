@@ -39,6 +39,23 @@ const GlobalStyles = createGlobalStyle`
   h5,
   h6{
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #F6F6F6;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  h1{
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  h2{
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  h3{
+    font-size: 18px;
+    margin-bottom: 12px;
   }
 
   a {
@@ -49,10 +66,12 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p{
-    color: inherit;
+    color: #F6F6F6;
     font-weight: 500;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 16px;
   }
 
   .main{

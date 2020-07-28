@@ -13,7 +13,7 @@ export const NavMobileWrapper = styled.div`
 
     position: sticky;
     z-index: 999;
-
+    background: none;
     .img{
         height: max-content;
     }

@@ -59,9 +59,15 @@ export const FooterOrgInfo = styled.div`
   p {
     color: #93e1d8;
     margin-bottom: 8px;
+    text-align: left;
   }
   a {
     color: #93e1d8;
     text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  .copyright{
+    color: #E5E5E5;
+    font-size: 9px;
   }
 `;
