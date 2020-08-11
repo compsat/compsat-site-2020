@@ -1,13 +1,14 @@
 import React from 'react';
 import { MicrositeContainer, IconBox, Title } from './styles'
 
-const Microsite = ({ MicrositeTitle, Icon }) => (
+const Microsite = ({ MicrositeTitle, PrimaryIcon, SecondaryIcon }) => (
     <MicrositeContainer>
         <Title>{MicrositeTitle}</Title>
         <IconBox>
-            <img src="/static/img/microsite-qpi-calculator.svg" alt="qpi-calc" />
+            {PrimaryIcon}
         </IconBox>
-        <img src="/static/img/microsite-qpi-calculator 2.svg" alt="qpi-calc" />
+        {SecondaryIcon}
+        <img src="/static/img/microsite-qpi-calculator 2.svg" alt="qpi-calc" style={{position: "absolute", top: "90px", left: "45px"}} /> 
     </MicrositeContainer>
 )
 
