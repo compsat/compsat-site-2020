@@ -7,6 +7,7 @@ const Microsite = ({ MicrositeTitle, Icon }) => (
         <IconBox>
             <img src="/static/img/microsite-qpi-calculator.svg" alt="qpi-calc" />
         </IconBox>
+        <img src="/static/img/microsite-qpi-calculator 2.svg" alt="qpi-calc" />
     </MicrositeContainer>
 )
 
