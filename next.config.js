@@ -1,7 +1,8 @@
 const withImages = require('next-images')
-module.exports = withImages()
+
 module.exports = {
   webpack: (cfg) => {
+    withImages(),
     cfg.module.rules.push(
       {
         test: /\.md$/,

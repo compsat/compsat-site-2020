@@ -8,7 +8,7 @@ const Microsite = ({ MicrositeTitle, PrimaryIcon, SecondaryIcon }) => (
         <Title>{MicrositeTitle}</Title>
         <IconBox>
             
-            <img src={QPICalcImg} alt="icon" />
+            <img src={PrimaryIcon} alt="icon" />
             
         </IconBox>
          
