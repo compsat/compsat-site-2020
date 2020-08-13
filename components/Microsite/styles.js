@@ -18,7 +18,7 @@ export const IconBox = styled.div`
     width: 171.89px;
     height: 133.78px;
     border-radius: 9px;
-    box-shadow: 0px 4px 8px #4B081F;
+    box-shadow: 0px 4px 8px rgba(75, 8, 31, 0.6);
     display: flex;
     justify-content: center;
     align-items: center;
