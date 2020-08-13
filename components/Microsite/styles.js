@@ -1,12 +1,5 @@
 import styled from 'styled-components'
 
-const App = () => (
-  <div>
-    <GlobalStyles />
-    App Content Here
-  </div>
-)
-
 export const MicrositeContainer = styled.div`
     background-color: #121C8C;
     width: 250px;
@@ -17,6 +10,7 @@ export const MicrositeContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 27px;
     
 `
 export const IconBox = styled.div`
