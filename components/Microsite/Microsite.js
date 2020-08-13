@@ -7,9 +7,7 @@ const Microsite = ({ MicrositeTitle, PrimaryIcon, SecondaryIcon }) => (
     <MicrositeContainer>
         <Title>{MicrositeTitle}</Title>
         <IconBox>
-            
             <img src={PrimaryIcon} alt="icon" />
-            
         </IconBox>
          
     </MicrositeContainer>

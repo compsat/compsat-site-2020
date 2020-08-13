@@ -1,8 +1,7 @@
 const withImages = require('next-images')
 
-module.exports = {
-  webpack: (cfg) => {
-    withImages(),
+module.exports = withImages({
+  webpack(cfg, options) {
     cfg.module.rules.push(
       {
         test: /\.md$/,
@@ -23,14 +22,14 @@ module.exports = {
           name: "[path][name].[hash].[ext]",
         },
       },
-      {
-        test: /\.svg$/,
-        issuer: {
-          test: /\.(js|ts)x?$/,
-        },
-        use: ["@svgr/webpack"],
-      }
+    //  {
+    //    test: /\.svg$/,
+    //    issuer: {
+    //      test: /\.(js|ts)x?$/,
+    //    },
+    //    use: ["@svgr/webpack"],
+    //  }
     );
     return cfg;
-  },
-};
+  }
+});
