@@ -1,20 +1,29 @@
 import Microsite from '../../components/Microsite'
 import MicrositeHeader from './components/Header'
 import { Container } from './styles'
-import QPICalcImg from '../../public/static/img/microsite-qpi-calculator.svg'
-import testimg from '../../public/static/img/microsite-qpi-calculator 2.svg'
+import QPICalc_Icon from '../../public/static/img/microsite-qpi-calculator.svg'
+import Gearbox_Icon from '../../public/static/img/microsite-gearbox.svg'
+import Wildcard_Icon from '../../public/static/img/microsite-wildcard.svg'
 
 export default () => {
     return (
         <div>
             <MicrositeHeader> </MicrositeHeader>
             <Container> 
-                <Microsite MicrositeTitle="QPI CALCULATOR"
-                PrimaryIcon={QPICalcImg}> </Microsite>
+                <Microsite 
+                    MicrositeTitle="QPI CALCULATOR"
+                    PrimaryIcon={QPICalc_Icon} 
+                    />
 
-                <Microsite MicrositeTitle="GEARBOX"> </Microsite>
+                <Microsite 
+                    MicrositeTitle="GEARBOX"
+                    PrimaryIcon={Gearbox_Icon}
+                    />
 
-                <Microsite MicrositeTitle="WILDCARD"> </Microsite>
+                <Microsite 
+                    MicrositeTitle="WILDCARD"
+                    PrimaryIcon={Wildcard_Icon} 
+                    />
             </Container>
         </div>
     )
