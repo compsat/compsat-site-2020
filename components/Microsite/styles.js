@@ -31,6 +31,7 @@ export const Title = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     color: #FFFFFF;
+    margin-bottom: 18px;
 `

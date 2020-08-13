@@ -9,12 +9,12 @@ export default () => {
         <div>
             <MicrositeHeader> </MicrositeHeader>
             <Container> 
-                <Microsite MicrositeTitle="QPI Calculator"
+                <Microsite MicrositeTitle="QPI CALCULATOR"
                 PrimaryIcon={QPICalcImg}> </Microsite>
 
-                <Microsite MicrositeTitle="QPI Calculator"> </Microsite>
+                <Microsite MicrositeTitle="GEARBOX"> </Microsite>
 
-                <Microsite MicrositeTitle="QPI Calculator"> </Microsite>
+                <Microsite MicrositeTitle="WILDCARD"> </Microsite>
             </Container>
         </div>
     )
