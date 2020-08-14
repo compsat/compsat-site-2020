@@ -1,11 +1,10 @@
 import styled from 'styled-components'
 
-export const OptionContainer = styled.div`
+export const OptionContainer = styled.button`
     width: 254px;
     height: 210px;
     border-radius: 10px;
     background-color: #F6F6F6;
-    position: relative;
     margin-bottom: 16px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -15,6 +14,10 @@ export const OptionContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    :hover {
+        background-color: #07106D;
+    }
 `
 
 export const Title = styled.h3`
