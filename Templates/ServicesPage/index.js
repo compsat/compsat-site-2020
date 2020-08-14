@@ -25,7 +25,7 @@ export default () => {
                 <ServicesOption Name="SYSTEMS" Icon={Icon_Systems}/>
                 <ServicesOption Name="LEARNING SERVICES" Icon={Icon_Learning}/>
                 <Background_Bottom>
-                    <img src={BG_Design2} />
+                    <img src={BG_Design2} style={{maxWidth:"100vw"}} />
                 </Background_Bottom>
             </OptionsContainer>
 
