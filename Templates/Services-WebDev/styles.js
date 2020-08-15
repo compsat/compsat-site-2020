@@ -19,4 +19,17 @@ export const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: max-content;
+`
+
+export const DesignContainerTop = styled.div`
+    position: absolute;
+    top: 0;
+    z-index: -1;
+`
+
+export const DesignContainerBottom = styled.div`
+    position: absolute;
+    transform: translate(0, 73%);
+    z-index: -1;
 `

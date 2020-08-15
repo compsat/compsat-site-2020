@@ -4,11 +4,15 @@ import CMSImg from '../../public/static/img/services-webdev-cms.svg'
 import ECommImg from '../../public/static/img/services-webdev-ecomm.svg'
 import WebAppImg from '../../public/static/img/services-webdev-webapp.svg'
 
-import { SectionTitleWrapper, SectionTitle, Wrapper } from './styles'
+import TopDesign from '../../public/static/img/services-design-top.svg'
+import BottomDesign from '../../public/static/img/services-background2.svg'
+
+import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignContainerBottom } from './styles'
 
 export default () => {
     return(
         <Wrapper>
+            <DesignContainerTop> <img src={TopDesign} /> </DesignContainerTop>
             <SectionTitleWrapper>
                 <SectionTitle>Web Development</SectionTitle>
             </SectionTitleWrapper>
@@ -36,6 +40,7 @@ export default () => {
                 Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                 nec dui maximus, ac feugiat sem pellentesque."/>
+            <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
         </Wrapper>
     );
 };
