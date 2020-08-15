@@ -1,4 +1,4 @@
-import ServicesOption from "../../components/ServicesOption"
+import ServicesButton from "../../components/ServicesButton"
 import { ServicesLandingContainer, Background, OptionsContainer,
         Header, Headline, Background_Bottom, Headline_Img, Background_Top } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
@@ -7,6 +7,8 @@ import Icon_Learning from "../../public/static/img/services-learning.svg"
 import BG_Design1 from "../../public/static/img/services-background1.svg"
 import BG_Design2 from "../../public/static/img/services-background2.svg"
 import Banner from "../../public/static/img/services-header.svg"
+
+import nextPage from "../../pages/index"
 
 export default () => {
     return(
@@ -21,9 +23,9 @@ export default () => {
             </Header>
                        
             <OptionsContainer>
-                <ServicesOption Name="WEB DEVELOPMENT" Icon={Icon_Webdev} href="https://github.com/styled-components/styled-components"/>
-                <ServicesOption Name="SYSTEMS" Icon={Icon_Systems}/>
-                <ServicesOption Name="LEARNING SERVICES" Icon={Icon_Learning}/>
+                <ServicesButton Name="WEB DEVELOPMENT" Icon={Icon_Webdev}/>
+                <ServicesButton Name="SYSTEMS" Icon={Icon_Systems}/>
+                <ServicesButton Name="LEARNING SERVICES" Icon={Icon_Learning}/>
                 <Background_Bottom>
                     <img src={BG_Design2} style={{maxWidth:"100vw"}} />
                 </Background_Bottom>
