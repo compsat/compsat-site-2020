@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
     margin-bottom: 60px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `
 
 export const Description = styled.p`
@@ -18,4 +22,5 @@ export const TitleWrapper = styled.div`
     padding: 10px 0px 10px 0px;
     margin-bottom: 16px;
     margin-top: 16px;
+    width: 234px;
 `
