@@ -10,6 +10,8 @@ import Banner from "../../public/static/img/services-header.svg"
 
 import nextPage from "../../pages/index"
 
+import Link from 'next/link'
+
 export default () => {
     return(
         <ServicesLandingContainer>
@@ -23,9 +25,15 @@ export default () => {
             </Header>
                        
             <OptionsContainer>
-                <ServicesButton Name="WEB DEVELOPMENT" Icon={Icon_Webdev}/>
-                <ServicesButton Name="SYSTEMS" Icon={Icon_Systems}/>
-                <ServicesButton Name="LEARNING SERVICES" Icon={Icon_Learning}/>
+                <Link href="/WebDevelopment">
+                    <a><ServicesButton Name="WEB DEVELOPMENT" Icon={Icon_Webdev} /></a>
+                </Link>
+                <Link href="/Systems">
+                    <a><ServicesButton Name="SYSTEMS" Icon={Icon_Systems}/></a>
+                </Link>
+                <Link href="/LearningServices">
+                    <a><ServicesButton Name="LEARNING SERVICES" Icon={Icon_Learning}/></a>
+                </Link>
                 <Background_Bottom>
                     <img src={BG_Design2} style={{maxWidth:"100vw"}} />
                 </Background_Bottom>
