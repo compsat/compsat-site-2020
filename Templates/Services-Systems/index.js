@@ -2,6 +2,9 @@ import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignC
 
 import TopDesign from '../../public/static/img/services-design-top.svg'
 import BottomDesign from '../../public/static/img/services-background2.svg'
+import RegImg from '../../public/static/img/services-systems-reg.svg'
+import MemTrackImg from '../../public/static/img/services-systems-memtrack.svg'
+import CustomImg from '../../public/static/img/services-systems-custom.svg'
 
 import Service from '../../components/Service'
 
@@ -10,29 +13,23 @@ export default () => {
         <Wrapper>
             <DesignContainerTop> <img src={TopDesign} /> </DesignContainerTop>
             <SectionTitleWrapper>
-                <SectionTitle>Web Development</SectionTitle>
+                <SectionTitle>Systems</SectionTitle>
             </SectionTitleWrapper>
             <Service 
-                Title="Company and Org Websites"
-                Icon={CompanyImg}
+                Title="Registration Systems"
+                Icon={RegImg}
                 Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                 nec dui maximus, ac feugiat sem pellentesque."/>
             <Service 
-                Title="Content Management Systems"
-                Icon={CMSImg}
+                Title="Member-Tracking Systems"
+                Icon={MemTrackImg}
                 Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                 nec dui maximus, ac feugiat sem pellentesque."/>
             <Service 
-                Title="E-Commerce Sites"
-                Icon={ECommImg}
-                Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                nec dui maximus, ac feugiat sem pellentesque."/>
-            <Service 
-                Title="Web Applications"
-                Icon={WebAppImg}
+                Title="Custom Systems"
+                Icon={CustomImg}
                 Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                 nec dui maximus, ac feugiat sem pellentesque."/>
