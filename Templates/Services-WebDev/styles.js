@@ -7,6 +7,7 @@ export const SectionTitleWrapper = styled.div`
     min-height: max-content;
     padding: 16px 24px 16px 24px;
     margin-bottom: 50px;
+    margin-top: 20px;
 `
 export const SectionTitle = styled.h1`
     color: #EE4266;
