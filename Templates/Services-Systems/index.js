@@ -1,4 +1,5 @@
-import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignContainerBottom } from "../Services-WebDev/styles"
+import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop } from "../Services-WebDev/styles"
+import { Bottom } from './styles'
 
 import TopDesign from '../../public/static/img/services-design-top.svg'
 import BottomDesign from '../../public/static/img/services-background2.svg'
@@ -33,7 +34,7 @@ export default () => {
                 Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                 nec dui maximus, ac feugiat sem pellentesque."/>
-            <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
+            <Bottom><img src={BottomDesign} /></Bottom>
         </Wrapper>
     );
 };
