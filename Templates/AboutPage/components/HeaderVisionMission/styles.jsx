@@ -15,6 +15,10 @@ export const MissionContainer = styled.div`
   flex-direction: column;
 `;
 
+export const MissionText = styled.p`
+  width: 100%;
+`;
+
 export const MissionBox = styled.div`
   padding: 15% 10%;
   display: flex;

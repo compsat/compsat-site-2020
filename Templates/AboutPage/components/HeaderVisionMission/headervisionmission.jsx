@@ -1,4 +1,4 @@
-import { HVMWrapper, MissionContainer, MissionBox } from "./styles";
+import { HVMWrapper, MissionContainer, MissionText, MissionBox } from "./styles";
 
 const HeaderVisionMission = () => (
   <HVMWrapper>
@@ -8,7 +8,7 @@ const HeaderVisionMission = () => (
       can code. We strive to nurture curious Ateneans to become competent leaders in software
       development.</p>
     <h2>Our Mission</h2>
-    <p>Our mission is to make programming and software development accessible to anyone by:</p>
+    <MissionText>Our mission is to make programming and software development accessible to anyone by:</MissionText>
     <MissionContainer>
       <MissionBox>
         <img
