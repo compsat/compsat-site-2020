@@ -1,5 +1,7 @@
+import { HVMWrapper, MissionContainer } from "./styles";
+
 const HeaderVisionMission = () => (
-  <div>
+  <HVMWrapper>
     <h1>About CompSAt</h1>
     <h2>Our Vision</h2>
     <p>CompSAt envisions itself as a community driven by the common belief that anyone
@@ -7,7 +9,7 @@ const HeaderVisionMission = () => (
       development.</p>
     <h2>Our Mission</h2>
     <p>Our mission is to make programming and software development accessible to anyone by:</p>
-    <div>
+    <MissionContainer>
       <div>
         <img
           src="/static/img/mission_illustration1.svg"
@@ -29,8 +31,8 @@ const HeaderVisionMission = () => (
         />
         <p>Exposing our members to the opportunities in programming and development that contribute to expanding their network</p>
       </div>
-    </div>
-  </div>
+    </MissionContainer>
+  </HVMWrapper>
 );
 
 export default HeaderVisionMission;
