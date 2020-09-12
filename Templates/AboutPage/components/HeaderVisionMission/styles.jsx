@@ -4,6 +4,10 @@ export const HVMWrapper = styled.div`
   h1, h2, p {
     text-align: left;
   }
+
+  p {
+    margin-bottom: 32px;
+  }
 `;
 
 export const MissionContainer = styled.div`
