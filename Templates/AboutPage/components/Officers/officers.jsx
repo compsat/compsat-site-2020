@@ -1,28 +1,29 @@
-import { OfficersWrapper, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerContent, OfficerDetails } from "./styles";
+import { OfficersWrapper,Top2Container, DepartmentsContainer, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerContent, OfficerDetails } from "./styles";
 
 const Officers = () => (
   <OfficersWrapper>
     <h2>Executive Board + Associates Council</h2>
-    <div>
-      <div>
-        <Top2Member>
-          <OfficerPicture></OfficerPicture>
-          <OfficerContent>
-            <p>Juan dela Cruz</p>
-            <OfficerDetails>President</OfficerDetails>
-            <OfficerDetails>first.last@compsat.org</OfficerDetails>
-          </OfficerContent>
-        </Top2Member>
-        <Top2Member>
-          <OfficerPicture></OfficerPicture>
-          <OfficerContent>
-            <p>Juan dela Cruz</p>
-            <OfficerDetails>Vice President</OfficerDetails>
-            <OfficerDetails>first.last@compsat.org</OfficerDetails>
-          </OfficerContent>
-        </Top2Member>
-      </div>
 
+    <Top2Container>
+      <Top2Member>
+        <OfficerPicture></OfficerPicture>
+        <OfficerContent>
+          <p>Juan dela Cruz</p>
+          <OfficerDetails>President</OfficerDetails>
+          <OfficerDetails>first.last@compsat.org</OfficerDetails>
+        </OfficerContent>
+      </Top2Member>
+      <Top2Member>
+        <OfficerPicture></OfficerPicture>
+        <OfficerContent>
+          <p>Juan dela Cruz</p>
+          <OfficerDetails>Vice President</OfficerDetails>
+          <OfficerDetails>first.last@compsat.org</OfficerDetails>
+        </OfficerContent>
+      </Top2Member>
+    </Top2Container>
+
+    <DepartmentsContainer>
       <div>
         <Department>
           <h3>Department of Communications</h3>
@@ -223,7 +224,7 @@ const Officers = () => (
         </Department>
       </div>
 
-    </div>
+    </DepartmentsContainer>
   </OfficersWrapper>
 );
 

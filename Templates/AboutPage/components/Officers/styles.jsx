@@ -17,6 +17,16 @@ export const OfficersWrapper = styled.div`
   }
 `;
 
+export const Top2Container = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+export const DepartmentsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const Department = styled.div`
   margin-bottom: 16px;
 `;
