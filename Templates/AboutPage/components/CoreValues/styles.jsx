@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const CoreValuesWrapper = styled.div`
+  margin-bottom: 32px;
+  h2 {
+    margin-bottom: 16px;
+  }
+`;
+
 export const CoreValueContainer = styled.div`
   display: flex;
   flex-direction: column;

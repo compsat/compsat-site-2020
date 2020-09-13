@@ -1,7 +1,7 @@
-import { CoreValueContainer, CoreValueLeft, CoreValueRight } from "./styles";
+import { CoreValuesWrapper, CoreValueContainer, CoreValueLeft, CoreValueRight } from "./styles";
 
 const CoreValues = () => (
-  <div>
+  <CoreValuesWrapper>
     <h2>Our Core Values</h2>
     <CoreValueContainer>
       <CoreValueLeft>
@@ -35,7 +35,7 @@ const CoreValues = () => (
         <p>Provide impactful and innovative services</p>
       </CoreValueRight>
     </CoreValueContainer>
-  </div>
+  </CoreValuesWrapper>
 );
 
 export default CoreValues;
