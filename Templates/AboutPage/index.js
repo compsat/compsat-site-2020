@@ -1,7 +1,11 @@
 import HeaderVisionMission from "./components/HeaderVisionMission";
+import CoreCompetencies from "./components/CoreCompetencies";
 
 export default () => {
   return (
-    <HeaderVisionMission />
+    <div>
+      <HeaderVisionMission />
+      <CoreCompetencies />
+    </div>
   );
 };
