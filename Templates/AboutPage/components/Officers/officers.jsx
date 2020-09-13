@@ -1,7 +1,7 @@
-import { Top2Member, EBMember, ACMember, OfficerPicture, OfficerDetails } from "./styles";
+import { OfficersWrapper, Top2Member, EBMember, ACMember, OfficerPicture, OfficerDetails } from "./styles";
 
 const Officers = () => (
-  <div>
+  <OfficersWrapper>
     <h2>Executive Board + Associates Council</h2>
     <div>
       <div>
@@ -224,7 +224,7 @@ const Officers = () => (
       </div>
 
     </div>
-  </div>
+  </OfficersWrapper>
 );
 
 export default Officers;

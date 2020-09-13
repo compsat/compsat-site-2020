@@ -1,5 +1,22 @@
 import styled from "styled-components";
 
+export const OfficersWrapper = styled.div`
+  h2 {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  p {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+`;
+
 export const Top2Member = styled.div`
   display: flex;
   align-items: center;
@@ -7,7 +24,7 @@ export const Top2Member = styled.div`
   padding: 16px;
   border-radius: 3px;
   margin-bottom: 24px;
-  
+
   p {
     color: #07106D;
   }
