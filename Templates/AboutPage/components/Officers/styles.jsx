@@ -17,6 +17,10 @@ export const OfficersWrapper = styled.div`
   }
 `;
 
+export const Department = styled.div`
+  margin-bottom: 16px;
+`;
+
 export const Top2Member = styled.div`
   display: flex;
   align-items: center;

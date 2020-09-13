@@ -1,4 +1,4 @@
-import { OfficersWrapper, Top2Member, EBMember, ACMember, OfficerPicture, OfficerDetails } from "./styles";
+import { OfficersWrapper, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerDetails } from "./styles";
 
 const Officers = () => (
   <OfficersWrapper>
@@ -24,7 +24,7 @@ const Officers = () => (
       </div>
 
       <div>
-        <div>
+        <Department>
           <h3>Department of Communications</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -50,9 +50,9 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
 
-        <div>
+        <Department>
           <h3>Department of Corporate Relations</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -70,9 +70,9 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
 
-        <div>
+        <Department>
           <h3>Department of Development and Training</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -114,11 +114,11 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
       </div>
 
       <div>
-        <div>
+        <Department>
           <h3>Department of Documentation</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -136,9 +136,9 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
 
-        <div>
+        <Department>
           <h3>Department of External Affairs</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -164,9 +164,9 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
 
-        <div>
+        <Department>
           <h3>Department of Finance</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -184,9 +184,9 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
 
-        <div>
+        <Department>
           <h3>Department of Member Relations</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
@@ -220,7 +220,7 @@ const Officers = () => (
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
             </div>
           </ACMember>
-        </div>
+        </Department>
       </div>
 
     </div>
