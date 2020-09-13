@@ -1,9 +1,9 @@
-import { CoreValueLeft, CoreValueRight } from "./styles";
+import { CoreValueContainer, CoreValueLeft, CoreValueRight } from "./styles";
 
 const CoreValues = () => (
   <div>
     <h2>Our Core Values</h2>
-    <div>
+    <CoreValueContainer>
       <CoreValueLeft>
         <img
           src="/static/img/corevalues_illustration1.svg"
@@ -18,8 +18,8 @@ const CoreValues = () => (
         />
         <p>Leverage collaboration</p>
       </CoreValueRight>
-    </div>
-    <div>
+    </CoreValueContainer>
+    <CoreValueContainer>
       <CoreValueLeft>
         <img
           src="/static/img/corevalues_illustration3.svg"
@@ -34,7 +34,7 @@ const CoreValues = () => (
         />
         <p>Provide impactful and innovative services</p>
       </CoreValueRight>
-    </div>
+    </CoreValueContainer>
   </div>
 );
 

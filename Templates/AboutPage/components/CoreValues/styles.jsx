@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const CoreValueContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const CoreValueLeft = styled.div`
   display: flex;
   flex-direction: column;
