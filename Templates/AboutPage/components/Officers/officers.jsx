@@ -1,4 +1,4 @@
-import { OfficersWrapper, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerDetails } from "./styles";
+import { OfficersWrapper, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerContent, OfficerDetails } from "./styles";
 
 const Officers = () => (
   <OfficersWrapper>
@@ -7,19 +7,19 @@ const Officers = () => (
       <div>
         <Top2Member>
           <OfficerPicture></OfficerPicture>
-          <div>
+          <OfficerContent>
             <p>Juan dela Cruz</p>
             <OfficerDetails>President</OfficerDetails>
             <OfficerDetails>first.last@compsat.org</OfficerDetails>
-          </div>
+          </OfficerContent>
         </Top2Member>
         <Top2Member>
           <OfficerPicture></OfficerPicture>
-          <div>
+          <OfficerContent>
             <p>Juan dela Cruz</p>
             <OfficerDetails>Vice President</OfficerDetails>
             <OfficerDetails>first.last@compsat.org</OfficerDetails>
-          </div>
+          </OfficerContent>
         </Top2Member>
       </div>
 
@@ -28,27 +28,27 @@ const Officers = () => (
           <h3>Department of Communications</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Communications</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Promotions</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Publications</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
 
@@ -56,19 +56,19 @@ const Officers = () => (
           <h3>Department of Corporate Relations</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Corporate Relations</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Corporate Relations</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
 
@@ -76,43 +76,43 @@ const Officers = () => (
           <h3>Department of Development and Training</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Development and Training</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Development Training</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Programming Training</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Development Services</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Development Services</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
       </div>
@@ -122,19 +122,19 @@ const Officers = () => (
           <h3>Department of Documentation</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
-              <p>Secretary-General</p>
-              <p>first.last@compsat.org</p>
-            </div>
+              <OfficerDetails>Secretary-General</OfficerDetails>
+              <OfficerDetails>first.last@compsat.org</OfficerDetails>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Secretary-General</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
 
@@ -142,27 +142,27 @@ const Officers = () => (
           <h3>Department of External Affairs</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for External Affairs</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Community Relations</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Univeristy Relations</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
 
@@ -170,19 +170,19 @@ const Officers = () => (
           <h3>Department of Finance</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Finance</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Finance</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
 
@@ -190,35 +190,35 @@ const Officers = () => (
           <h3>Department of Member Relations</h3>
           <EBMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Member Relations</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </EBMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Member Formation</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Member Formation</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
           <ACMember>
             <OfficerPicture></OfficerPicture>
-            <div>
+            <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Member Involvement</OfficerDetails>
               <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </div>
+            </OfficerContent>
           </ACMember>
         </Department>
       </div>

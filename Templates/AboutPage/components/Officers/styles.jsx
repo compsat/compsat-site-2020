@@ -54,6 +54,10 @@ export const ACMember = styled.div`
   margin-bottom: 8px;
 `;
 
+export const OfficerContent = styled.div`
+  width: 65%;
+`;
+
 export const OfficerPicture = styled.div`
   width: 74px;
   height: 74px;
