@@ -1,7 +1,7 @@
-import { CoreCompBox } from "./styles";
+import { CoreCompWrapper, CoreCompBox } from "./styles";
 
 const CoreCompetencies = () => (
-  <div>
+  <CoreCompWrapper>
     <h2>Our Core Competencies</h2>
     <CoreCompBox>
       <img
@@ -17,7 +17,7 @@ const CoreCompetencies = () => (
       />
       <p>We provide sustainable, effective, and high-quality programming and software development services for students, as well as commercial and non-profit organizations based within and outside the Ateneo community.</p>
     </CoreCompBox>
-  </div>
+  </CoreCompWrapper>
 );
 
 export default CoreCompetencies;
