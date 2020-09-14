@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const ContactFormWrapper = styled.div`
+  background: #F6F6F6;
+  padding: 10%;
+  border-radius: 10px;
+
+  h3 {
+    color: #07106D;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+`;
+
 export const FormField = styled.label`
   color: #07106D;
   font-size: 12px;

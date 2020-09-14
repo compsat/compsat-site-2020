@@ -1,7 +1,7 @@
-import {  FormField } from "./styles";
+import {  ContactFormWrapper, FormField } from "./styles";
 
 const ContactForm = () => (
-  <div>
+  <ContactFormWrapper>
     <h3>Send us a message!</h3>
     <form>
       <FormField>
@@ -21,7 +21,7 @@ const ContactForm = () => (
 
       <input type="submit" value="Submit" />
     </form>
-  </div>
+  </ContactFormWrapper>
 );
 
 export default ContactForm;
