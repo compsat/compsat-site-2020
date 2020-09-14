@@ -1,4 +1,4 @@
-import { BG, CoreCompBox } from "./styles";
+import { CoreCompBox } from "./styles";
 
 const CoreCompetencies = () => (
   <div>
