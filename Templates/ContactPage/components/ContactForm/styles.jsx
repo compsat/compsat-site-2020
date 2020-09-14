@@ -11,6 +11,20 @@ export const ErrorMessage = styled.div`
   display: flex;
   align-items: center;
   padding: 16px 10%;
+  display: none;
+
+  p {
+    margin: 0 0 0 8px;
+    text-align: left;
+  }
+`;
+
+export const ConfirmationMessage = styled.div`
+  background: #2AC87C;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 16px 10%;
 
   p {
     margin: 0 0 0 8px;

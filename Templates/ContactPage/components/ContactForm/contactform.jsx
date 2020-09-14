@@ -1,4 +1,4 @@
-import {  ContactFormWrapper, ErrorMessage, FormContent, FormField, WarningMessage, ButtonRight } from "./styles";
+import {  ContactFormWrapper, ErrorMessage, ConfirmationMessage, FormContent, FormField, WarningMessage, ButtonRight } from "./styles";
 import PrimaryButton from "../../../../components/PrimaryButton";
 
 const ContactForm = () => (
@@ -10,6 +10,15 @@ const ContactForm = () => (
       />
       <p>Something went wrong. Please try again.</p>
     </ErrorMessage>
+
+    <ConfirmationMessage>
+      <img
+        src="/static/img/check_green.svg"
+        alt="Check Symbol"
+      />
+      <p>Your message was sent. Thank you very much!</p>
+    </ConfirmationMessage>
+
     <FormContent>
       <h3>Send us a message!</h3>
       <form>
