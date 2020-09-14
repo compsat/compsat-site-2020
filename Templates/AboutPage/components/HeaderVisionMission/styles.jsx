@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const HVMWrapper = styled.div`
+  margin-bottom: 48px;
+
   h1, h2, p {
     text-align: left;
   }
