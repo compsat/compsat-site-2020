@@ -1,11 +1,12 @@
+import { ContactPageWrapper } from "./styles";
 import ContactDetails from "./components/ContactDetails";
 import ContactForm from "./components/ContactForm";
 
 export default () => {
   return (
-    <div>
+    <ContactPageWrapper>
       <ContactDetails />
       <ContactForm />
-    </div>
+    </ContactPageWrapper>
   );
 };
