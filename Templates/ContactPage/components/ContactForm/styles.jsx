@@ -11,7 +11,6 @@ export const ErrorMessage = styled.div`
   display: flex;
   align-items: center;
   padding: 16px 10%;
-  display: none;
 
   p {
     margin: 0 0 0 8px;
@@ -25,6 +24,7 @@ export const ConfirmationMessage = styled.div`
   display: flex;
   align-items: center;
   padding: 16px 10%;
+  display: none;
 
   p {
     margin: 0 0 0 8px;
