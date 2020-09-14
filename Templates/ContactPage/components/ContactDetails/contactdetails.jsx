@@ -1,60 +1,62 @@
+import { ContactInfo, Platform } from "./styles";
+
 const ContactDetails = () => (
   <div>
     <h2>Contact Us</h2>
-    <div>
-      <div>
+    <ContactInfo>
+      <Platform>
         <img
-          src="/static/img/logo_white_notext.svg"
+          src="/static/img/logo_white_bullet.svg"
           alt="Bullet Point: CompSAt Logo"
         />
         <p>Address</p>
-      </div>
+      </Platform>
       <p>Room 303, MVP Center for Student Leadership, Ateneo de Manila University, Katipunan, Quezon City</p>
-    </div>
+    </ContactInfo>
 
-    <div>
-      <div>
+    <ContactInfo>
+      <Platform>
         <img
-          src="/static/img/logo_white_notext.svg"
+          src="/static/img/logo_white_bullet.svg"
           alt="Bullet Point: CompSAt Logo"
         />
         <p>Email</p>
-      </div>
+      </Platform>
       <p>hello@compsat.org</p>
-    </div>
+    </ContactInfo>
 
-    <div>
-      <div>
+    <ContactInfo>
+      <Platform>
         <img
           src="/static/img/logo_white_bullet.svg"
           alt="Bullet Point: CompSAt Logo"
         />
         <p>Facebook</p>
-      </div>
+      </Platform>
       <p>facebook.com/CompSAteneo</p>
-    </div>
+    </ContactInfo>
 
-    <div>
-      <div>
+    <ContactInfo>
+      <Platform>
         <img
-          src="/static/img/logo_white_notext.svg"
+          src="/static/img/logo_white_bullet.svg"
           alt="Bullet Point: CompSAt Logo"
         />
         <p>Twitter</p>
-      </div>
+      </Platform>
       <p>twitter.com/CompSAt</p>
-    </div>
+    </ContactInfo>
 
-    <div>
-      <div>
+    <ContactInfo>
+      <Platform>
         <img
-          src="/static/img/logo_white_notext.svg"
+          src="/static/img/logo_white_bullet.svg"
           alt="Bullet Point: CompSAt Logo"
         />
         <p>Cellphone Number</p>
-      </div>
+      </Platform>
       <p>0908-343-5801</p>
-    </div>
+    </ContactInfo>
   </div>
 );
 
