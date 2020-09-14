@@ -36,6 +36,17 @@ export const FormField = styled.label`
   }
 `;
 
+export const WarningMessage = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+
+  p {
+    color: #BA1C51;
+    margin: 0 0 0 4px;
+  }
+`;
+
 export const ButtonRight = styled.div`
   display: flex;
   justify-content: flex-end;
