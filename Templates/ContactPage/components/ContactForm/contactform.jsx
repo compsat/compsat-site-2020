@@ -1,4 +1,5 @@
-import {  ContactFormWrapper, FormField } from "./styles";
+import {  ContactFormWrapper, FormField, ButtonRight } from "./styles";
+import PrimaryButton from "../../../../components/PrimaryButton";
 
 const ContactForm = () => (
   <ContactFormWrapper>
@@ -19,7 +20,7 @@ const ContactForm = () => (
         <textarea type="text" name="message" />
       </FormField>
 
-      <input type="submit" value="Submit" />
+      <ButtonRight><PrimaryButton>Submit</PrimaryButton></ButtonRight>
     </form>
   </ContactFormWrapper>
 );

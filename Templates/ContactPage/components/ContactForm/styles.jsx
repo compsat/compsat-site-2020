@@ -35,3 +35,8 @@ export const FormField = styled.label`
     background: #F6F6F6;
   }
 `;
+
+export const ButtonRight = styled.div`
+  display: flex;
+  justify-content: flex-end;
+`;
