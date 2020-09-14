@@ -1,21 +1,23 @@
+import {  FormField } from "./styles";
+
 const ContactForm = () => (
   <div>
     <h3>Send us a message!</h3>
     <form>
-      <label>
+      <FormField>
         Full Name*
         <input type="text" name="name" />
-      </label>
+      </FormField>
 
-      <label>
+      <FormField>
         Email*
         <input type="text" name="email" />
-      </label>
+      </FormField>
 
-      <label>
+      <FormField>
         Message*
-        <input type="text" name="message" />
-      </label>
+        <textarea type="text" name="message" />
+      </FormField>
 
       <input type="submit" value="Submit" />
     </form>
