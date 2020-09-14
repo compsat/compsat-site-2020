@@ -2,7 +2,7 @@ import { ContactDetailsWrapper, ContactInfo, Platform } from "./styles";
 
 const ContactDetails = () => (
   <ContactDetailsWrapper>
-    <h2>Contact Us</h2>
+    <h1>Contact Us</h1>
     <ContactInfo>
       <Platform>
         <img

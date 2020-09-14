@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ContactDetailsWrapper = styled.div`
-  h2 {
+  margin-bottom: 32px;
+  h1 {
     text-align: left;
-    margin-bottom: 16px;
   }
 `;
 
