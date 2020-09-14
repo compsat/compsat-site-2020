@@ -1,7 +1,7 @@
-import { ContactInfo, Platform } from "./styles";
+import { ContactDetailsWrapper, ContactInfo, Platform } from "./styles";
 
 const ContactDetails = () => (
-  <div>
+  <ContactDetailsWrapper>
     <h2>Contact Us</h2>
     <ContactInfo>
       <Platform>
@@ -57,7 +57,7 @@ const ContactDetails = () => (
       </Platform>
       <p>0908-343-5801</p>
     </ContactInfo>
-  </div>
+  </ContactDetailsWrapper>
 );
 
 export default ContactDetails;
