@@ -21,10 +21,7 @@ export const OptionContainer = styled.button`
 `
 
 export const Title = styled.h3`
-    font-family: Rubik;
-    font-weight: bold;
-    font-size: 17px;
     color: #07106D;
-    margin-top: 3px;
+    margin-top: 4px;
     padding: 0px;
 `
