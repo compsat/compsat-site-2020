@@ -15,9 +15,9 @@ import Link from 'next/link'
 export default () => {
     return(
         <ServicesLandingContainer>
-            <Background>
+            
                 <Background_Top><img src={BG_Design1} /></Background_Top>
-            </Background>
+  
 
             <Header>
                 <Headline_Img><img src={Banner} alt="banner"/> </Headline_Img> 
@@ -38,7 +38,7 @@ export default () => {
                     <img src={BG_Design2} style={{maxWidth:"100vw"}} />
                 </Background_Bottom>
             </OptionsContainer>
-
+     
         </ServicesLandingContainer>
     );
 };
