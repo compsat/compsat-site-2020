@@ -23,14 +23,23 @@ export const Wrapper = styled.div`
     height: max-content;
 `
 
+export const devWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`
+
 export const DesignContainerTop = styled.div`
-    position: absolute;
-    top: 0;
+    position: relative;
+    margin-top: -56px;
+    margin-bottom: -720px;
     z-index: -1;
 `
 
 export const DesignContainerBottom = styled.div`
-    position: absolute;
-    transform: translate(0, 73%);
+    position: relative;
+    margin: -780px 0 -8px 0;
     z-index: -1;
 `

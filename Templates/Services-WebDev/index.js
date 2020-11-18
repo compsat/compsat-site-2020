@@ -7,7 +7,7 @@ import WebAppImg from '../../public/static/img/services-webdev-webapp.svg'
 import TopDesign from '../../public/static/img/services-design-top.svg'
 import BottomDesign from '../../public/static/img/services-background2.svg'
 
-import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignContainerBottom } from './styles'
+import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignContainerBottom, devWrapper } from './styles'
 
 export default () => {
     return(
@@ -16,6 +16,8 @@ export default () => {
             <SectionTitleWrapper>
                 <SectionTitle>Web Development</SectionTitle>
             </SectionTitleWrapper>
+            
+            
             <Service 
                 Title="Company and Org Websites"
                 Icon={CompanyImg}
@@ -40,6 +42,7 @@ export default () => {
                 Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                 nec dui maximus, ac feugiat sem pellentesque."/>
+         
             <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
         </Wrapper>
     );
