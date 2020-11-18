@@ -12,6 +12,9 @@ import nextPage from "../../pages/index"
 
 import Link from 'next/link'
 
+function clickMe() {
+    {console.log("nooo")}
+}
 export default () => {
     return(
         <ServicesLandingContainer>
@@ -26,7 +29,12 @@ export default () => {
                        
             <OptionsContainer>
                 <Link href="/WebDevelopment">
-                    <a><ServicesButton Name="WEB DEVELOPMENT" Icon={Icon_Webdev} /></a>
+                    <a href="/WebDevelopment">
+                        <ServicesButton 
+                            Name="WEB DEVELOPMENT" 
+                            Icon={Icon_Webdev}
+                            onClick={clickMe} />
+                    </a>
                 </Link>
                 <Link href="/Systems">
                     <a><ServicesButton Name="SYSTEMS" Icon={Icon_Systems}/></a>
