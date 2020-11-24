@@ -8,7 +8,7 @@ export const ContactDetailsWrapper = styled.div`
 `;
 
 export const ContactInfo = styled.div`
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   p {
     text-align: left;
     margin: 8px 0 0 25px;
