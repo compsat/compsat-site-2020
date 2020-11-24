@@ -69,8 +69,8 @@ export const OfficerContent = styled.div`
 `;
 
 export const OfficerPicture = styled.div`
-  width: 74px;
-  height: 74px;
+  width: 80px;
+  height: 80px;
   border: 3px #FFF solid;
   border-radius: 50%;
   background: #07106D;
