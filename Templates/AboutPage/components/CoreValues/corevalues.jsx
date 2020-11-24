@@ -14,7 +14,7 @@ const CoreValues = () => (
       <CoreValueRight>
         <img
           src="/static/img/corevalues_illustration2.svg"
-          alt="Core Values Illustration: One Fourth of the CompSAt Log0"
+          alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
         <p>Leverage collaboration</p>
       </CoreValueRight>
