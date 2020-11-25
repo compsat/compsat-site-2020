@@ -6,7 +6,7 @@ const Officers = () => (
 
     <Top2Container>
       <Top2Member>
-        <OfficerPicture></OfficerPicture>
+        <OfficerPicture/>
         <OfficerContent>
           <p>Juan dela Cruz</p>
           <OfficerDetails>President</OfficerDetails>
@@ -14,7 +14,7 @@ const Officers = () => (
         </OfficerContent>
       </Top2Member>
       <Top2Member>
-        <OfficerPicture></OfficerPicture>
+        <OfficerPicture/>
         <OfficerContent>
           <p>Juan dela Cruz</p>
           <OfficerDetails>Vice President</OfficerDetails>
@@ -28,7 +28,7 @@ const Officers = () => (
         <Department>
           <h3>Department of Communications</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Communications</OfficerDetails>
@@ -36,7 +36,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Promotions</OfficerDetails>
@@ -44,7 +44,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Publications</OfficerDetails>
@@ -56,7 +56,7 @@ const Officers = () => (
         <Department>
           <h3>Department of Corporate Relations</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Corporate Relations</OfficerDetails>
@@ -64,7 +64,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Corporate Relations</OfficerDetails>
@@ -76,7 +76,7 @@ const Officers = () => (
         <Department>
           <h3>Department of Development and Training</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Development and Training</OfficerDetails>
@@ -84,7 +84,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Development Training</OfficerDetails>
@@ -92,7 +92,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Programming Training</OfficerDetails>
@@ -100,7 +100,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Development Services</OfficerDetails>
@@ -108,7 +108,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Development Services</OfficerDetails>
@@ -122,7 +122,7 @@ const Officers = () => (
         <Department>
           <h3>Department of Documentation</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Secretary-General</OfficerDetails>
@@ -130,7 +130,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Secretary-General</OfficerDetails>
@@ -142,7 +142,7 @@ const Officers = () => (
         <Department>
           <h3>Department of External Affairs</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for External Affairs</OfficerDetails>
@@ -150,7 +150,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Community Relations</OfficerDetails>
@@ -158,7 +158,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Univeristy Relations</OfficerDetails>
@@ -170,7 +170,7 @@ const Officers = () => (
         <Department>
           <h3>Department of Finance</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Finance</OfficerDetails>
@@ -178,7 +178,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Finance</OfficerDetails>
@@ -190,7 +190,7 @@ const Officers = () => (
         <Department>
           <h3>Department of Member Relations</h3>
           <EBMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Vice President for Member Relations</OfficerDetails>
@@ -198,7 +198,7 @@ const Officers = () => (
             </OfficerContent>
           </EBMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Member Formation</OfficerDetails>
@@ -206,7 +206,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Member Formation</OfficerDetails>
@@ -214,7 +214,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
           <ACMember>
-            <OfficerPicture></OfficerPicture>
+            <OfficerPicture/>
             <OfficerContent>
               <p>Juan dela Cruz</p>
               <OfficerDetails>Associate Vice President for Member Involvement</OfficerDetails>
