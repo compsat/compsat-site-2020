@@ -31,5 +31,5 @@ module.exports = withImages({
     //  }
     );
     return cfg;
-  }
+  },
 });
