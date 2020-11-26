@@ -12,6 +12,7 @@
     "@svgr/webpack": "^5.4.0",
     "netlify-cms": "^2.10.54",
     "next": "9.4.4",
+    "next-images": "^1.4.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "schema-utils": "^2.7.0",

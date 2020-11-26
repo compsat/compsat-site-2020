@@ -22,12 +22,12 @@ module.exports = withImages({
           name: "[path][name].[hash].[ext]",
         },
       },
-     // {
-     //   test: /\.svg$/,
-     //   issuer: {
-     //     test: /\.(js|ts)x?$/,
-     //   },
-     //   use: ["@svgr/webpack"],
+    //  {
+    //    test: /\.svg$/,
+    //    issuer: {
+    //      test: /\.(js|ts)x?$/,
+    //    },
+    //    use: ["@svgr/webpack"],
     //  }
     );
     return cfg;
