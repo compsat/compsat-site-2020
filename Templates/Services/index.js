@@ -1,6 +1,14 @@
+import React, { useState } from 'react'
+
 import ServicesButton from "../../components/ServicesButton"
-import { ServicesLandingContainer, Background, OptionsContainer,
-        Header, Headline, Background_Bottom, Headline_Img, Background_Top } from "./styles"
+import { ServicesLandingContainer, 
+        Background, 
+        OptionsContainer,
+        Header, 
+        Headline, 
+        Background_Bottom, 
+        Headline_Img, 
+        Background_Top } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
 import Icon_Systems from "../../public/static/img/services-systems.svg"
 import Icon_Learning from "../../public/static/img/services-learning.svg"
@@ -16,6 +24,9 @@ function clickMe() {
     {console.log("nooo")}
 }
 export default () => {
+
+    const [page,setPage] = useState("")
+
     return(
         <ServicesLandingContainer>
             
@@ -28,23 +39,18 @@ export default () => {
             </Header>
                        
             <OptionsContainer>
-                <Link href="/WebDevelopment">
-                    <a href="/WebDevelopment">
-                        <ServicesButton 
-                            Name="WEB DEVELOPMENT" 
-                            Icon={Icon_Webdev}
-                            onClick={clickMe} />
-                    </a>
-                </Link>
-                <Link href="/Systems">
-                    <a><ServicesButton Name="SYSTEMS" Icon={Icon_Systems}/></a>
-                </Link>
-                <Link href="/LearningServices">
-                    <a><ServicesButton Name="LEARNING SERVICES" Icon={Icon_Learning}/></a>
-                </Link>
-                <Background_Bottom>
-                    <img src={BG_Design2} style={{maxWidth:"100vw"}} />
-                </Background_Bottom>
+                <ServicesButton 
+                    Name="WEB DEVELOPMENT" 
+                    Icon={Icon_Webdev}
+                    onClick={() => setPage("web development")} />
+                <ServicesButton 
+                    Name="SYSTEMS" 
+                    Icon={Icon_Systems}
+                    onClick={() => setPage("systems")} />
+                <ServicesButton 
+                    Name="LEARNING SERVICES" 
+                    Icon={Icon_Learning}
+                    onClick={() => setPage("learning")} />
             </OptionsContainer>
      
         </ServicesLandingContainer>
