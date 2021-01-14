@@ -3,11 +3,7 @@ import { HeaderSpace, ImgSpace, SectionTitle, Subtitle, TextContainer } from './
 
 const MicrositeHeader = () => (
     <HeaderSpace>
-      
         <img src='/static/img/microsite-header.svg'></img>
-        
-        
-
         <TextContainer> 
             <SectionTitle>Geared For You</SectionTitle>
             <Subtitle>
