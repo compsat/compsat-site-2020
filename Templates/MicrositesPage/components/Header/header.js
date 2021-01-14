@@ -1,9 +1,12 @@
 import React from 'react';
-import { HeaderSpace, SectionTitle, Subtitle, TextContainer } from './styles';
+import { HeaderSpace, ImgSpace, SectionTitle, Subtitle, TextContainer } from './styles';
 
 const MicrositeHeader = () => (
     <HeaderSpace>
+      
         <img src='/static/img/microsite-header.svg'></img>
+        
+        
 
         <TextContainer> 
             <SectionTitle>Geared For You</SectionTitle>

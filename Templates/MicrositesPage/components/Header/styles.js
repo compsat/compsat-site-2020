@@ -4,7 +4,6 @@ export const HeaderSpace = styled.div`
     position: relative;
     top:-56px;
     left: -24px;
-    
 `
 
 export const SectionTitle = styled.h2`
