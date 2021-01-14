@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const OptionContainer = styled.button`
+export const Service = styled.button`
     width: 254px;
     height: 210px;
     border-radius: 10px;

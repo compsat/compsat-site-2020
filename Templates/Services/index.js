@@ -42,16 +42,23 @@ export default () => {
                 <ServicesButton 
                     Name="WEB DEVELOPMENT" 
                     Icon={Icon_Webdev}
-                    onClick={() => setPage("web development")} />
+                    type="button"
+                    onPress={() => setPage("web development")} />
                 <ServicesButton 
                     Name="SYSTEMS" 
                     Icon={Icon_Systems}
-                    onClick={() => setPage("systems")} />
+                    type="button"
+                    onPress={() => Alert.alert('button is pressed')} />
                 <ServicesButton 
                     Name="LEARNING SERVICES" 
                     Icon={Icon_Learning}
-                    onClick={() => setPage("learning")} />
+                    type="button"
+                    onPress={() => setPage("learning")} />
             </OptionsContainer>
+
+            {page === 'web development' ? 
+            <div> <p>fuck you</p> </div>
+            : <div></div>}
      
         </ServicesLandingContainer>
     );
