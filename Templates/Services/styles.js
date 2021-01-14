@@ -8,7 +8,6 @@ export const ServicesLandingContainer = styled.div`
     flex-direction: column;
     background-color: #030950;
     position: relative;
-    z-index: -1;
 `
 export const Header = styled.div`
     display: flex;

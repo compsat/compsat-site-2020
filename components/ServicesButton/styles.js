@@ -15,8 +15,9 @@ export const Service = styled.button`
     align-items: center;
     flex-direction: column;
 
-    :hover {
+    &:hover {
         background-color: #07106D;
+        transition: all 5s;
     }
 `
 
