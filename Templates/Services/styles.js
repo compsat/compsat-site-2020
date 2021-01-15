@@ -98,7 +98,8 @@ export const DesignContainerBottom = styled.div`
 `
 
 export const Bottom = styled.div`
-    position: absolute;
-    transform: translate(0, 42%);
+    position: sticky;
+    margin-top: -720px;
+    margin-bottom: -10px;
     z-index: -1;
 `
