@@ -5,12 +5,37 @@ export const FooterMobileWrapper = styled.div`
   flex-direction: column;
   padding: 32px 24px;
   background: #262424;
-  margin: 0px -24px;
+  margin: 0;
   > div:not(:last-child) {
     margin-bottom: 20px;
   }
   hr{
     margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 500px) {
+    padding: 32px 36px;
+  }
+  @media screen and (min-width: 600px) {
+    padding: 32px 48px;
+  }
+  @media screen and (min-width: 700px) {
+    padding: 32px 60px;
+  }
+  @media screen and (min-width: 800px) {
+    padding: 32px 72px;
+  }
+  @media screen and (min-width: 900px) {
+    padding: 32px 84px;
+  }
+  @media screen and (min-width: 1000px) {
+    padding: 32px 96px;
+  }
+  @media screen and (min-width: 1100px) {
+    padding: 32px 108px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 32px 128px;
   }
 `;
 
