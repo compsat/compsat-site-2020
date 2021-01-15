@@ -9,7 +9,8 @@ import {
     Headline,
     Background_Bottom,
     Headline_Img,
-    Background_Top
+    Background_Top,
+    Bottom
 } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
 import Icon_Systems from "../../public/static/img/services-systems.svg"
@@ -38,6 +39,9 @@ import RegImg from '../../public/static/img/services-systems-reg.svg'
 import MemTrackImg from '../../public/static/img/services-systems-memtrack.svg'
 import CustomImg from '../../public/static/img/services-systems-custom.svg'
 
+import ProgImg from '../../public/static/img/services-LS-prog.svg'
+import WebdevImg from '../../public/static/img/services-LS-webdev.svg'
+
 function clickMe() {
     { console.log("nooo") }
 }
@@ -54,6 +58,8 @@ export default () => {
     return (
         <ServicesLandingContainer>
 
+            {page === "" ? 
+            <div>
             <Background_Top><img src={BG_Design1} /></Background_Top>
 
 
@@ -79,7 +85,8 @@ export default () => {
                     type="button"
                     onClick={() => setPage("learning services")} />
             </OptionsContainer>
-
+            </div>
+            : null}
             {page === 'web development' ?
                 <Wrapper>
                     <DesignContainerTop> <img src={TopDesign} /> </DesignContainerTop>

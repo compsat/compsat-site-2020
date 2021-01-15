@@ -6,7 +6,7 @@ export const ServicesLandingContainer = styled.div`
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: #030950;
+  /*  background-color: #030950; */
     position: relative;
 `
 export const Header = styled.div`
@@ -54,7 +54,7 @@ export const OptionsContainer = styled.div`
 `
 
 export const SectionTitleWrapper = styled.div`
-    background-color: #F6F6F6;
+    background-color: #F6F6F6; 
     border-radius: 0px 10px 10px 10px;
     max-width: max-content;
     min-height: max-content;
@@ -94,5 +94,11 @@ export const DesignContainerTop = styled.div`
 export const DesignContainerBottom = styled.div`
     position: relative;
     margin: -780px 0 -8px 0;
+    z-index: -1;
+`
+
+export const Bottom = styled.div`
+    position: absolute;
+    transform: translate(0, 42%);
     z-index: -1;
 `
