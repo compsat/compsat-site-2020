@@ -20,3 +20,14 @@ export const Subtitle = styled.p `
     text-align: left;
     margin-top: -8px;
 `
+
+export const CardContainer = styled.div `
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 48px;
+    margin-bottom: 20px;
+`
