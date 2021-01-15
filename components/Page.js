@@ -9,12 +9,11 @@ const GlobalStyles = createGlobalStyle`
   }
 
   *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
   }
 
   body {
     margin: 0;
-    padding: 0 24px;
     background: #07106D;
     font-family: 'IBM Plex Sans', sans-serif;
   }
@@ -38,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
   h4,
   h5,
   h6{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', serif;
     font-weight: bold;
     color: #F6F6F6;
     line-height: 150%;
@@ -76,6 +75,32 @@ const GlobalStyles = createGlobalStyle`
 
   .main{
     min-height: 100vw;
+    width: 100vw;
+    padding: 0 24px;
+    @media screen and (min-width: 500px){
+      padding: 0 36px;
+    }
+    @media screen and (min-width: 600px){
+      padding: 0 48px;
+    }
+    @media screen and (min-width: 700px){
+      padding: 0 60px;
+    }
+    @media screen and (min-width: 800px){
+      padding: 0 72px;
+    }
+    @media screen and (min-width: 900px){
+      padding: 0 84px;
+    }
+    @media screen and (min-width: 1000px){
+      padding: 0 96px;
+    }
+    @media screen and (min-width: 1100px){
+      padding: 0 108px;
+    }
+    @media screen and (min-width: 1200px){
+      padding: 0 128px;
+    }
   }
 `;
 
