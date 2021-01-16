@@ -1,5 +1,5 @@
 import { HeroWrapper, HeroTextWrapper } from "./styles";
-import PrimaryButton from "../../../../components/PrimaryButton"
+import PrimaryButton from "../../../../components/PrimaryButton";
 
 const Hero = () => (
   <HeroWrapper>
@@ -8,10 +8,13 @@ const Hero = () => (
       alt="Landing Page Illustration"
     />
     <HeroTextWrapper>
-      <h2>Here in CompSAt, we believe that anyone can code.</h2>
-      <p>We are the Computer Society of the Ateneo (CompSAt). Our mission is to make programming and software development accessible to anyone.</p>
+      <h1>Here in CompSAt, we believe that anyone can code.</h1>
+      <p>
+        We are the Computer Society of the Ateneo (CompSAt). Our mission is to
+        make programming and software development accessible to anyone.
+      </p>
+      <PrimaryButton>Get in touch</PrimaryButton>
     </HeroTextWrapper>
-    <PrimaryButton>Get in touch</PrimaryButton>
   </HeroWrapper>
 );
 

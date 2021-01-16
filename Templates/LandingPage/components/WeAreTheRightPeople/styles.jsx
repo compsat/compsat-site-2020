@@ -9,8 +9,8 @@ export const WATRPeopleWrapper = styled.div`
   padding: 32px 0;
   @media screen and (min-width: 800px) {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 0.6fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-column-gap: 14px;
     grid-template-areas:
       "image heading"
@@ -20,21 +20,27 @@ export const WATRPeopleWrapper = styled.div`
       grid-area: image;
       align-self: center;
       justify-self: start;
+      width: 100%;
     }
     h2 {
       grid-area: heading;
       /* justify-self: end; */
       text-align: left;
+      margin-bottom: 0;
     }
     p {
       grid-area: paragraph;
       /* justify-self: end; */
       text-align: left;
+      margin-bottom: 0;
     }
     *:last-child {
       grid-area: button;
       /* justify-self: end; */
     }
+  }
+  @media screen and (min-width: 1000px) {
+    grid-column-gap: 36px;
   }
 `;
 

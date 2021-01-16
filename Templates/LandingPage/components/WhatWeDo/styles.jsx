@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const WWDWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 32px 24px;
   background: linear-gradient(180deg, #07106d -0.11%, #ee4266 99.89%);
   width: 100vw;
+  padding: 32px 24px;
   margin: 0 -24px;
   @media screen and (min-width: 500px) {
     margin: 0 -36px;
@@ -53,7 +53,7 @@ export const SectionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 8px;
   background: #f6f6f6;
   border-radius: 15px;
   &:not(:last-child) {
@@ -74,6 +74,9 @@ export const SectionWrapper = styled.div`
   @media screen and (min-width: 800px) {
     width: 256px;
     margin-bottom: 32px;
+    button{
+      margin-top: auto;
+    }
   }
   @media screen and (min-width: 900px) {
     width: 320px;
