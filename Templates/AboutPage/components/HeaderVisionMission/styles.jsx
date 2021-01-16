@@ -15,6 +15,10 @@ export const HVMWrapper = styled.div`
 export const MissionContainer = styled.div`
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 
 export const MissionText = styled.p`
@@ -32,5 +36,10 @@ export const MissionBox = styled.div`
   p {
     margin: 16px 0 0 0;
     text-align: center;
+  }
+
+  @media screen and (min-width: 800px) {
+    width: 32%;
+    padding: 7% 3%;
   }
 `;
