@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const WWDWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 32px 24px;
   background: linear-gradient(180deg, #07106d -0.11%, #ee4266 99.89%);
   width: 100vw;
+  padding: 32px 24px;
   margin: 0 -24px;
   @media screen and (min-width: 500px) {
     margin: 0 -36px;

@@ -196,7 +196,6 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100vw;
     width: 100vw;
     padding: 0 24px;
-    overflow-x: hidden;
     @media screen and (min-width: 500px){
       padding: 0 36px;
     }
