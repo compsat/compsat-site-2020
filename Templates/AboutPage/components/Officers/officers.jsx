@@ -1,4 +1,4 @@
-import { OfficersWrapper,Top2Container, DepartmentsContainer, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerContent, OfficerDetails } from "./styles";
+import { OfficersWrapper,Top2Container, DepartmentsContainer, DepartmentsHalf, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerContent, OfficerDetails } from "./styles";
 
 const Officers = () => (
   <OfficersWrapper>
@@ -24,7 +24,7 @@ const Officers = () => (
     </Top2Container>
 
     <DepartmentsContainer>
-      <div>
+      <DepartmentsHalf>
         <Department>
           <h3>Department of Communications</h3>
           <EBMember>
@@ -116,9 +116,9 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
         </Department>
-      </div>
+      </DepartmentsHalf>
 
-      <div>
+      <DepartmentsHalf>
         <Department>
           <h3>Department of Documentation</h3>
           <EBMember>
@@ -222,7 +222,7 @@ const Officers = () => (
             </OfficerContent>
           </ACMember>
         </Department>
-      </div>
+      </DepartmentsHalf>
 
     </DepartmentsContainer>
   </OfficersWrapper>
