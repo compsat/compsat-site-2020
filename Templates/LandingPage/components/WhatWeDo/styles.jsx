@@ -53,7 +53,7 @@ export const SectionWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 8px;
   background: #f6f6f6;
   border-radius: 15px;
   &:not(:last-child) {
@@ -74,6 +74,9 @@ export const SectionWrapper = styled.div`
   @media screen and (min-width: 800px) {
     width: 256px;
     margin-bottom: 32px;
+    button{
+      margin-top: auto;
+    }
   }
   @media screen and (min-width: 900px) {
     width: 320px;
