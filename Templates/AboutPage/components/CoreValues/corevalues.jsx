@@ -1,4 +1,4 @@
-import { CoreValuesWrapper, CoreValueContainer, CoreValueLeft, CoreValueRight } from "./styles";
+import { CoreValuesWrapper, CoreValueContainer, CoreValueLeft, CoreValueRight, TopValue} from "./styles";
 
 const CoreValues = () => (
   <CoreValuesWrapper>
@@ -9,14 +9,14 @@ const CoreValues = () => (
           src="/static/img/corevalues_illustration1.svg"
           alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
-        <p>Continuously aspire for self-growth and excellence</p>
+        <TopValue>Continuously aspire for self-growth and excellence</TopValue>
       </CoreValueLeft>
       <CoreValueRight>
         <img
           src="/static/img/corevalues_illustration2.svg"
           alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
-        <p>Leverage collaboration</p>
+        <TopValue>Leverage collaboration</TopValue>
       </CoreValueRight>
     </CoreValueContainer>
     <CoreValueContainer>
