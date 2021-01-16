@@ -4,11 +4,6 @@ export const OfficersWrapper = styled.div`
   h2 {
     text-align: left;
     margin-bottom: 24px;
-
-    @media screen and (min-width: 800px) {
-      text-align: center;
-      margin-bottom: 48px;
-    }
   }
 
   h3 {
@@ -25,6 +20,11 @@ export const OfficersWrapper = styled.div`
   @media screen and (min-width: 800px) {
     max-width: 1400px;
     margin: auto;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 48px;
+    }
   }
 `;
 
