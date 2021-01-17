@@ -5,6 +5,10 @@ export const ContactDetailsWrapper = styled.div`
   h1 {
     text-align: left;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 48%;
+  }
 `;
 
 export const ContactInfo = styled.div`

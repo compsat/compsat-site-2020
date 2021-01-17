@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const ContactFormWrapper = styled.div`
   background: #F6F6F6;
   border-radius: 10px;
+
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+  }
 `;
 
 export const ErrorMessage = styled.div`
