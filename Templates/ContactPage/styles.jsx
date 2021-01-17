@@ -31,6 +31,10 @@ export const ContactCurve = styled.svg`
   @media screen and (min-width: 1200px) {
     display: initial;
   }
+
+  @media screen and (min-width: 1700px) {
+    top: -5%;
+  }
 `;
 
 export const ContactPath = styled.path`
