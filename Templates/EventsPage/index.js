@@ -10,7 +10,9 @@ export default () => {
       {/* EventsCategoryWrapper is different from EventCategoryWrapper found in EventCategory component */}
       <EventsCategoryWrapper>
         <EventCategory />
-        <EventProper />
+        <EventProper className='eventProper' />
+        <EventProper className="eventProper" />
+        <EventProper className="eventProper" />
       </EventsCategoryWrapper>
     </EventsPageWrapper>
   );

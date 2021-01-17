@@ -41,15 +41,15 @@ export const HeroWrapper = styled.div`
     }
   }
   @media screen and (min-width: 1000px) {
-    margin: -56px -96px;
+    margin: -56px -96px 0;
     padding: 56px 96px;
   }
   @media screen and (min-width: 1100px) {
-    margin: -56px -108px;
+    margin: -56px -108px 0;
     padding: 56px 108px;
   }
   @media screen and (min-width: 1200px) {
-    margin: -56px -128px;
+    margin: -56px -128px 0;
     padding: 160px 128px;
   }
 `;

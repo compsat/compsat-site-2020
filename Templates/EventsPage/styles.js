@@ -14,6 +14,8 @@ export const EventsCategoryWrapper = styled.div`
   align-items: center;
   padding: 32px 24px;
   margin: 0 -24px;
+
+
   @media screen and (min-width: 500px) {
     margin: 0 -36px;
     padding: 32px 36px;
