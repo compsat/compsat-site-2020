@@ -1,8 +1,8 @@
 import React from 'react';
 import { MicrositeContainer, IconBox, Title } from './styles'
 
-const WebsiteCard = ({ microsite, clientsite, type='microsite', MicrositeTitle, PrimaryIcon, SecondaryIcon }, props) => {
-    if (microsite)
+const WebsiteCard = ({type, MicrositeTitle, PrimaryIcon, SecondaryIcon }, props) => {
+    if (type === "microsite")
         return(
             <MicrositeContainer type={type}>
                 <Title>{MicrositeTitle}</Title>
@@ -12,7 +12,7 @@ const WebsiteCard = ({ microsite, clientsite, type='microsite', MicrositeTitle, 
          
             </MicrositeContainer>
         )
-    else if (clientsite) 
+    else {
         return(
             <MicrositeContainer type={type}>
                 <Title>{MicrositeTitle}</Title>
@@ -22,6 +22,7 @@ const WebsiteCard = ({ microsite, clientsite, type='microsite', MicrositeTitle, 
          
             </MicrositeContainer>
         )
+    }
 }
 
 export default WebsiteCard;
