@@ -14,5 +14,25 @@ export const ContactPageWrapper = styled.div`
     @media screen and (min-width: 1200px) {
       flex-direction: row;
       justify-content: space-between;
+      background: none;
     }
+`;
+
+export const ContactCurve = styled.svg`
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 56px;
+  height: 50vw;
+  width: 100vw;
+  fill:url(#gradient) blue;
+
+  @media screen and (min-width: 1200px) {
+    display: initial;
+  }
+`;
+
+export const ContactPath = styled.path`
+  background: #fff;
+  fill-opacity: 1;
 `;
