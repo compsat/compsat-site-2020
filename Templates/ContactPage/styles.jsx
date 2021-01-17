@@ -26,6 +26,7 @@ export const ContactCurve = styled.svg`
   height: 50vw;
   width: 100vw;
   fill:url(#gradient) blue;
+  z-index: 1;
 
   @media screen and (min-width: 1200px) {
     display: initial;
