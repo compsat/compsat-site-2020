@@ -1,7 +1,7 @@
 import React from 'react';
-import { MicrositeContainer, IconBox, Title } from './styles'
+import { MicrositeContainer, IconBox, Title, DescriptionContainer, Description, ClientSite} from './styles'
 
-const WebsiteCard = ({type, MicrositeTitle, PrimaryIcon, SecondaryIcon }, props) => {
+const WebsiteCard = ({type, MicrositeTitle, PrimaryIcon, SecondaryIcon, Subtitle }, props) => {
     if (type === "microsite")
         return(
             <MicrositeContainer type={type}>
@@ -14,13 +14,15 @@ const WebsiteCard = ({type, MicrositeTitle, PrimaryIcon, SecondaryIcon }, props)
         )
     else {
         return(
-            <MicrositeContainer type={type}>
+            <ClientSite type={type}>
                 <Title>{MicrositeTitle}</Title>
                 <IconBox>
                     <img src={PrimaryIcon} alt="icon" />
                 </IconBox>
-         
-            </MicrositeContainer>
+                <DescriptionContainer>
+                    <Description>{Subtitle}</Description>
+                </DescriptionContainer>
+            </ClientSite>
         )
     }
 }

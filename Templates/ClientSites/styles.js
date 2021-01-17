@@ -27,7 +27,12 @@ export const CardContainer = styled.div `
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 
     margin-top: 48px;
     margin-bottom: 20px;
+`
+
+export const DescriptionContainer = styled.div `
+
 `
