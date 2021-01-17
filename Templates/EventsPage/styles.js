@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
-export const FeedbackWrapper = styled.div`
+export const EventsPageWrapper = styled.div`
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const EventsCategoryWrapper = styled.div`
+  width: 100vw;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px 24px;
-  background: #5c184e;
   margin: 0 -24px;
-  width: 100vw;
   @media screen and (min-width: 500px) {
     margin: 0 -36px;
     padding: 32px 36px;
@@ -23,26 +29,6 @@ export const FeedbackWrapper = styled.div`
   @media screen and (min-width: 800px) {
     margin: 0 -72px;
     padding: 32px 72px;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "heading button"
-      "paragraph button";
-
-    h2 {
-      grid-area: heading;
-      text-align: start;
-    }
-    p {
-      grid-area: paragraph;
-      text-align: start;
-    }
-    *:last-child {
-      grid-area: button;
-      justify-self: end;
-      align-self: center;
-    }
   }
   @media screen and (min-width: 900px) {
     margin: 0 -84px;

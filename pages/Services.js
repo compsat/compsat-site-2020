@@ -1,3 +1,3 @@
-import Services from "../Templates/Services-Landing"
+import Services from "../Templates/Services"
 
 export default () => (<Services />)
