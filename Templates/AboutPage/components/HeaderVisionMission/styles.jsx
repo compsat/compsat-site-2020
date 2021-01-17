@@ -10,6 +10,10 @@ export const HVMWrapper = styled.div`
   p {
     margin-bottom: 32px;
   }
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 128px;
+  }
 `;
 
 export const MissionContainer = styled.div`

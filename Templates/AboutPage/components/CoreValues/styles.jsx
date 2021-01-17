@@ -5,6 +5,10 @@ export const CoreValuesWrapper = styled.div`
   h2 {
     margin-bottom: 16px;
   }
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 336px;
+  }
 `;
 
 export const CoreValueContainer = styled.div`
