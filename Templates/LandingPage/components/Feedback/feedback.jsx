@@ -5,7 +5,7 @@ const Feedback = () => (
   <FeedbackWrapper>
     <h2>We’d love to hear from you! </h2>
     <p>Reach out to us about any questions or inquiries you may have.</p>
-    <PrimaryButton>
+    <PrimaryButton className="button">
       Get in touch
       <svg
         width="19"

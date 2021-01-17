@@ -1,11 +1,12 @@
-import { OptionContainer, Title } from './styles'
+import { Service, Title } from './styles'
 import Link from 'next/link'
 
-const ServicesButton = ({ Name, Icon, Page }) => (
-    <OptionContainer>
+const ServicesButton = ({ Name, Icon, type, onClick }) => (
+    <Service onClick={onClick} type={type}>
         <img src={Icon} alt="Icon"></img>
         <Title> {Name} </Title>
-    </OptionContainer>
+        
+    </Service>
 );
 
 export default ServicesButton;

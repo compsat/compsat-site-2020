@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 export const HeaderSpace = styled.div`
     position: relative;
-    top:-56px;
-    left: -24px;
-    
+    margin-top:-56px;
+    margin-left: -24px;
 `
 
 export const SectionTitle = styled.h2`
@@ -22,7 +21,6 @@ export const TextContainer = styled.div`
     align-items: flex-start;
     justify-content: flex-end;
 
-    position: absolute;
-    top: 41%;
-    left: 10%;
+    margin-top: -132px;
+    margin-left: 32px;
 `

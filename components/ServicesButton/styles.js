@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const OptionContainer = styled.button`
+export const Service = styled.button`
     width: 254px;
     height: 210px;
     border-radius: 10px;
@@ -15,8 +15,9 @@ export const OptionContainer = styled.button`
     align-items: center;
     flex-direction: column;
 
-    :hover {
+    &:hover {
         background-color: #07106D;
+        transition: all 5s;
     }
 `
 
