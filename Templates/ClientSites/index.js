@@ -1,4 +1,4 @@
-import Microsite from "../../components/Microsite"
+import WebsiteCard from "../../components/Microsite"
 import header_img from "../../public/static/img/clientsites_header.svg"
 import QPICalc_Icon from '../../public/static/img/microsite-qpi-calculator.svg'
 import {
@@ -23,11 +23,11 @@ export default () => {
             </Header_text>
 
             <CardContainer>
-                <Microsite
+                <WebsiteCard
                     MicrositeTitle="Client Site 1"
                     PrimaryIcon={QPICalc_Icon}/>
 
-                <Microsite
+                <WebsiteCard
                     MicrositeTitle="Client Site 2"
                     PrimaryIcon={QPICalc_Icon}/>
             </CardContainer>
