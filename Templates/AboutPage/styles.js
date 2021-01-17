@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const AboutPageWrapper = styled.div`
     background-image: linear-gradient(rgba(186,28,81,0) 0%, rgba(186,28,81,0.29) 18%, rgba(186,28,81,1) 30%, rgba(186,28,81,0.29) 48%, rgba(186,28,81,0) 50%);
-    margin: 0 -24px;
-    padding: 24px;
+    margin: 0 -128px;
+    padding: 24px 128px 40px 128px;
+
+    @media screen and (min-width: 800px) {
+      padding: 72px 128px 98px 128px;
+    }
 `;
