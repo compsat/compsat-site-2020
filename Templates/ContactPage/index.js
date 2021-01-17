@@ -12,7 +12,7 @@ export default () => {
       </ContactCurve>
       <svg height="0" width="0">
          <defs>
-           <linearGradient id="gradient" gradientTransform="rotate(0)"><stop offset="0%" stop-color="#BA1C51"></stop><stop offset="48%" stop-color="#541561"></stop><stop offset="65%" stop-color="#3C1364"></stop><stop offset="85%" stop-color="#541561"></stop><stop offset="100%" stop-color="#70175C"></stop></linearGradient>
+           <linearGradient id="contact-gradient" gradientTransform="rotate(0)"><stop offset="0%" stop-color="#BA1C51"></stop><stop offset="48%" stop-color="#541561"></stop><stop offset="65%" stop-color="#3C1364"></stop><stop offset="85%" stop-color="#541561"></stop><stop offset="100%" stop-color="#70175C"></stop></linearGradient>
         </defs>
       </svg>
     </ContactPageWrapper>
