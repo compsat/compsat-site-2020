@@ -44,6 +44,10 @@ export const FormContent = styled.div`
     text-align: left;
     margin-bottom: 16px;
   }
+
+  @media screen and (min-width: 800px) {
+    padding: 5% 10%;
+  }
 `;
 
 export const FormField = styled.label`
@@ -78,6 +82,7 @@ export const WarningMessage = styled.div`
   p {
     color: #BA1C51;
     margin: 0 0 0 4px;
+    text-align: left;
   }
 `;
 
