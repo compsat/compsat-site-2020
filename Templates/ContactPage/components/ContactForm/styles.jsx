@@ -7,6 +7,7 @@ export const ContactFormWrapper = styled.div`
 
   @media screen and (min-width: 1200px) {
     width: 50%;
+    margin-left: 8%;
   }
 `;
 
