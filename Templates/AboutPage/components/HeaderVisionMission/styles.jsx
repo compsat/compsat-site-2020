@@ -13,6 +13,8 @@ export const HVMWrapper = styled.div`
 
   @media screen and (min-width: 800px) {
     margin-bottom: 128px;
+    z-index: 2;
+    position: relative;
   }
 `;
 

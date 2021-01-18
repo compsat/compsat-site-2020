@@ -8,6 +8,8 @@ export const CoreValuesWrapper = styled.div`
 
   @media screen and (min-width: 800px) {
     margin-bottom: 336px;
+    z-index: 2;
+    position: relative;
   }
 `;
 

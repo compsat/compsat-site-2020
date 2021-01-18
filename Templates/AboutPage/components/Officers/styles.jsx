@@ -20,6 +20,8 @@ export const OfficersWrapper = styled.div`
   @media screen and (min-width: 800px) {
     max-width: 1400px;
     margin: auto;
+    z-index: 2;
+    position: relative;
 
     h2 {
       text-align: center;

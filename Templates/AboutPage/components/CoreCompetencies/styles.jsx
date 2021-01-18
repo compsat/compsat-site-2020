@@ -6,6 +6,8 @@ export const CoreCompWrapper = styled.div`
 
   @media screen and (min-width: 800px) {
     margin: 0 auto 112px auto;
+    z-index: 2;
+    position: relative;
   }
 `;
 
