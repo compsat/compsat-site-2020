@@ -11,7 +11,7 @@ export const AboutPageWrapper = styled.div`
     }
 `;
 
-export const ContactCurve = styled.svg`
+export const AboutCurve = styled.svg`
   display: none;
   position: absolute;
   left: 0;
@@ -21,7 +21,7 @@ export const ContactCurve = styled.svg`
 
   min-height: 1700px;
   max-height: 1990px;
-  fill: url(#contact-gradient) crimson;
+  fill: url(#about-gradient) crimson;
   z-index: 1;
 
   @media screen and (min-width: 800px) {
@@ -34,7 +34,7 @@ export const ContactCurve = styled.svg`
   }
 `;
 
-export const ContactPath = styled.path`
+export const AboutPath = styled.path`
   background: #fff;
   fill-opacity: 1;
 `;
