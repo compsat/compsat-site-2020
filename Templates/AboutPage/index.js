@@ -12,7 +12,7 @@ export default () => {
       <CoreValues />
       <Officers />
 
-      <ContactCurve viewBox="0 0 250 450">
+      <ContactCurve viewBox="0 0 250 450" preserveAspectRatio="none">
         <ContactPath d="M 0 20 Q 30 0 90 25 C 150 50 180 0 250 40 L 250 400 C 100 450 150 350 0 400"></ContactPath>
       </ContactCurve>
 
