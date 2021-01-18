@@ -10,6 +10,10 @@ export const CoreValuesWrapper = styled.div`
     margin-bottom: 336px;
     z-index: 2;
     position: relative;
+
+    h2 {
+      margin-bottom: 32px;
+    }
   }
 `;
 
