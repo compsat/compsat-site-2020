@@ -28,9 +28,13 @@ export const AboutCurve = styled.svg`
     display: initial;
   }
 
+  @media screen and (min-width: 1700px) {
+    max-height: 2100px;
+  }
+
   @media screen and (min-width: 2500px) {
     top: 20vw;
-    max-height: 2100px;
+    max-height: 2200px;
   }
 `;
 
