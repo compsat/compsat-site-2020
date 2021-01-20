@@ -20,6 +20,18 @@ export const Header = styled.div`
 export const Headline_Img = styled.div`
     margin-bottom: 0px;
 
+    img {
+        width: 235px;
+    }
+
+    @media screen and (min-width: 425px) {
+        margin: -56px 0 -160px 4px;
+
+        img {
+            width: 300px;
+        }
+      }
+
 `
 export const Headline = styled.h2`
     text-align: center;
@@ -28,6 +40,10 @@ export const Headline = styled.h2`
     position: relative;
     margin-top: -16px;
     margin-bottom: 56px;
+
+    @media screen and (min-width: 425px) {
+        margin: 132px 0 -160px 4px;
+      }
 `
 
 export const Background_Top = styled.div`
@@ -39,10 +55,10 @@ export const Background_Top = styled.div`
     }
 
     @media screen and (min-width: 425px) {
-        margin: -56px 0 -160px 112px;
+        margin: -56px 0 -160px 4px;
 
         img {
-            
+            width: 400px;
         }
       }
 
@@ -63,6 +79,10 @@ export const OptionsContainer = styled.div`
     text-align: center;
     align-items: center;
     margin-bottom: 48px;
+
+    @media screen and (min-width: 425px) {
+        margin: 240px 0 48px 4px;
+      }
 `
 
 export const SectionTitleWrapper = styled.div`
@@ -101,12 +121,16 @@ export const DesignContainerTop = styled.div`
     margin-top: -56px;
     margin-bottom: -720px;
     z-index: -1;
+    overflow: hidden;
+
 `
 
 export const DesignContainerBottom = styled.div`
     position: relative;
     margin: -780px 0 -8px 0;
     z-index: -1;
+    overflow: hidden;
+
 `
 
 export const Bottom = styled.div`
