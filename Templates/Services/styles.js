@@ -2,11 +2,10 @@ import styled from 'styled-components'
 
 export const ServicesLandingContainer = styled.div`
     margin-left: -24px;
-    padding: 0 24px 0 24px;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
-  /*  background-color: #030950; */
     position: relative;
 `
 export const Header = styled.div`
@@ -15,6 +14,14 @@ export const Header = styled.div`
     justify-content: center;
     text-align: center;
     margin-top: -8px;
+    margin: 0 16px 0 16px;
+
+    @media screen and (min-width: 1000px) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-right: 148px;
+    
+    }
     
 `
 export const Headline_Img = styled.div`
@@ -33,9 +40,9 @@ export const Headline_Img = styled.div`
     }
 
     @media screen and (min-width: 1000px) {
-        margin: -300px -280px -160px -40px;
+        margin: -300px 64px -160px -180px;
         img {
-            width: 66%;
+            width: 130%;
         }
     }
 
@@ -50,6 +57,15 @@ export const Headline = styled.h2`
 
     @media screen and (min-width: 425px) {
         margin: 132px 0 -160px 0px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        padding-left: 72px;
+        padding-right: 120px;
+        margin: -160px 24px -160px 0px;
+        font-size: 56px;
+        text-align: left;
+        line-height: 64px;
     }
 
 `
@@ -99,13 +115,13 @@ export const OptionsContainer = styled.div`
 
     @media screen and (min-width: 425px) {
         margin: 240px 0 48px 0px;
-      }
+    }
 
     @media screen and (min-width: 844px) {
        flex-direction: row;
        margin-left: 0px;
-        
-      }
+       margin: 180px 0 0px 0px;
+    }
 `
 
 export const SectionTitleWrapper = styled.div`
