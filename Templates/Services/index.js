@@ -53,7 +53,9 @@ export default () => {
 
             {page === "" ? 
             <Wrapper>
-            <Background_Top><img src={BG_Design1} /></Background_Top>
+            <Background_Top>
+                <img className="mobile" src={BG_Design1} />
+            </Background_Top>
             
 
             <Header>

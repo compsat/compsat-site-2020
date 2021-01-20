@@ -21,16 +21,23 @@ export const Headline_Img = styled.div`
     margin-bottom: 0px;
 
     img {
-        width: 235px;
+        width: 80%;
     }
 
     @media screen and (min-width: 425px) {
         margin: -56px 0 -160px 4px;
-
-        img {
-            width: 300px;
-        }
       }
+    
+    @media screen and (min-width: 500px) {
+        margin: -240px 0 -160px -40px;
+    }
+
+    @media screen and (min-width: 1000px) {
+        margin: -300px -280px -160px -40px;
+        img {
+            width: 66%;
+        }
+    }
 
 `
 export const Headline = styled.h2`
@@ -42,25 +49,30 @@ export const Headline = styled.h2`
     margin-bottom: 56px;
 
     @media screen and (min-width: 425px) {
-        margin: 132px 0 -160px 4px;
-      }
+        margin: 132px 0 -160px 0px;
+    }
+
 `
 
 export const Background_Top = styled.div`
     position: relative;
     margin: -56px 0 -160px 20px;
     z-index: -1;
+
     img {
-        width:300px;
+        width:110%;
     }
 
     @media screen and (min-width: 425px) {
-        margin: -56px 0 -160px 4px;
+        margin: -56px 0 -160px 28px;
 
-        img {
-            width: 400px;
-        }
       }
+
+    @media screen and (min-width: 500px) {
+        margin: -56px 0 -160px -40spx;
+    }
+
+
 
 `
 export const Background_Bottom = styled.div`
@@ -70,18 +82,29 @@ export const Background_Bottom = styled.div`
     margin-top: -700px;
     margin-bottom: -60px;
     z-index: -1;
+    img {
+        overflow: hidden;
+    }
+
+    
 `
 
 export const OptionsContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
     align-items: center;
     margin-bottom: 48px;
 
     @media screen and (min-width: 425px) {
-        margin: 240px 0 48px 4px;
+        margin: 240px 0 48px 0px;
+      }
+
+    @media screen and (min-width: 844px) {
+       flex-direction: row;
+       margin-left: 0px;
+        
       }
 `
 
@@ -106,6 +129,29 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     height: max-content;
+    width: auto;
+    padding-left: 0;
+    
+    @media screen and (min-width: 520px) {
+        margin-left: -24px;
+    }
+
+    @media screen and (min-width: 634px) {
+        margin-left: -48px;
+    }
+
+    @media screen and (min-width: 844px) {
+        margin-top: 0;
+        margin-left: -84px;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1000px) {
+        margin-top: 0;
+        margin-left: -128px;
+        text-align: center;
+    }
+
 `
 
 export const devWrapper = styled.div`
@@ -121,7 +167,8 @@ export const DesignContainerTop = styled.div`
     margin-top: -56px;
     margin-bottom: -720px;
     z-index: -1;
-    overflow: hidden;
+    img{ overflow: hidden; }
+    
 
 `
 
@@ -129,7 +176,11 @@ export const DesignContainerBottom = styled.div`
     position: relative;
     margin: -780px 0 -8px 0;
     z-index: -1;
-    overflow: hidden;
+    img{ overflow: hidden; }
+
+    @media screen and (min-width: 844px) {
+        display: none;
+    }
 
 `
 
