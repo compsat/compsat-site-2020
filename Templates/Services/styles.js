@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import {} from "./styles"
 
 export const ServicesLandingContainer = styled.div`
     margin-left: -24px;
@@ -33,8 +32,20 @@ export const Headline = styled.h2`
 
 export const Background_Top = styled.div`
     position: relative;
-    margin: -56px 0 -160px 0px;
+    margin: -56px 0 -160px -4px;
     z-index: -1;
+    img {
+        width:300px;
+    }
+
+    @media screen and (min-width: 425px) {
+        margin: -56px 0 -160px 112px;
+
+        img {
+            
+        }
+      }
+
 `
 export const Background_Bottom = styled.div`
     min-width: 100vw;

@@ -19,11 +19,6 @@ import BG_Design1 from "../../public/static/img/services-background1.svg"
 import BG_Design2 from "../../public/static/img/services-background2.svg"
 import Banner from "../../public/static/img/services-header.svg"
 
-import nextPage from "../../pages/index"
-
-import Link from 'next/link'
-
-
 import Service from '../../components/Service'
 import CompanyImg from '../../public/static/img/services-webdev-company.svg'
 import CMSImg from '../../public/static/img/services-webdev-cms.svg'
@@ -42,9 +37,7 @@ import CustomImg from '../../public/static/img/services-systems-custom.svg'
 import ProgImg from '../../public/static/img/services-LS-prog.svg'
 import WebdevImg from '../../public/static/img/services-LS-webdev.svg'
 
-function clickMe() {
-    { console.log("nooo") }
-}
+
 export default () => {
 
     const [page, setPage] = useState("");
