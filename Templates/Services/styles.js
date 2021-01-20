@@ -48,7 +48,7 @@ export const Headline = styled.h2`
 
 export const Background_Top = styled.div`
     position: relative;
-    margin: -56px 0 -160px -4px;
+    margin: -56px 0 -160px 20px;
     z-index: -1;
     img {
         width:300px;

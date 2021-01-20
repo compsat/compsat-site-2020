@@ -52,15 +52,15 @@ export default () => {
         <ServicesLandingContainer>
 
             {page === "" ? 
-            <div>
+            <Wrapper>
             <Background_Top><img src={BG_Design1} /></Background_Top>
-
+            
 
             <Header>
                 <Headline_Img><img src={Banner} alt="banner" /> </Headline_Img>
                 <Headline>What We Can Do For You</Headline>
             </Header>
-
+            
             <OptionsContainer>
                 <ServicesButton
                     Name="WEB DEVELOPMENT"
@@ -78,7 +78,11 @@ export default () => {
                     type="button"
                     onClick={() => setPage("learning services")} />
             </OptionsContainer>
-            </div>
+            
+            <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
+            
+
+            </Wrapper>
             : null}
             {page === 'web development' ?
                 <Wrapper>
