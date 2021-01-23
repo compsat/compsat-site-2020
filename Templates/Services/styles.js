@@ -152,6 +152,10 @@ export const SectionTitleWrapper = styled.div`
     padding: 16px 24px 16px 24px;
     margin-bottom: 50px;
     margin-top: 20px;
+
+    @media screen and (min-width: 844px) {
+        display: none;
+    }
 `
 export const SectionTitle = styled.h1`
     color: #EE4266;
@@ -227,7 +231,7 @@ export const DesktopWrapper = styled.div`
     display: none;
     @media screen and (min-width: 844px) {
         display: flex;
-
+        margin: 0 0 0 80px;
     }
     
 `
