@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 48px 0 48px;
 `
 
 export const Description = styled.p`
@@ -23,4 +24,5 @@ export const TitleWrapper = styled.div`
     margin-bottom: 16px;
     margin-top: 16px;
     width: 234px;
+
 `

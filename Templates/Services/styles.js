@@ -14,7 +14,7 @@ export const Header = styled.div`
     justify-content: center;
     text-align: center;
     margin-top: -8px;
-    margin: 0 16px 0 96px;
+    margin: 0 16px 0 16px;
 
     @media screen and (min-width: 1000px) {
         flex-direction: row-reverse;
@@ -28,7 +28,7 @@ export const Headline_Img = styled.div`
     margin-bottom: 0px;
 
     img {
-        width: 80%;
+        width: 90%;
     }
 
     @media screen and (min-width: 425px) {
@@ -168,6 +168,7 @@ export const Wrapper = styled.div`
     width: auto;
     padding-left: 0;
     
+    
     @media screen and (min-width: 520px) {
         margin-left: -24px;
     }
@@ -184,10 +185,30 @@ export const Wrapper = styled.div`
 
     @media screen and (min-width: 1000px) {
         margin-top: 0;
-        margin-left: -128px;
+        margin-left: -208px;
         text-align: center;
+
+        .mobile {
+            margin: 1000px;
+        }
     }
 
+`
+
+export const DesktopWrapper = styled.div`
+@media screen and (min-width: 1000px) {
+    margin-top: 0;
+    margin-left: -128px;
+    text-align: center;
+    display: flex;
+}
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: auto;
+    padding-left: 0;
 `
 
 export const devWrapper = styled.div`
