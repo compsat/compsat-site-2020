@@ -62,7 +62,7 @@ export const Headline = styled.h2`
     @media screen and (min-width: 1000px) {
         padding-left: 72px;
         padding-right: 1px;
-        margin: -160px 24px -160px 0px;
+        margin: -160px 8px -0px 92px;
         font-size:64px;
         text-align: left;
         line-height: 64px;
@@ -74,6 +74,7 @@ export const Headline_container = styled.div`
     @media screen and (min-width: 1000px) {
         padding-right: 300px;
         width: 990px;
+        margin-top: 100px;
 }
 `
 
@@ -104,6 +105,14 @@ export const Background_Top = styled.div`
 
         img {
             width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 1500px) {
+        margin: -56px 0 -160px 416px;
+
+        img {
+            width: 108%;
         }
     }
 
