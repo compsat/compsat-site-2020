@@ -90,7 +90,7 @@ export default () => {
             </DesktopWrapper>
             {page === "" ? 
             <MobileWrapper>
-                <Wrapper id="mobile-landing" class="mobile">
+                <Wrapper>
                 <Background_Top>
                     <img src={BG_Design1} />
                 </Background_Top>

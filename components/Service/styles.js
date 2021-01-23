@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
     margin-bottom: 60px;
-    text-align: center;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,6 +24,7 @@ export const Wrapper = styled.div`
         img {
             width: 100%;
         }
+
         :nth-child(odd){
             flex-direction: row;
         }
@@ -66,11 +67,23 @@ export const TitleWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div `
-    text-align:center;
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+
     @media screen and (min-width: 844px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
+            :nth-child(odd){
+                text-align: left;
+            }
+    
+            :nth-child(even){
+                text-align: right;
+            }
+            
+        
         
     }
 `
