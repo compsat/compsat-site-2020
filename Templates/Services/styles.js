@@ -314,7 +314,7 @@ export const WD_bg1 = styled.div `
         width:auto;
         position: relative;
         z-index: -2;
-        margin: -2550px 0px 0 0;
+        margin: -2630px 0px 0 0;
 
         img {
             width: 100vw;
@@ -328,10 +328,14 @@ export const WD_bg2 = styled.div `
         display: block;
         position: relative;
         z-index: -2;
-        margin: 200px 0px -500px 0px;
+        margin: 200px 0px 0px 0px;
+        overflow: hidden;
+        height: 120vh;
 
         img {
             width: 100vw;
+            
+            
         }
     }
 `

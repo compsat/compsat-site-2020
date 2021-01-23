@@ -22,16 +22,24 @@ export const Wrapper = styled.div`
         
         margin-bottom: 320px;
         img {
-            width: 100%;
+            width: 35vw;
         }
 
         :nth-child(odd){
             flex-direction: row;
 
+            img {
+                margin-right: 64px;
+            }
+
         }
 
         :nth-child(even){
             flex-direction: row-reverse;
+
+            img {
+                margin-right: -64px;
+            }
         }
     }
 `
@@ -41,7 +49,7 @@ export const Description = styled.p`
     line-height: 25px;
 
     @media screen and (min-width: 844px) {
-        font-size: 24px;
+        font-size: 20px;
         width: 605px;
     }
 `
