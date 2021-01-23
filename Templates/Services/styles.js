@@ -293,16 +293,24 @@ export const Bottom = styled.div`
 `
 
 export const Sys_BG = styled.div `
+    display: none;
     @media screen and (min-width: 800px) {
+        display: block;
         width:auto;
         position: relative;
         z-index: -2;
-        margin: -800px 0 0 0;
+        margin: -1500px 0 700px 0;
+
+        img {
+            width: 100vw;
+        }
     }
 `
 
 export const WD_bg1 = styled.div `
+    display: none;
     @media screen and (min-width: 800px) {
+        display: block;
         width:auto;
         position: relative;
         z-index: -2;
@@ -315,7 +323,9 @@ export const WD_bg1 = styled.div `
 `
 
 export const WD_bg2 = styled.div `
+    display: none;
     @media screen and (min-width: 800px) {
+        display: block;
         position: relative;
         z-index: -2;
         margin: 200px 0px 0 0px;
