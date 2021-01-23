@@ -9,26 +9,59 @@ export const OfficersWrapper = styled.div`
   h3 {
     text-align: left;
     margin-bottom: 8px;
+    font-weight: 500;
   }
 
   p {
     text-align: left;
     margin-bottom: 4px;
   }
+
+  @media screen and (min-width: 800px) {
+    max-width: 1400px;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+  }
 `;
 
 export const Top2Container = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `;
 
 export const DepartmentsContainer = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+`;
+
+export const DepartmentsHalf = styled.div`
+  @media screen and (min-width: 800px) {
+    width: 48%;
+  }
 `;
 
 export const Department = styled.div`
   margin-bottom: 16px;
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 48px;
+  }
 `;
 
 export const Top2Member = styled.div`
@@ -41,6 +74,11 @@ export const Top2Member = styled.div`
 
   p {
     color: #07106D;
+  }
+
+  @media screen and (min-width: 800px) {
+    width: 48%;
+    margin-bottom: 48px;
   }
 `;
 
@@ -55,6 +93,10 @@ export const EBMember = styled.div`
   p {
     color: #07106D;
   }
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 16px;
+  }
 `;
 
 export const ACMember = styled.div`
@@ -62,6 +104,10 @@ export const ACMember = styled.div`
   align-items: center;
   padding: 16px;
   margin-bottom: 8px;
+
+  @media screen and (min-width: 800px) {
+    margin-bottom: 16px;
+  }
 `;
 
 export const OfficerContent = styled.div`
@@ -79,4 +125,8 @@ export const OfficerPicture = styled.div`
 
 export const OfficerDetails = styled.p`
   font-size: 8px;
+
+  @media screen and (min-width: 800px) {
+    font-size: 12px;
+  }
 `;
