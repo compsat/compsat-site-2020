@@ -51,10 +51,11 @@ export const Title = styled.h3`
 
     @media screen and (min-width: 844px) {
         color: #EE4266;
-
-        &:hover {
-            font-color: 93E1D8;
-            transition: all 0.3s ease-in;
-        }
+        font-size: 28px;
     }
+
+    @media screen and (min-width: 1025px) {
+        font-size: 36px;
+    }
+
 `

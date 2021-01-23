@@ -139,6 +139,8 @@ export const OptionsContainer = styled.div`
        flex-direction: row;
        margin-left: 0px;
        margin: 180px 0 0px 0px;
+       justify-content: space-between;
+       width: 80vw;
     }
 `
 
