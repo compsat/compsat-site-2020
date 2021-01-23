@@ -12,7 +12,9 @@ import {
     Headline_Img,
     Background_Top,
     Bottom,
-    DesktopWrapper
+    DesktopWrapper,
+    Sys_BG,
+    MobileWrapper
 } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
 import Icon_Systems from "../../public/static/img/services-systems.svg"
@@ -35,6 +37,7 @@ import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignC
 import RegImg from '../../public/static/img/services-systems-reg.svg'
 import MemTrackImg from '../../public/static/img/services-systems-memtrack.svg'
 import CustomImg from '../../public/static/img/services-systems-custom.svg'
+import S_bg from '../../public/static/img/services-systems-deskbg.svg'
 
 import ProgImg from '../../public/static/img/services-LS-prog.svg'
 import WebdevImg from '../../public/static/img/services-LS-webdev.svg'
@@ -52,8 +55,41 @@ export default () => {
 
     return (
         <ServicesLandingContainer>
+            <DesktopWrapper>
+                <Wrapper>
+                <Background_Top>
+                    <img src={BG_Design1} />
+                </Background_Top>
+            
 
+                <Header>
+                    <Headline_Img><img src={Banner} alt="banner" /> </Headline_Img>
+                    <Headline_container><Headline>What We Can Do For You</Headline></Headline_container>
+                </Header>
+            
+                <OptionsContainer>
+                    <ServicesButton
+                        Name="WEB DEVELOPMENT"
+                        Icon={Icon_Webdev}
+                        type="button"
+                        onClick={() => setPage("web development")} />
+                    <ServicesButton
+                        Name="SYSTEMS"
+                        Icon={Icon_Systems}
+                        type="button"
+                        onClick={() => setPage("systems")} />
+                    <ServicesButton
+                        Name="LEARNING SERVICES"
+                        Icon={Icon_Learning}
+                        type="button"
+                        onClick={() => setPage("learning services")} />
+                </OptionsContainer>
+            
+                <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
+                </Wrapper>
+            </DesktopWrapper>
             {page === "" ? 
+            <MobileWrapper>
                 <Wrapper id="mobile-landing" class="mobile">
                 <Background_Top>
                     <img src={BG_Design1} />
@@ -85,7 +121,9 @@ export default () => {
             
                 <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
 
-            </Wrapper> : null}
+            </Wrapper> 
+            </MobileWrapper>
+            : null}
 
             {page === 'web development' ?
                 <Wrapper>
@@ -130,6 +168,8 @@ export default () => {
                     <SectionTitleWrapper>
                         <SectionTitle>Systems</SectionTitle>
                     </SectionTitleWrapper>
+
+                    
                     <Service
                         Title="Registration Systems"
                         Icon={RegImg}
@@ -148,6 +188,7 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    <Sys_BG><img src={S_bg}/> </Sys_BG>
                     <Bottom><img src={BottomDesign} /></Bottom>
                 </Wrapper>
                 : null}

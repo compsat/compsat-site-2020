@@ -8,6 +8,10 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: center;
     padding: 0 48px 0 48px;
+
+    @media screen and (min-width: 844px) {
+        flex-direction: row;
+    }
 `
 
 export const Description = styled.p`
@@ -25,4 +29,10 @@ export const TitleWrapper = styled.div`
     margin-top: 16px;
     width: 234px;
 
+`
+
+export const TextWrapper = styled.div `
+    @media screen and (min-width: 844px) {
+        
+    }
 `

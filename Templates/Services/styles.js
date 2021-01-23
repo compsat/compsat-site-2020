@@ -195,20 +195,41 @@ export const Wrapper = styled.div`
 
 `
 
+
+export const MobileWrapper = styled.div`
+    display: block;
+    
+    @media screen and (min-width: 520px) {
+        margin-left: -24px;
+    }
+
+    @media screen and (min-width: 634px) {
+        margin-left: -48px;
+    }
+
+    @media screen and (min-width: 844px) {
+        margin-top: 0;
+        margin-left: -84px;
+        text-align: center;
+        display: none;
+
+    }
+
+    @media screen and (min-width: 1000px) {
+        margin-top: 0;
+        margin-left: -208px;
+        text-align: center;
+        display: none;
+    }
+
+`
 export const DesktopWrapper = styled.div`
-@media screen and (min-width: 1000px) {
-    margin-top: 0;
-    margin-left: -128px;
-    text-align: center;
-    display: flex;
-}
     display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: max-content;
-    width: auto;
-    padding-left: 0;
+    @media screen and (min-width: 844px) {
+        display: flex;
+
+    }
+    
 `
 
 export const devWrapper = styled.div`
@@ -226,6 +247,9 @@ export const DesignContainerTop = styled.div`
     z-index: -1;
     img{ overflow: hidden; }
     
+    @media screen and (min-width: 844px) {
+        display: none;
+    }
 
 `
 
@@ -246,4 +270,16 @@ export const Bottom = styled.div`
     margin-top: -720px;
     margin-bottom: -10px;
     z-index: -1;
+    @media screen and (min-width: 844px) {
+        display: none;
+    }
+`
+
+export const Sys_BG = styled.div `
+    @media screen and (min-width: 800px) {
+        width:auto;
+        position: relative;
+        z-index: -2;
+        margin: -800px 0 0 0;
+    }
 `
