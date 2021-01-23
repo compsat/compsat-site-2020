@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
     margin-bottom: 60px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +19,8 @@ export const Wrapper = styled.div`
     }
 
     @media screen and (min-width: 844px) {
-        margin-top: 320px;
+        
+        margin-bottom: 320px;
         img {
             width: 100%;
         }
@@ -70,17 +70,13 @@ export const TextWrapper = styled.div `
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: flex-start;
+    align-items: center;
     
 
-    @media screen and (min-width: 844px) {
-            
+    @media screen and (min-width: 844px) {       
             :nth-child(even){
                 margin-right: 64px;
                 align-items: flex-end;
             }
-            
-        
-        
     }
 `

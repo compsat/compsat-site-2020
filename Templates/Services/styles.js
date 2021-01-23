@@ -147,7 +147,7 @@ export const OptionsContainer = styled.div`
     @media screen and (min-width: 844px) {
        flex-direction: row;
        margin-left: 0px;
-       margin: 180px 0 0px 0px;
+       margin: 180px 0 120px 0px;
        justify-content: space-between;
        width: 80vw;
     }
@@ -294,12 +294,12 @@ export const Bottom = styled.div`
 
 export const Sys_BG = styled.div `
     display: none;
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 844px) {
         display: block;
         width:auto;
         position: relative;
         z-index: -2;
-        margin: -1500px 0 700px 0;
+        margin: -1750px 0 700px 0;
 
         img {
             width: 100vw;
@@ -309,12 +309,12 @@ export const Sys_BG = styled.div `
 
 export const WD_bg1 = styled.div `
     display: none;
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 844px) {
         display: block;
         width:auto;
         position: relative;
         z-index: -2;
-        margin: -2400px 0px 0 0;
+        margin: -2550px 0px 0 0;
 
         img {
             width: 100vw;
@@ -324,14 +324,28 @@ export const WD_bg1 = styled.div `
 
 export const WD_bg2 = styled.div `
     display: none;
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 844px) {
         display: block;
         position: relative;
         z-index: -2;
-        margin: 200px 0px 0 0px;
+        margin: 200px 0px -500px 0px;
 
         img {
             width: 100vw;
         }
+    }
+`
+
+export const ContentContainer = styled.div `
+    @media screen and (min-width: 768px) {
+        margin-right: 24px;
+    }
+
+    @media screen and (min-width: 800px) {
+        margin-right: 48px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-right: 0px;
     }
 `

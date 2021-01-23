@@ -16,7 +16,8 @@ import {
     Sys_BG,
     MobileWrapper,
     WD_bg1,
-    WD_bg2
+    WD_bg2,
+    ContentContainer
 } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
 import Icon_Systems from "../../public/static/img/services-systems.svg"
@@ -137,6 +138,7 @@ export default () => {
                     </SectionTitleWrapper>
 
 
+                    <ContentContainer>
                     <Service
                         Title="Company and Org Websites"
                         Icon={CompanyImg}
@@ -161,6 +163,7 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    </ContentContainer>
 
                     <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
                     <WD_bg1><img src={webdev_desk_bg1} /></WD_bg1>
@@ -175,7 +178,7 @@ export default () => {
                         <SectionTitle>Systems</SectionTitle>
                     </SectionTitleWrapper>
 
-                    
+                    <ContentContainer>
                     <Service
                         Title="Registration Systems"
                         Icon={RegImg}
@@ -194,6 +197,7 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    </ContentContainer>
                     <Sys_BG><img src={S_bg}/> </Sys_BG>
                     <Bottom><img src={BottomDesign} /></Bottom>
                 </Wrapper>
@@ -205,6 +209,8 @@ export default () => {
                     <SectionTitleWrapper>
                         <SectionTitle>Learning Services</SectionTitle>
                     </SectionTitleWrapper>
+
+                    <ContentContainer>
                     <Service
                         Title="Programming Tutorials"
                         Icon={ProgImg}
@@ -217,6 +223,7 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    </ContentContainer>
                 </Wrapper>
                 : null}
 
