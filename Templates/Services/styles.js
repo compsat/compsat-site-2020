@@ -300,3 +300,28 @@ export const Sys_BG = styled.div `
         margin: -800px 0 0 0;
     }
 `
+
+export const WD_bg1 = styled.div `
+    @media screen and (min-width: 800px) {
+        width:auto;
+        position: relative;
+        z-index: -2;
+        margin: -2400px 0px 0 0;
+
+        img {
+            width: 100vw;
+        }
+    }
+`
+
+export const WD_bg2 = styled.div `
+    @media screen and (min-width: 800px) {
+        position: relative;
+        z-index: -2;
+        margin: 200px 0px 0 0px;
+
+        img {
+            width: 100vw;
+        }
+    }
+`

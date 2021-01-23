@@ -20,19 +20,19 @@ export const Wrapper = styled.div`
     }
 
     @media screen and (min-width: 844px) {
-
+        margin-top: 320px;
         img {
             width: 100%;
         }
 
         :nth-child(odd){
             flex-direction: row;
+
         }
 
         :nth-child(even){
             flex-direction: row-reverse;
         }
-        
     }
 `
 
@@ -67,20 +67,17 @@ export const TitleWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div `
-    display: block;
+    display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     
 
     @media screen and (min-width: 844px) {
-
-            :nth-child(odd){
-                text-align: left;
-            }
-    
+            
             :nth-child(even){
-                text-align: right;
+                margin-right: 64px;
+                align-items: flex-end;
             }
             
         

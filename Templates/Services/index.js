@@ -14,7 +14,9 @@ import {
     Bottom,
     DesktopWrapper,
     Sys_BG,
-    MobileWrapper
+    MobileWrapper,
+    WD_bg1,
+    WD_bg2
 } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
 import Icon_Systems from "../../public/static/img/services-systems.svg"
@@ -28,6 +30,8 @@ import CompanyImg from '../../public/static/img/services-webdev-company.svg'
 import CMSImg from '../../public/static/img/services-webdev-cms.svg'
 import ECommImg from '../../public/static/img/services-webdev-ecomm.svg'
 import WebAppImg from '../../public/static/img/services-webdev-webapp.svg'
+import webdev_desk_bg1 from '../../public/static/img/services-webdev-dbg1.svg'
+import webdev_desk_bg2 from '../../public/static/img/services-webdev-dbg2.svg'
 
 import TopDesign from '../../public/static/img/services-design-top.svg'
 import BottomDesign from '../../public/static/img/services-background2.svg'
@@ -159,6 +163,8 @@ export default () => {
                     nec dui maximus, ac feugiat sem pellentesque."/>
 
                     <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
+                    <WD_bg1><img src={webdev_desk_bg1} /></WD_bg1>
+                    <WD_bg2><img src={webdev_desk_bg2} /></WD_bg2>
                 </Wrapper>
                 : null}
 
