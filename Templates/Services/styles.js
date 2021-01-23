@@ -151,6 +151,10 @@ export const OptionsContainer = styled.div`
        justify-content: space-between;
        width: 80vw;
     }
+
+    @media screen and (min-width: 1500px){
+        width: 80vw;
+    }
 `
 
 export const SectionTitleWrapper = styled.div`

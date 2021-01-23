@@ -9,7 +9,21 @@ export const Wrapper = styled.div`
     justify-content: center;
     padding: 0 48px 0 48px;
 
+    img {
+        width: 80vw;
+    }
+
+    @media screen and (min-width: 500px) {
+        img {
+            width:60vw;
+        }
+    }
+
     @media screen and (min-width: 844px) {
+
+        img {
+            width: 100%;
+        }
         :nth-child(odd){
             flex-direction: row;
         }
@@ -52,11 +66,11 @@ export const TitleWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div `
+    text-align:center;
     @media screen and (min-width: 844px) {
         display: flex;
         flex-direction: column;
         justify-content: center;
-
         
     }
 `
