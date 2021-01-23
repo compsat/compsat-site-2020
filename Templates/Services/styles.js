@@ -14,11 +14,11 @@ export const Header = styled.div`
     justify-content: center;
     text-align: center;
     margin-top: -8px;
-    margin: 0 16px 0 16px;
+    margin: 0 16px 0 96px;
 
     @media screen and (min-width: 1000px) {
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-right: 148px;
     
     }
@@ -42,7 +42,7 @@ export const Headline_Img = styled.div`
     @media screen and (min-width: 1000px) {
         margin: -300px 64px -160px -180px;
         img {
-            width: 130%;
+            width: 100%;
         }
     }
 
@@ -61,13 +61,20 @@ export const Headline = styled.h2`
 
     @media screen and (min-width: 1000px) {
         padding-left: 72px;
-        padding-right: 120px;
+        padding-right: 1px;
         margin: -160px 24px -160px 0px;
-        font-size: 56px;
+        font-size:64px;
         text-align: left;
         line-height: 64px;
     }
 
+`
+
+export const Headline_container = styled.div`
+    @media screen and (min-width: 1000px) {
+        padding-right: 300px;
+        width: 990px;
+}
 `
 
 export const Background_Top = styled.div`
@@ -85,9 +92,20 @@ export const Background_Top = styled.div`
       }
 
     @media screen and (min-width: 500px) {
-        margin: -56px 0 -160px -40spx;
+        margin: -56px 0 -160px -40px;
+
+        img {
+            width: 100%;
+        }
     }
 
+    @media screen and (min-width: 1024px) {
+        margin: -56px 0 -160px 436px;
+
+        img {
+            width: 100%;
+        }
+    }
 
 
 `

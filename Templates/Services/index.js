@@ -7,6 +7,7 @@ import {
     OptionsContainer,
     Header,
     Headline,
+    Headline_container,
     Background_Bottom,
     Headline_Img,
     Background_Top,
@@ -60,7 +61,7 @@ export default () => {
 
             <Header>
                 <Headline_Img><img src={Banner} alt="banner" /> </Headline_Img>
-                <Headline>What We Can Do For You</Headline>
+                <Headline_container><Headline>What We Can Do For You</Headline></Headline_container>
             </Header>
             
             <OptionsContainer>

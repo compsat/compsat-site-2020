@@ -25,12 +25,6 @@ export const IconBox = styled.div`
     position: relative;
     top: 0;
     left: 0;
-
-    @media screen and (min-width: 844px) {
-        img {
-            display: none;
-        }
-    }
 `
 
 export const Title = styled.div`
