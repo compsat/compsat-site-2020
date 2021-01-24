@@ -7,10 +7,17 @@ import {
     OptionsContainer,
     Header,
     Headline,
+    Headline_container,
     Background_Bottom,
     Headline_Img,
     Background_Top,
-    Bottom
+    Bottom,
+    DesktopWrapper,
+    Sys_BG,
+    MobileWrapper,
+    WD_bg1,
+    WD_bg2,
+    ContentContainer
 } from "./styles"
 import Icon_Webdev from "../../public/static/img/services-webdev.svg"
 import Icon_Systems from "../../public/static/img/services-systems.svg"
@@ -19,16 +26,13 @@ import BG_Design1 from "../../public/static/img/services-background1.svg"
 import BG_Design2 from "../../public/static/img/services-background2.svg"
 import Banner from "../../public/static/img/services-header.svg"
 
-import nextPage from "../../pages/index"
-
-import Link from 'next/link'
-
-
 import Service from '../../components/Service'
 import CompanyImg from '../../public/static/img/services-webdev-company.svg'
 import CMSImg from '../../public/static/img/services-webdev-cms.svg'
 import ECommImg from '../../public/static/img/services-webdev-ecomm.svg'
 import WebAppImg from '../../public/static/img/services-webdev-webapp.svg'
+import webdev_desk_bg1 from '../../public/static/img/services-webdev-dbg1.svg'
+import webdev_desk_bg2 from '../../public/static/img/services-webdev-dbg2.svg'
 
 import TopDesign from '../../public/static/img/services-design-top.svg'
 import BottomDesign from '../../public/static/img/services-background2.svg'
@@ -38,13 +42,12 @@ import { SectionTitleWrapper, SectionTitle, Wrapper, DesignContainerTop, DesignC
 import RegImg from '../../public/static/img/services-systems-reg.svg'
 import MemTrackImg from '../../public/static/img/services-systems-memtrack.svg'
 import CustomImg from '../../public/static/img/services-systems-custom.svg'
+import S_bg from '../../public/static/img/services-systems-deskbg.svg'
 
 import ProgImg from '../../public/static/img/services-LS-prog.svg'
 import WebdevImg from '../../public/static/img/services-LS-webdev.svg'
 
-function clickMe() {
-    { console.log("nooo") }
-}
+
 export default () => {
 
     const [page, setPage] = useState("");
@@ -57,36 +60,76 @@ export default () => {
 
     return (
         <ServicesLandingContainer>
+            <DesktopWrapper>
+                <Wrapper>
+                <Background_Top>
+                    <img src={BG_Design1} />
+                </Background_Top>
+            
 
+                <Header>
+                    <Headline_Img><img src={Banner} alt="banner" /> </Headline_Img>
+                    <Headline_container><Headline>What We Can Do For You</Headline></Headline_container>
+                </Header>
+            
+                <OptionsContainer>
+                    <ServicesButton
+                        Name="WEB DEVELOPMENT"
+                        Icon={Icon_Webdev}
+                        type="button"
+                        onClick={() => setPage("web development")} />
+                    <ServicesButton
+                        Name="SYSTEMS"
+                        Icon={Icon_Systems}
+                        type="button"
+                        onClick={() => setPage("systems")} />
+                    <ServicesButton
+                        Name="LEARNING SERVICES"
+                        Icon={Icon_Learning}
+                        type="button"
+                        onClick={() => setPage("learning services")} />
+                </OptionsContainer>
+            
+                <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
+                </Wrapper>
+            </DesktopWrapper>
             {page === "" ? 
-            <div>
-            <Background_Top><img src={BG_Design1} /></Background_Top>
+            <MobileWrapper>
+                <Wrapper>
+                <Background_Top>
+                    <img src={BG_Design1} />
+                </Background_Top>
+            
 
+                <Header>
+                    <Headline_Img><img src={Banner} alt="banner" /> </Headline_Img>
+                    <Headline_container><Headline>What We Can Do For You</Headline></Headline_container>
+                </Header>
+            
+                <OptionsContainer>
+                    <ServicesButton
+                        Name="WEB DEVELOPMENT"
+                        Icon={Icon_Webdev}
+                        type="button"
+                        onClick={() => setPage("web development")} />
+                    <ServicesButton
+                        Name="SYSTEMS"
+                        Icon={Icon_Systems}
+                        type="button"
+                        onClick={() => setPage("systems")} />
+                    <ServicesButton
+                        Name="LEARNING SERVICES"
+                        Icon={Icon_Learning}
+                        type="button"
+                        onClick={() => setPage("learning services")} />
+                </OptionsContainer>
+            
+                <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
 
-            <Header>
-                <Headline_Img><img src={Banner} alt="banner" /> </Headline_Img>
-                <Headline>What We Can Do For You</Headline>
-            </Header>
-
-            <OptionsContainer>
-                <ServicesButton
-                    Name="WEB DEVELOPMENT"
-                    Icon={Icon_Webdev}
-                    type="button"
-                    onClick={() => setPage("web development")} />
-                <ServicesButton
-                    Name="SYSTEMS"
-                    Icon={Icon_Systems}
-                    type="button"
-                    onClick={() => setPage("systems")} />
-                <ServicesButton
-                    Name="LEARNING SERVICES"
-                    Icon={Icon_Learning}
-                    type="button"
-                    onClick={() => setPage("learning services")} />
-            </OptionsContainer>
-            </div>
+            </Wrapper> 
+            </MobileWrapper>
             : null}
+
             {page === 'web development' ?
                 <Wrapper>
                     <DesignContainerTop> <img src={TopDesign} /> </DesignContainerTop>
@@ -95,6 +138,7 @@ export default () => {
                     </SectionTitleWrapper>
 
 
+                    <ContentContainer>
                     <Service
                         Title="Company and Org Websites"
                         Icon={CompanyImg}
@@ -119,8 +163,11 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    </ContentContainer>
 
                     <DesignContainerBottom> <img src={BottomDesign} /> </DesignContainerBottom>
+                    <WD_bg1><img src={webdev_desk_bg1} /></WD_bg1>
+                    <WD_bg2><img src={webdev_desk_bg2} /></WD_bg2>
                 </Wrapper>
                 : null}
 
@@ -130,6 +177,8 @@ export default () => {
                     <SectionTitleWrapper>
                         <SectionTitle>Systems</SectionTitle>
                     </SectionTitleWrapper>
+
+                    <ContentContainer>
                     <Service
                         Title="Registration Systems"
                         Icon={RegImg}
@@ -148,6 +197,8 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    </ContentContainer>
+                    <Sys_BG><img src={S_bg}/> </Sys_BG>
                     <Bottom><img src={BottomDesign} /></Bottom>
                 </Wrapper>
                 : null}
@@ -158,6 +209,8 @@ export default () => {
                     <SectionTitleWrapper>
                         <SectionTitle>Learning Services</SectionTitle>
                     </SectionTitleWrapper>
+
+                    <ContentContainer>
                     <Service
                         Title="Programming Tutorials"
                         Icon={ProgImg}
@@ -170,6 +223,7 @@ export default () => {
                         Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
                     nec dui maximus, ac feugiat sem pellentesque."/>
+                    </ContentContainer>
                 </Wrapper>
                 : null}
 
