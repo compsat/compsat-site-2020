@@ -24,9 +24,9 @@ export const Header_Img = styled.div`
     }
 
     @media screen and (min-width: 1080px) {
-        margin-left:520px;
+        margin-left:630px;
         img {
-            width: 55vw;
+            width: 50vw;
         }
     }
 `
@@ -99,7 +99,7 @@ export const CardContainer = styled.div `
     margin-top: 48px;
     margin-bottom: 64px;
 
-    @media screen and (min-width: 500px) {
+    @media screen and (min-width: 400px) {
         margin-top: 120px;
     }
 
@@ -107,6 +107,9 @@ export const CardContainer = styled.div `
         margin-top: 200px;
     }
 
+    @media screen and (min-width: 1080px) {
+        margin-top: 360px;
+    }
 `
 
 export const DescriptionContainer = styled.div `
