@@ -5,7 +5,7 @@ export const MicrositeContainer = styled.div`
     width: 250px;
     height: 220px;
     border-radius: 9px;
-    box-shadow: 0px 10px 12px rgba(75, 8, 31, 0.6);
+    box-shadow: 0px 10px 12px rgba(3, 9, 80, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@ export const ClientSite = styled.div `
     width: 250px;
     height: 263px;
     border-radius: 9px;
-    box-shadow: 0px 10px 12px rgba(75, 8, 31, 0.6);
+    box-shadow: 0px 10px 12px rgba(3, 9, 80, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
