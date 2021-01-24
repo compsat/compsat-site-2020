@@ -5,7 +5,7 @@ export const MicrositeContainer = styled.div`
     width: 250px;
     height: 220px;
     border-radius: 9px;
-    box-shadow: 0px 10px 12px rgba(75, 8, 31, 0.6);
+    box-shadow: 0px 10px 12px rgba(3, 9, 80, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +25,11 @@ export const IconBox = styled.div`
     position: relative;
     top: 0;
     left: 0;
+
+    @media screen and (min-width: 1080px) {
+        width: 212px;
+        height: 165px;
+    }
 `
 
 export const Title = styled.div`
@@ -40,12 +45,22 @@ export const ClientSite = styled.div `
     width: 250px;
     height: 263px;
     border-radius: 9px;
-    box-shadow: 0px 10px 12px rgba(75, 8, 31, 0.6);
+    box-shadow: 0px 10px 12px rgba(3, 9, 80, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 28px;
+    overflow: hidden;
+
+    @media screen and (min-width: 700px) {
+        margin: 16px;
+    }
+
+    @media screen and (min-width: 1080px) {
+        width: 352px;
+        height: 352px;
+    }
 `
 
 export const DescriptionContainer = styled.div `
@@ -60,9 +75,20 @@ export const DescriptionContainer = styled.div `
     padding-right: 12px;
     display: flex;
     flex-wrap: wrap;
+
+    @media screen and (min-width: 1080px) {
+        width: 352px;
+        height: 80px;
+        margin-top: 32px;
+        padding: 12px 20px 0 20px;
+    }
 `
 export const Description = styled.p `
     font-color: #F6F6F6;
     text-align: left;
     font-size: 12px;
+
+    @media screen and (min-width: 1080px) {
+        font-size: 16px;
+    }
 `
