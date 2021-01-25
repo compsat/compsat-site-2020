@@ -30,7 +30,7 @@ const Footer = () => (
 
       <a href="mailto:hello@compsat.org">hello@compsat.org</a>
 
-      <p class="copyright">CompSAt © 2020</p>
+      <p className="copyright">CompSAt © 2020</p>
     </FooterOrgInfo>
   </FooterMobileWrapper>
 );

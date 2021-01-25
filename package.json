@@ -13,8 +13,8 @@
     "netlify-cms": "^2.10.54",
     "next": "9.4.4",
     "next-images": "^1.6.2",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "schema-utils": "^2.7.0",
     "styled-components": "^5.1.1"
   },
