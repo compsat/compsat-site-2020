@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: develop
 publish_mode: editorial_workflow
 media_folder: public/assets/img
@@ -14,10 +14,18 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
+        - { label: "Hero Header", name: "heroHeader", widget: "string"}
+        - { label: "Hero Description", name: "heroDescription", widget: "text"}
+        - { label: "What We Do Header", name: "whatWeDoHeader", widget: "string"}
+        - label: 'What We Do items'
+          name: "whatWeDoItems"
           widget: list
           fields:
-            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Header", name: "header", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+            - { label: "Button Text", name: "buttonText", widget: "string"}
+            - { label: "Button URL", name: "buttonUrl", widget: "string"}
+        - { label: "View Pages Header", name: "viewPagesHeader", widget: "string"}
+        - { label: "View Pages Description", name: "viewPagesDescription", widget: "text"}
+        - { label: "Contact Header", name: "contactHeader", widget: "string"}
+        - { label: "Contact Description", name: "contactDescription", widget: "text"}
