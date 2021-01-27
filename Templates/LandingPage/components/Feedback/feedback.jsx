@@ -1,10 +1,10 @@
 import { FeedbackWrapper } from "./styles";
 import PrimaryButton from "../../../../components/PrimaryButton";
 
-const Feedback = () => (
+const Feedback = ({ contactHeader, contactDescription }) => (
   <FeedbackWrapper>
-    <h2>We’d love to hear from you! </h2>
-    <p>Reach out to us about any questions or inquiries you may have.</p>
+    <h2>{contactHeader}</h2>
+    <p>{contactDescription}</p>
     <PrimaryButton className="button">
       Get in touch
       <svg
