@@ -44,3 +44,18 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
             - { label: "URL", name: "url", widget: "string"}
+    - label: "Client Sites"
+      name: "clientSitesPage"
+      file: "content/clientSites.md"
+      fields:
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Main Header", name: "mainHeader", widget: "string"}
+        - { label: "Main Description", name: "mainDescription", widget: "text"}
+        - label: 'Client Sites Items'
+          name: "sites"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
+            - { label: "URL", name: "url", widget: "string"}
