@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: git-gateway
   branch: develop
 publish_mode: editorial_workflow
 media_folder: public/assets/img
@@ -17,7 +17,7 @@ collections:
         - { label: "Hero Header", name: "heroHeader", widget: "string"}
         - { label: "Hero Description", name: "heroDescription", widget: "text"}
         - { label: "What We Do Header", name: "whatWeDoHeader", widget: "string"}
-        - label: 'What We Do items'
+        - label: 'What We Do Items'
           name: "whatWeDoItems"
           widget: list
           fields:
@@ -29,3 +29,18 @@ collections:
         - { label: "View Pages Description", name: "viewPagesDescription", widget: "text"}
         - { label: "Contact Header", name: "contactHeader", widget: "string"}
         - { label: "Contact Description", name: "contactDescription", widget: "text"}
+    - label: "Microsites"
+      name: "micrositesPage"
+      file: "content/microsites.md"
+      fields:
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Main Header", name: "mainHeader", widget: "string"}
+        - { label: "Main Description", name: "mainDescription", widget: "text"}
+        - label: 'Microsites Items'
+          name: "microsites"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
+            - { label: "URL", name: "url", widget: "string"}
