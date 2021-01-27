@@ -14,10 +14,48 @@ collections:
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
+        - { label: "Hero Header", name: "heroHeader", widget: "string"}
+        - { label: "Hero Description", name: "heroDescription", widget: "text"}
+        - { label: "What We Do Header", name: "whatWeDoHeader", widget: "string"}
+        - label: 'What We Do Items'
+          name: "whatWeDoItems"
+          widget: list
+          fields:
+            - { label: "Header", name: "header", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Button Text", name: "buttonText", widget: "string"}
+            - { label: "Button URL", name: "buttonUrl", widget: "string"}
+        - { label: "View Pages Header", name: "viewPagesHeader", widget: "string"}
+        - { label: "View Pages Description", name: "viewPagesDescription", widget: "text"}
+        - { label: "Contact Header", name: "contactHeader", widget: "string"}
+        - { label: "Contact Description", name: "contactDescription", widget: "text"}
+    - label: "Microsites"
+      name: "micrositesPage"
+      file: "content/microsites.md"
+      fields:
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Main Header", name: "mainHeader", widget: "string"}
+        - { label: "Main Description", name: "mainDescription", widget: "text"}
+        - label: 'Microsites Items'
+          name: "microsites"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+            - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
+            - { label: "URL", name: "url", widget: "string"}
+    - label: "Client Sites"
+      name: "clientSitesPage"
+      file: "content/clientSites.md"
+      fields:
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Main Header", name: "mainHeader", widget: "string"}
+        - { label: "Main Description", name: "mainDescription", widget: "text"}
+        - label: 'Client Sites Items'
+          name: "sites"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "string"}
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
+            - { label: "URL", name: "url", widget: "string"}
