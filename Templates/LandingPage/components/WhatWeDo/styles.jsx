@@ -99,6 +99,9 @@ export const SectionWrapper = styled.div`
   }
   svg {
     margin-bottom: 16px;
+    width: 80%;
+    max-width: 256px;
+
   }
   @media screen and (min-width: 800px) {
     width: 256px;
