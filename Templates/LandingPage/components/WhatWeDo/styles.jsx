@@ -7,6 +7,11 @@ export const WWDWrapper = styled.div`
   width: 100vw;
   padding: 32px 24px;
   margin: 0 -24px;
+
+  .wwdbg {
+    display: none;
+  }
+
   @media screen and (min-width: 500px) {
     margin: 0 -36px;
     padding: 32px 36px;
@@ -21,23 +26,47 @@ export const WWDWrapper = styled.div`
   }
   @media screen and (min-width: 800px) {
     margin: 0 -72px;
-    padding: 32px 72px;
+    padding: 64px 72px 200px;
+    background: none;
+    .wwdbg {
+      margin: 0 -72px;
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      svg{
+        height: 100%;
+        max-height: 750px;
+        width: 100vw;
+      }
+    }
   }
   @media screen and (min-width: 900px) {
     margin: 0 -84px;
-    padding: 32px 84px;
+    padding: 64px 84px 200px;
+    .wwdbg {
+      margin: 0 -84px;
+    }
   }
   @media screen and (min-width: 1000px) {
     margin: 0 -96px;
-    padding: 32px 96px;
+    padding: 64px 96px 200px;
+    .wwdbg {
+      margin: 0 -96px;
+    }
   }
   @media screen and (min-width: 1100px) {
     margin: 0 -108px;
-    padding: 32px 108px;
+    padding: 64px 108px 200px;
+    .wwdbg {
+      margin: 0 -108px;
+    }
   }
   @media screen and (min-width: 1200px) {
     margin: 0 -128px;
-    padding: 32px 128px;
+    padding: 64px 128px 200px;
+    .wwdbg {
+      margin: 0 -128px;
+    }
   }
 `;
 
@@ -70,11 +99,14 @@ export const SectionWrapper = styled.div`
   }
   svg {
     margin-bottom: 16px;
+    width: 80%;
+    max-width: 256px;
+
   }
   @media screen and (min-width: 800px) {
     width: 256px;
     margin-bottom: 32px;
-    button{
+    button {
       margin-top: auto;
     }
   }
