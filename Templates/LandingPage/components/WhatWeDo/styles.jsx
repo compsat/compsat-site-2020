@@ -35,7 +35,7 @@ export const WWDWrapper = styled.div`
       z-index: -1;
       svg{
         height: 100%;
-        max-height: 600px;
+        max-height: 750px;
         width: 100vw;
       }
     }
