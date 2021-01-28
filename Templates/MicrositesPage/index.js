@@ -1,33 +1,32 @@
-import WebsiteCard from '../../components/WebsiteCard'
-import MicrositeHeader from './components/Header'
-import { Container } from './styles'
-import QPICalc_Icon from '../../public/static/img/microsite-qpi-calculator.svg'
-import Gearbox_Icon from '../../public/static/img/microsite-gearbox.svg'
-import Wildcard_Icon from '../../public/static/img/microsite-wildcard.svg'
+import WebsiteCard from "../../components/WebsiteCard";
+import MicrositeHeader from "./components/Header";
+import { Container } from "./styles";
+import QPICalc_Icon from "../../public/static/img/microsite-qpi-calculator.svg";
+// import Gearbox_Icon from "../../public/static/img/microsite-gearbox.svg";
+// import Wildcard_Icon from "../../public/static/img/microsite-wildcard.svg";
+import { attributes } from "../../content/microsites.md";
 
 export default () => {
-    return (
-        <div>
-            <MicrositeHeader> </MicrositeHeader>
-            <Container> 
-                <WebsiteCard 
-                    MicrositeTitle="QPI CALCULATOR"
-                    PrimaryIcon={QPICalc_Icon} 
-                    type="microsite"
-                    />
+  let {
+    mainHeader,
+    mainDescription,
+    microsites,
+  } = attributes;
 
-                <WebsiteCard 
-                    MicrositeTitle="GEARBOX"
-                    PrimaryIcon={Gearbox_Icon}
-                    type="microsite"
-                    />
-
-                <WebsiteCard
-                    MicrositeTitle="WILDCARD"
-                    PrimaryIcon={Wildcard_Icon} 
-                    type="microsite"
-                    />
-            </Container>
-        </div>
-    )
-} 
+  return (
+    <div>
+      <MicrositeHeader mainHeader={mainHeader} mainDescription={mainDescription} />
+      <Container>
+        {microsites.map((site, key) => (
+            <WebsiteCard 
+                key={key}
+                type="microsite"
+                MicrositeTitle={site.name}
+                PrimaryIcon={QPICalc_Icon}
+                url={site.url}
+            />
+        ))}
+      </Container>
+    </div>
+  );
+};
