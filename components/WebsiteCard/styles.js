@@ -11,7 +11,15 @@ export const MicrositeContainer = styled.div`
     align-items: center;
     flex-direction: column;
     margin-bottom: 27px;
+
+    @media screen and (min-width: 700px) {
+        margin: 16px;
+    }
     
+    @media screen and (min-width: 1080px) {
+        width: 352px;
+        height: 352px;
+    }
 `
 export const IconBox = styled.div`
     background-color: #2633BC;
