@@ -21,6 +21,13 @@ export const TextContainer = styled.div`
     align-items: flex-start;
     justify-content: flex-end;
 
-    margin-top: -132px;
+    margin-top: -120px;
     margin-left: 32px;
+`
+
+export const ImgSpace = styled.div `
+    margin-left: -16px;
+    img {
+        width: 100vw;
+    }
 `
