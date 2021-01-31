@@ -1,12 +1,18 @@
 ---
 title: Events
 date: 2020-07-17T20:15:20.591Z
-eventsHeader: CompSAt is a home for students passionate in IT. We provide avenues for appreciating, learning, and excelling in IT. We also seek to form our members through various activities and events that are driven towards improving peer relationships, something, and something, thus making CompSAt a place where they belong.
+eventsHeader: CompSAt is a home to students desiring to learn about programming and
+        software development, as well as new technologies emerging in this
+        fast-growing world. Our various events and activities provide avenues
+        for students to learn, appreciate, and excel in these fields.
 eventType1:
   - eventTypeTitle: Hackathons
     eventTypeDescription: Hackathons are case competition-like events where teams of programmers develop solutions to interesting problems.
     event1Title: Blue Hacks
-    event1Description: Blue Hacks is a two-day hackathon that provides an opportunity for students from different colleges and universities across Metro Manila to apply their skills to develop applications that aim to address relevant issues in society.
+    event1Description: Blue Hacks, CompSAt’s flagship project, is a two-day hackathon that
+      provides an opportunity for students from different colleges and
+      universities across Metro Manila to apply their skills to develop
+      applications that aim to address various social themes.
     event2Title: Data Science Hackathons
     event2Description: For the past two years, CompSAt has partnered with SYKES in hosting hackathons where teams tackle real problems through the use of data analysis and machine learning.
 eventType2:

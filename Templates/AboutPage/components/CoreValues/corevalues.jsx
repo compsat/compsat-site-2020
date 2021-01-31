@@ -1,4 +1,10 @@
 import { CoreValuesWrapper, CoreValueContainer, CoreValueLeft, CoreValueRight, TopValue} from "./styles";
+import { attributes } from "../../../../content/aboutUs.md";
+
+let {
+  coreValues,
+} = attributes;
+
 
 const CoreValues = () => (
   <CoreValuesWrapper>
@@ -9,14 +15,14 @@ const CoreValues = () => (
           src="/static/img/corevalues_illustration1.svg"
           alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
-        <TopValue>Continuously aspire for self-growth and excellence</TopValue>
+        <TopValue>{coreValues[0].coreValue1}</TopValue>
       </CoreValueLeft>
       <CoreValueRight>
         <img
           src="/static/img/corevalues_illustration2.svg"
           alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
-        <TopValue>Leverage collaboration</TopValue>
+        <TopValue>{coreValues[0].coreValue2}</TopValue>
       </CoreValueRight>
     </CoreValueContainer>
     <CoreValueContainer>
@@ -25,14 +31,14 @@ const CoreValues = () => (
           src="/static/img/corevalues_illustration3.svg"
           alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
-        <p>Cultivate an empowering, supportive, and caring community</p>
+        <p>{coreValues[0].coreValue3}</p>
       </CoreValueLeft>
       <CoreValueRight>
         <img
           src="/static/img/corevalues_illustration4.svg"
           alt="Core Values Illustration: One Fourth of the CompSAt Logo"
         />
-        <p>Provide impactful and innovative services</p>
+        <p>{coreValues[0].coreValue4}</p>
       </CoreValueRight>
     </CoreValueContainer>
   </CoreValuesWrapper>
