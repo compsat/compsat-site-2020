@@ -1,4 +1,9 @@
 import { HeroWrapper, HeroTextWrapper } from "./styles";
+import { attributes } from "../../../../content/events.md";
+
+let {
+  eventsHeader,
+} = attributes;
 
 const Hero = () => (
   <HeroWrapper>
@@ -9,10 +14,7 @@ const Hero = () => (
     <HeroTextWrapper>
       <h1>Events</h1>
       <p>
-        CompSAt is a home to students desiring to learn about programming and
-        software development, as well as new technologies emerging in this
-        fast-growing world. Our various events and activities provide avenues
-        for students to learn, appreciate, and excel in these fields.
+        {eventsHeader}
       </p>
     </HeroTextWrapper>
   </HeroWrapper>

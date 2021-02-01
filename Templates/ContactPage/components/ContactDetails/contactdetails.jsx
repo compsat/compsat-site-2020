@@ -1,4 +1,13 @@
 import { ContactDetailsWrapper, ContactInfo, Platform } from "./styles";
+import { attributes } from "../../../../content/contactUs.md";
+
+let {
+  address,
+  email,
+  fb,
+  twitter,
+  cp 
+} = attributes;
 
 const ContactDetails = () => (
   <ContactDetailsWrapper>
@@ -11,7 +20,7 @@ const ContactDetails = () => (
         />
         <p>Address</p>
       </Platform>
-      <p>Room 303, MVP Center for Student Leadership, Ateneo de Manila University, Katipunan, Quezon City</p>
+      <p>{address}</p>
     </ContactInfo>
 
     <ContactInfo>
@@ -22,7 +31,7 @@ const ContactDetails = () => (
         />
         <p>Email</p>
       </Platform>
-      <p>hello@compsat.org</p>
+      <p>{email}</p>
     </ContactInfo>
 
     <ContactInfo>
@@ -33,7 +42,7 @@ const ContactDetails = () => (
         />
         <p>Facebook</p>
       </Platform>
-      <p>facebook.com/CompSAteneo</p>
+      <p>{fb}</p>
     </ContactInfo>
 
     <ContactInfo>
@@ -44,7 +53,7 @@ const ContactDetails = () => (
         />
         <p>Twitter</p>
       </Platform>
-      <p>twitter.com/CompSAt</p>
+      <p>{twitter}</p>
     </ContactInfo>
 
     <ContactInfo>
@@ -55,7 +64,7 @@ const ContactDetails = () => (
         />
         <p>Cellphone Number</p>
       </Platform>
-      <p>0908-343-5801</p>
+      <p>{cp}</p>
     </ContactInfo>
   </ContactDetailsWrapper>
 );

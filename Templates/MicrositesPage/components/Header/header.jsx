@@ -9,7 +9,7 @@ import {
 
 const MicrositeHeader = ({ mainHeader, mainDescription }) => (
   <HeaderSpace>
-    <img src="/static/img/microsite-header.svg"></img>
+    <ImgSpace><img src="/static/img/microsite-header.svg"></img></ImgSpace>
     <TextContainer>
       <SectionTitle>{mainHeader}</SectionTitle>
       <Subtitle>{mainDescription}</Subtitle>
