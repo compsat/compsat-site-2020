@@ -104,19 +104,13 @@ export const SectionWrapper = styled.div`
 
   }
   @media screen and (min-width: 800px) {
-    width: 256px;
+    width: 45%;
     margin-bottom: 32px;
     button {
       margin-top: auto;
     }
   }
-  @media screen and (min-width: 900px) {
-    width: 320px;
-  }
   @media screen and (min-width: 1100px) {
-    width: 384px;
-  }
-  @media screen and (min-width: 1300px) {
-    width: 460px;
+    width: 40%;
   }
 `;
