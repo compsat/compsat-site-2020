@@ -25,8 +25,8 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
             y2="946.999"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#07106D" />
-            <stop offset="1" stop-color="#EE4266" />
+            <stop stopColor="#07106D" />
+            <stop offset="1" stopColor="#EE4266" />
           </linearGradient>
         </defs>
       </svg>
@@ -78,8 +78,8 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="119.121"
                 y2="88.5588"
                 stroke="#BA1C51"
-                stroke-width="3"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeLinecap="round"
               />
               <line
                 x1="119.121"
@@ -87,8 +87,8 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="126.559"
                 y2="95.9963"
                 stroke="#BA1C51"
-                stroke-width="3"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeLinecap="round"
               />
               <line
                 x1="137.441"
@@ -96,8 +96,8 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="144.879"
                 y2="88.5589"
                 stroke="#BA1C51"
-                stroke-width="3"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeLinecap="round"
               />
               <line
                 x1="144.879"
@@ -105,8 +105,8 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="137.441"
                 y2="81.1213"
                 stroke="#BA1C51"
-                stroke-width="3"
-                stroke-linecap="round"
+                strokeWidth="3"
+                strokeLinecap="round"
               />
               <rect x="37" y="102" width="63" height="4" fill="white" />
               <rect x="37" y="92" width="63" height="4" fill="white" />
@@ -125,7 +125,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
               <path
                 d="M247.164 195.58C238.901 168.047 213.524 148 183.5 148C150.839 148 123.677 171.723 118.064 203H248.936C248.483 200.474 247.889 197.998 247.164 195.58Z"
                 fill="#202345"
-                fill-opacity="0.96"
+                fillOpacity="0.96"
               />
               <line
                 x1="147.364"
@@ -133,7 +133,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="152.314"
                 y2="21.364"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="154.435"
@@ -141,7 +141,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="159.385"
                 y2="28.4351"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="161.506"
@@ -149,7 +149,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="166.456"
                 y2="35.5061"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="168.577"
@@ -157,7 +157,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="173.527"
                 y2="42.5773"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="175.648"
@@ -165,7 +165,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="180.598"
                 y2="49.6483"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="182.72"
@@ -173,7 +173,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="187.669"
                 y2="56.7194"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="189.791"
@@ -181,7 +181,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="194.74"
                 y2="63.7904"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="196.862"
@@ -189,7 +189,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="201.811"
                 y2="70.8615"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="203.933"
@@ -197,7 +197,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="208.882"
                 y2="77.9325"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="211.004"
@@ -205,7 +205,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="215.954"
                 y2="85.0037"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="218.075"
@@ -213,7 +213,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="223.025"
                 y2="92.0747"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="225.146"
@@ -221,7 +221,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="230.096"
                 y2="99.1458"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="232.217"
@@ -229,7 +229,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="237.167"
                 y2="106.217"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="239.288"
@@ -237,7 +237,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="244.238"
                 y2="113.288"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="246.359"
@@ -245,7 +245,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="251.309"
                 y2="120.359"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="253.43"
@@ -253,7 +253,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="258.38"
                 y2="127.43"
                 stroke="black"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="249"
@@ -261,7 +261,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="249"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="239"
@@ -269,7 +269,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="239"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="229"
@@ -277,7 +277,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="229"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="219"
@@ -285,7 +285,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="219"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="209"
@@ -293,7 +293,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="209"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="199"
@@ -301,7 +301,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="199"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="189"
@@ -309,7 +309,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="189"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="179"
@@ -317,7 +317,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="179"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="169"
@@ -325,7 +325,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="169"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="159"
@@ -333,7 +333,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="159"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="149"
@@ -341,7 +341,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="149"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="139"
@@ -349,7 +349,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="139"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="129"
@@ -357,7 +357,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="129"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
               <line
                 x1="119"
@@ -365,7 +365,7 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
                 x2="119"
                 y2="215"
                 stroke="#07106D"
-                stroke-width="2"
+                strokeWidth="2"
               />
             </svg>
           ) : (
