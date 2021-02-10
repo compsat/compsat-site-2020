@@ -1,20 +1,12 @@
 import { EventWrapper } from "./styles";
-import { attributes } from "../../../../content/events.md";
 
-let {
-  eventType1,
-} = attributes;
-
-const EventProper = () => (
+const EventProper = ({ eventTitle, eventDesc }, props) => (
   <EventWrapper>
-    <img
-      src="/static/img/bluehacks.png"
-      alt="Events Page Illustration"
-    />
-    <h3>{eventType1[0].event1Title}</h3>
-    <p>
-      {eventType1[0].event1Description}
-    </p>
+    <img src="/static/img/bluehacks.png" alt="Events Page Illustration" />
+    <div>
+      <h3>{eventTitle}</h3>
+      <p>{eventDesc}</p>
+    </div>
   </EventWrapper>
 );
 

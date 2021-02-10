@@ -12,6 +12,10 @@ export const HeroWrapper = styled.div`
     width: 100%;
     max-width: 600px;
   }
+  .ehbg {
+    display: none;
+  }
+
   padding: 56px 24px;
   margin: -56px -24px 0;
   @media screen and (min-width: 500px) {
@@ -29,28 +33,49 @@ export const HeroWrapper = styled.div`
   @media screen and (min-width: 800px) {
     margin: -56px -72px 0;
     padding: 56px 72px;
-  }
-  @media screen and (min-width: 900px) {
-    margin: -56px -84px 0;
-    padding: 56px 84px;
-
     flex-direction: row-reverse;
-    background: linear-gradient(184.51deg, #EE4266 3.93%, #5C184E 98.67%);
+    .ehbg {
+      margin: 0 -72px;
+      display: ${props => (withBackground ? `inline-block` : null)};
+      position: absolute;
+      z-index: -1;
+      svg{
+        height: 100%;
+        max-height: 750px;
+        width: 100vw;
+      }
+    }
     img {
       max-width: 500px;
     }
   }
+  @media screen and (min-width: 900px) {
+    margin: -56px -84px 0;
+    padding: 56px 84px;
+    .ehbg {
+      margin: 0 -84px;
+    }
+  }
   @media screen and (min-width: 1000px) {
-    margin: -88px -96px 0;
-    padding: 88px 96px;
+    margin: 0 -96px;
+    padding: 64px 96px 200px;
+    .ehbg {
+      margin: 0 -96px;
+    }
   }
   @media screen and (min-width: 1100px) {
-    margin: -88px -108px 0;
-    padding: 88px 108px;
+    margin: 0 -108px;
+    padding: 64px 108px 200px;
+    .ehbg {
+      margin: 0 -108px;
+    }
   }
   @media screen and (min-width: 1200px) {
-    margin: -88px -128px 0;
-    padding: 160px 128px;
+    margin: 0 -128px;
+    padding: 64px 128px 200px;
+    .ehbg {
+      margin: 0 -128px;
+    }
   }
 `;
 

@@ -107,42 +107,26 @@ collections:
       file: "content/events.md"
       fields:
         - { label: "Header", name: "eventsHeader", widget: "text" }
-        - label: 'Event Type 1'
-          name: "eventType1"
+        - label: 'Event Type'
+          name: "eventType"
           widget: list
           fields:
-            - { label: "Event Type Title", name: "eventTypeTitle", widget: "string"}
-            - { label: "Event Type Description", name: "eventTypeDescription", widget: "text"}
-            - { label: "Event 1 Title", name: "event1Title", widget: "string"}
-            - { label: "Event 1 Description", name: "event1Description", widget: "text"}
-            - { label: "Event 2 Title", name: "event2Title", widget: "string"}
-            - { label: "Event 2 Description", name: "event2Description", widget: "text"}
-        - label: 'Event Type 2'
-          name: "eventType2"
-          widget: list
-          fields:
-            - { label: "Event Type Title", name: "eventTypeTitle", widget: "string"}
-            - { label: "Event Type Description", name: "eventTypeDescription", widget: "text"}
-            - { label: "Event 1 Title", name: "event1Title", widget: "string"}
-            - { label: "Event 1 Description", name: "event1Description", widget: "text"}
-        - label: 'Event Type 3'
-          name: "eventType3"
-          widget: list
-          fields:
-            - { label: "Event Type Title", name: "eventTypeTitle", widget: "string"}
-            - { label: "Event Type Description", name: "eventTypeDescription", widget: "text"}
-            - { label: "Event 1 Title", name: "event1Title", widget: "string"}
-            - { label: "Event 1 Description", name: "event1Description", widget: "text"}
-            - { label: "Event 2 Title", name: "event2Title", widget: "string"}
-            - { label: "Event 2 Description", name: "event2Description", widget: "text"}
-        - label: 'Event Type 4'
-          name: "eventType4"
-          widget: list
-          fields:
-            - { label: "Event Type Title", name: "eventTypeTitle", widget: "string"}
-            - { label: "Event Type Description", name: "eventTypeDescription", widget: "text"}
-            - { label: "Event 1 Title", name: "event1Title", widget: "string"}
-            - { label: "Event 1 Description", name: "event1Description", widget: "text"}
+            [
+              { label: "Event Type Title", name: "eventTypeTitle", widget: "string"},
+              { label: "Event Type Description", name: "eventTypeDescription", widget: "text"},
+              {
+                label: 'Event Proper',
+                name: "eventProper",
+                widget: list,
+                default: [{eventTitle: ''}, {eventDescription: ''}],
+                fields:
+                  [
+                    { label: "Event Title", name: "eventTitle", widget: "string"},
+                    { label: "Event Description", name: "eventDescription", widget: "text"}
+                  ]
+              }
+            ]
+
     - label: "Services"
       name: "servicesPage"
       file: "content/services.md"

@@ -5,30 +5,28 @@ eventsHeader: CompSAt is a home to students desiring to learn about programming 
         software development, as well as new technologies emerging in this
         fast-growing world. Our various events and activities provide avenues
         for students to learn, appreciate, and excel in these fields.
-eventType1:
+
+eventType:
   - eventTypeTitle: Hackathons
     eventTypeDescription: Hackathons are case competition-like events where teams of programmers develop solutions to interesting problems.
-    event1Title: Blue Hacks
-    event1Description: Blue Hacks, CompSAt’s flagship project, is a two-day hackathon that
-      provides an opportunity for students from different colleges and
-      universities across Metro Manila to apply their skills to develop
-      applications that aim to address various social themes.
-    event2Title: Data Science Hackathons
-    event2Description: For the past two years, CompSAt has partnered with SYKES in hosting hackathons where teams tackle real problems through the use of data analysis and machine learning.
-eventType2:
+    eventProper:
+      - eventTitle: Blue Hacks
+        eventDescription: Blue Hacks, CompSAt’s flagship project, is a two-day hackathon that
+          provides an opportunity for students from different colleges and
+          universities across Metro Manila to apply their skills to develop
+          applications that aim to address various social themes.
+      - eventTitle: Data Science Hackathons
+        eventDescription: For the past two years, CompSAt has partnered with SYKES in hosting hackathons where teams tackle real problems through the use of data analysis and machine learning.
   - eventTypeTitle: Networking Events
     eventTypeDescription: Networking Events aim to allow CompSAt member to meet professionals from the industry to help kickstart their careers after college
     event1Title: Company Mixer
     event1Description: Company Mixer is an event wherein university students from various colleges and universities can network with different companies that specialize in or have departments related to Information Technology.
-
-eventType3:
   - eventTypeTitle: Social Involvement
     eventTypeDescription: 
     event1Title: IGNITION
     event1Description: "Ignition is a 1-day programming camp for public high school students. The event aims to ignite their passion for programming and technology. The event is typically split into two sessions: a programming workshop in the morning and a project-building activity in the afternoon."
     event2Title: E-drive
     event2Description:
-eventType4:
   - eventTypeTitle: Member Relation Events
     eventTypeDescription: 
     event1Title: XP Week
