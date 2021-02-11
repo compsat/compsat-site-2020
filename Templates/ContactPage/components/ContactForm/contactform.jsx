@@ -11,13 +11,6 @@ import {
 import PrimaryButton from "../../../../components/PrimaryButton";
 
 const ContactForm = () => {
-  const [isSuccess, setSuccess] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSuccess(true);
-  }
-
   return (
     <ContactFormWrapper>
       {/* <ErrorMessage>
@@ -25,14 +18,14 @@ const ContactForm = () => {
         <p>Something went wrong. Please try again.</p>
       </ErrorMessage> */}
 
-      <ConfirmationMessage isSuccess={isSuccess}>
+      {/* <ConfirmationMessage>
         <img src="/static/img/check_green.svg" alt="Check Symbol" />
         <p>Your message was sent. Thank you very much!</p>
-      </ConfirmationMessage>
+      </ConfirmationMessage> */}
 
       <FormContent>
         <h3>Send us a message!</h3>
-        <form data-netlify="true" method="POST" name="contact" onSubmit={handleSubmit}>
+        <form data-netlify="true" method="POST" name="contact" action="/contact-us">
           <input type="hidden" name="form-name" value="contact" />
           <FormField>
             Full Name*
