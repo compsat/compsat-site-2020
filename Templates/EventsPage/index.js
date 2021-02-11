@@ -5,7 +5,7 @@ import EventProper from "./components/EventProper";
 import { attributes } from "../../content/events.md";
 
 export default () => {
-  let { eventType, eventProper } = attributes;
+  let { eventType} = attributes;
 
   return (
     <EventsPageWrapper>
@@ -14,16 +14,18 @@ export default () => {
       {eventType.map((event, key) => (
         <EventsCategoryWrapper
           key={key}
-          background={key % 2 === 0 ? "withBackground" : "withoutBackground"}
+          background={key % 2 === 0 ? true : null}
         >
           <EventCategory
             eventTypeTitle={event.eventTypeTitle}
             eventTypeDesc={event.eventTypeDescription}
           />
-          {eventProper.map((eventProper, key) => (
+          {eventType[key].eventProper.map((eventProper, key) => (
             <EventProper
               eventTitle={eventProper.eventTitle}
               eventDesc={eventProper.eventDescription}
+              imgName={eventProper.imgName}
+              imgAlt={eventProper.imgAlt}
             />
           ))}
         </EventsCategoryWrapper>

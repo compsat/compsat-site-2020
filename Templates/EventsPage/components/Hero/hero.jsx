@@ -7,26 +7,24 @@ const Hero = () => (
   <HeroWrapper>
     <div className="ehbg">
       <svg
-        width="1440"
-        height="768"
-        viewBox="0 0 1440 768"
+        viewBox="0 0 2880 1536"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M0 667.615C0 667.615 472 640.837 856 723.685C1240 806.533 1440 747.808 1440 747.808V0L0 0L0 667.615Z"
+          d="M0 1335.23C0 1335.23 944 1281.67 1712 1447.37C2480 1613.07 2880 1495.62 2880 1495.62V0L0 0L0 1335.23Z"
           fill="url(#paint0_linear)"
         />
         <defs>
           <linearGradient
             id="paint0_linear"
-            x1="666.5"
-            y1="768"
-            x2="633.549"
-            y2="-15.6143"
+            x1="1333"
+            y1="1536"
+            x2="1267.1"
+            y2="-31.2287"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EE4266" />
+            <stop stopColor="#EE4266" />
             <stop offset="1" stop-color="#5C184E" />
           </linearGradient>
         </defs>

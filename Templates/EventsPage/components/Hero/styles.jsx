@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeroWrapper = styled.div`
   width: 100vw;
   height: auto;
-  margin: -56px 0 64px;
+  /* margin: -56px 0 64px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,14 +34,15 @@ export const HeroWrapper = styled.div`
     margin: -56px -72px 0;
     padding: 56px 72px;
     flex-direction: row-reverse;
+    background: none;
     .ehbg {
       margin: 0 -72px;
-      display: ${props => (withBackground ? `inline-block` : null)};
+      display: inline-block;
       position: absolute;
       z-index: -1;
       svg{
         height: 100%;
-        max-height: 750px;
+        /* max-height: 750px; */
         width: 100vw;
       }
     }
@@ -74,7 +75,7 @@ export const HeroWrapper = styled.div`
     margin: 0 -128px;
     padding: 64px 128px 200px;
     .ehbg {
-      margin: 0 -128px;
+      margin: -10px -128px;
     }
   }
 `;
