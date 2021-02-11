@@ -7,7 +7,7 @@ export const EventCategoryWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 32px;
-  background: ${props => (withBackground ? `linear-gradient(180deg, #07106d -0.11%, #ee4266 99.89%)` : null)};
+  
 
   width: 100vw;
   padding: 32px 24px;
@@ -31,11 +31,11 @@ export const EventCategoryWrapper = styled.div`
   }
   @media screen and (min-width: 800px) {
     margin: 0 -72px;
-    padding: 64px 72px 200px;
+    padding: 64px 72px;
     background: none;
     .ecbg {
       margin: 0 -72px;
-      display: ${props => (withBackground ? `inline-block` : null)};
+      
       position: absolute;
       z-index: -1;
       svg{
@@ -46,29 +46,29 @@ export const EventCategoryWrapper = styled.div`
     }
   }
   @media screen and (min-width: 900px) {
-    margin: 0 -84px;
-    padding: 64px 84px 200px;
+    /* margin: 0 -84px;
+    padding: 64px 84px; */
     .ecbg {
       margin: 0 -84px;
     }
   }
   @media screen and (min-width: 1000px) {
-    margin: 0 -96px;
-    padding: 64px 96px 200px;
+    /* margin: 0 -96px;
+    padding: 64px 96px; */
     .ecbg {
       margin: 0 -96px;
     }
   }
   @media screen and (min-width: 1100px) {
-    margin: 0 -108px;
-    padding: 64px 108px 200px;
+    /* margin: 0 -108px;
+    padding: 64px 108px; */
     .ecbg {
       margin: 0 -108px;
     }
   }
   @media screen and (min-width: 1200px) {
-    margin: 0 -128px;
-    padding: 64px 128px 200px;
+    /* margin: 0 -128px;
+    padding: 64px 128px; */
     .ecbg {
       margin: 0 -128px;
     }

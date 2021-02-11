@@ -8,156 +8,282 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Hero Header", name: "heroHeader", widget: "string"}
-        - { label: "Hero Description", name: "heroDescription", widget: "text"}
-        - { label: "What We Do Header", name: "whatWeDoHeader", widget: "string"}
-        - label: 'What We Do Items'
-          name: "whatWeDoItems"
-          widget: list
-          fields:
-            - { label: "Header", name: "header", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "Button Text", name: "buttonText", widget: "string"}
-            - { label: "Button URL", name: "buttonUrl", widget: "string"}
-        - { label: "View Pages Header", name: "viewPagesHeader", widget: "string"}
-        - { label: "View Pages Description", name: "viewPagesDescription", widget: "text"}
-        - { label: "Contact Header", name: "contactHeader", widget: "string"}
-        - { label: "Contact Description", name: "contactDescription", widget: "text"}
-    - label: "Microsites"
-      name: "micrositesPage"
-      file: "content/microsites.md"
-      fields:
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Main Header", name: "mainHeader", widget: "string"}
-        - { label: "Main Description", name: "mainDescription", widget: "text"}
-        - label: 'Microsites Items'
-          name: "microsites"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
-            - { label: "URL", name: "url", widget: "string"}
-    - label: "Client Sites"
-      name: "clientSitesPage"
-      file: "content/clientSites.md"
-      fields:
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Main Header", name: "mainHeader", widget: "string"}
-        - { label: "Main Description", name: "mainDescription", widget: "text"}
-        - label: 'Client Sites Items'
-          name: "sites"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "Thumbnail", name: "Thumbnail", widget: "image"}
-            - { label: "URL", name: "url", widget: "string"}
-    - label: "About"
-      name: "aboutUsPage"
-      file: "content/aboutUs.md"
-      fields:
-        - { label: "Vision", name: "vision", widget: "text" }
-        - label: 'Mission'
-          name: "mission"
-          widget: list
-          fields:
-            - { label: "Mission Text", name: "missionDesc", widget: "string"}
-            - { label: "Mission 1", name: "mission1", widget: "string"}
-            - { label: "Mission 2", name: "mission2", widget: "string"}
-            - { label: "Mission 3", name: "mission3", widget: "string"}
-        - label: 'Core Competencies'
-          name: "coreCompetencies"
-          widget: list
-          fields:
-            - { label: "Core Competency 1", name: "coreCompet1", widget: "string"}
-            - { label: "Core Competency 2", name: "coreCompet2", widget: "string"}
-        - label: 'Core Values'
-          name: "coreValues"
-          widget: list
-          fields:
-            - { label: "Core Value 1", name: "coreValue1", widget: "string"}
-            - { label: "Core Value 2", name: "coreValue2", widget: "string"}
-            - { label: "Core Value 3", name: "coreValue3", widget: "string"}
-            - { label: "Core Value 4", name: "coreValue4", widget: "string"}
-        - label: 'EB+AC'
-          name: "ebac"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Position", name: "position", widget: "string"}
-            - { label: "Email", name: "email", widget: "string"}
-    - label: "Contact Us"
-      name: "contactUsPage"
-      file: "content/contactUs.md"
-      fields:
-        - { label: "Address", name: "address", widget: "string" }
-        - { label: "Email", name: "email", widget: "string" }
-        - { label: "Facebook", name: "fb", widget: "string" }
-        - { label: "Twitter", name: "twitter", widget: "string" }
-        - { label: "Cellphone Number", name: "cp", widget: "string" }
-    - label: "Events"
-      name: "eventsPage"
-      file: "content/events.md"
-      fields:
-        - { label: "Header", name: "eventsHeader", widget: "text" }
-        - label: 'Event Type'
-          name: "eventType"
-          widget: list
-          fields:
-            [
-              { label: "Event Type Title", name: "eventTypeTitle", widget: "string"},
-              { label: "Event Type Description", name: "eventTypeDescription", widget: "text"},
-              {
-                label: 'Event Proper',
-                name: "eventProper",
-                widget: list,
-                default: [{eventTitle: ''}, {eventDescription: ''}],
-                fields:
-                  [
-                    { label: "Event Title", name: "eventTitle", widget: "string"},
-                    { label: "Event Description", name: "eventDescription", widget: "text"}
-                  ]
-              }
-            ]
+      - label: "Home"
+        name: "home"
+        file: "content/home.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Hero Header", name: "heroHeader", widget: "string" }
+          - {
+              label: "Hero Description",
+              name: "heroDescription",
+              widget: "text",
+            }
+          - {
+              label: "What We Do Header",
+              name: "whatWeDoHeader",
+              widget: "string",
+            }
+          - label: "What We Do Items"
+            name: "whatWeDoItems"
+            widget: list
+            fields:
+              - { label: "Header", name: "header", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Button Text", name: "buttonText", widget: "string" }
+              - { label: "Button URL", name: "buttonUrl", widget: "string" }
+          - {
+              label: "View Pages Header",
+              name: "viewPagesHeader",
+              widget: "string",
+            }
+          - {
+              label: "View Pages Description",
+              name: "viewPagesDescription",
+              widget: "text",
+            }
+          - { label: "Contact Header", name: "contactHeader", widget: "string" }
+          - {
+              label: "Contact Description",
+              name: "contactDescription",
+              widget: "text",
+            }
+      - label: "Microsites"
+        name: "micrositesPage"
+        file: "content/microsites.md"
+        fields:
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Main Header", name: "mainHeader", widget: "string" }
+          - {
+              label: "Main Description",
+              name: "mainDescription",
+              widget: "text",
+            }
+          - label: "Microsites Items"
+            name: "microsites"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Thumbnail", name: "Thumbnail", widget: "image" }
+              - { label: "URL", name: "url", widget: "string" }
+      - label: "Client Sites"
+        name: "clientSitesPage"
+        file: "content/clientSites.md"
+        fields:
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "Main Header", name: "mainHeader", widget: "string" }
+          - {
+              label: "Main Description",
+              name: "mainDescription",
+              widget: "text",
+            }
+          - label: "Client Sites Items"
+            name: "sites"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Thumbnail", name: "Thumbnail", widget: "image" }
+              - { label: "URL", name: "url", widget: "string" }
+      - label: "About"
+        name: "aboutUsPage"
+        file: "content/aboutUs.md"
+        fields:
+          - { label: "Vision", name: "vision", widget: "text" }
+          - label: "Mission"
+            name: "mission"
+            widget: list
+            fields:
+              - { label: "Mission Text", name: "missionDesc", widget: "string" }
+              - { label: "Mission 1", name: "mission1", widget: "string" }
+              - { label: "Mission 2", name: "mission2", widget: "string" }
+              - { label: "Mission 3", name: "mission3", widget: "string" }
+          - label: "Core Competencies"
+            name: "coreCompetencies"
+            widget: list
+            fields:
+              - {
+                  label: "Core Competency 1",
+                  name: "coreCompet1",
+                  widget: "string",
+                }
+              - {
+                  label: "Core Competency 2",
+                  name: "coreCompet2",
+                  widget: "string",
+                }
+          - label: "Core Values"
+            name: "coreValues"
+            widget: list
+            fields:
+              - { label: "Core Value 1", name: "coreValue1", widget: "string" }
+              - { label: "Core Value 2", name: "coreValue2", widget: "string" }
+              - { label: "Core Value 3", name: "coreValue3", widget: "string" }
+              - { label: "Core Value 4", name: "coreValue4", widget: "string" }
+          - label: "EB+AC"
+            name: "ebac"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Position", name: "position", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+      - label: "Contact Us"
+        name: "contactUsPage"
+        file: "content/contactUs.md"
+        fields:
+          - { label: "Address", name: "address", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Facebook", name: "fb", widget: "string" }
+          - { label: "Twitter", name: "twitter", widget: "string" }
+          - { label: "Cellphone Number", name: "cp", widget: "string" }
+      - label: "Events"
+        name: "eventsPage"
+        file: "content/events.md"
+        fields:
+          - { label: "Header", name: "eventsHeader", widget: "text" }
+          - label: "Event Type"
+            name: "eventType"
+            widget: list
+            fields:
+              [
+                {
+                  label: "Event Type Title",
+                  name: "eventTypeTitle",
+                  widget: "string",
+                },
+                {
+                  label: "Event Type Description",
+                  name: "eventTypeDescription",
+                  widget: "text",
+                },
+                {
+                  label: "Event Proper",
+                  name: "eventProper",
+                  widget: list,
+                  default: [{ eventTitle: "" }, { eventDescription: "" }],
+                  fields:
+                    [
+                      {
+                        label: "Event Title",
+                        name: "eventTitle",
+                        widget: "string",
+                      },
+                      {
+                        label: "Event Description",
+                        name: "eventDescription",
+                        widget: "text",
+                      },
+                      { label: "Image Name", name: "imgName", widget: "text" },
+                      { label: "Image Alt", name: "imgAlt", widget: "text" }
+                    ],
+                },
+              ]
 
-    - label: "Services"
-      name: "servicesPage"
-      file: "content/services.md"
-      fields:
-        - label: 'Web Development'
-          name: "webDev"
-          widget: list
-          fields:
-            - { label: "Service 1 Title", name: "service1Title", widget: "string"}
-            - { label: "Service 1 Description", name: "service1Description", widget: "text"}
-            - { label: "Service 2 Title", name: "service2Title", widget: "string"}
-            - { label: "Service 2 Description", name: "service2Description", widget: "text"}
-            - { label: "Service 3 Title", name: "service3Title", widget: "string"}
-            - { label: "Service 3 Description", name: "service3Description", widget: "text"}
-            - { label: "Service 4 Title", name: "service4Title", widget: "string"}
-            - { label: "Service 4 Description", name: "service4Description", widget: "text"}
-        - label: 'Systems'
-          name: "systems"
-          widget: list
-          fields:
-            - { label: "Service 1 Title", name: "service1Title", widget: "string"}
-            - { label: "Service 1 Description", name: "service1Description", widget: "text"}
-            - { label: "Service 2 Title", name: "service2Title", widget: "string"}
-            - { label: "Service 2 Description", name: "service2Description", widget: "text"}
-            - { label: "Service 3 Title", name: "service3Title", widget: "string"}
-            - { label: "Service 3 Description", name: "service3Description", widget: "text"}
-        - label: 'Learning Services'
-          name: "learningServices"
-          widget: list
-          fields:
-            - { label: "Service 1 Title", name: "service1Title", widget: "string"}
-            - { label: "Service 1 Description", name: "service1Description", widget: "text"}
-            - { label: "Service 2 Title", name: "service2Title", widget: "string"}
-            - { label: "Service 2 Description", name: "service2Description", widget: "text"}
+      - label: "Services"
+        name: "servicesPage"
+        file: "content/services.md"
+        fields:
+          - label: "Web Development"
+            name: "webDev"
+            widget: list
+            fields:
+              - {
+                  label: "Service 1 Title",
+                  name: "service1Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 1 Description",
+                  name: "service1Description",
+                  widget: "text",
+                }
+              - {
+                  label: "Service 2 Title",
+                  name: "service2Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 2 Description",
+                  name: "service2Description",
+                  widget: "text",
+                }
+              - {
+                  label: "Service 3 Title",
+                  name: "service3Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 3 Description",
+                  name: "service3Description",
+                  widget: "text",
+                }
+              - {
+                  label: "Service 4 Title",
+                  name: "service4Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 4 Description",
+                  name: "service4Description",
+                  widget: "text",
+                }
+          - label: "Systems"
+            name: "systems"
+            widget: list
+            fields:
+              - {
+                  label: "Service 1 Title",
+                  name: "service1Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 1 Description",
+                  name: "service1Description",
+                  widget: "text",
+                }
+              - {
+                  label: "Service 2 Title",
+                  name: "service2Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 2 Description",
+                  name: "service2Description",
+                  widget: "text",
+                }
+              - {
+                  label: "Service 3 Title",
+                  name: "service3Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 3 Description",
+                  name: "service3Description",
+                  widget: "text",
+                }
+          - label: "Learning Services"
+            name: "learningServices"
+            widget: list
+            fields:
+              - {
+                  label: "Service 1 Title",
+                  name: "service1Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 1 Description",
+                  name: "service1Description",
+                  widget: "text",
+                }
+              - {
+                  label: "Service 2 Title",
+                  name: "service2Title",
+                  widget: "string",
+                }
+              - {
+                  label: "Service 2 Description",
+                  name: "service2Description",
+                  widget: "text",
+                }

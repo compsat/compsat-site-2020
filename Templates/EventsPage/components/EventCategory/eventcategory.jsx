@@ -4,7 +4,7 @@ const EventCategory = (
   { eventTypeTitle, eventTypeDesc, background },
   props
 ) => (
-  <EventCategoryWrapper background={background}>
+  <EventCategoryWrapper>
     <div className="ecbg">
       <svg
         width="1440"
