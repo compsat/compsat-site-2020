@@ -12,7 +12,7 @@ import PrimaryButton from "../../../../components/PrimaryButton";
 
 const ContactForm = () => {
   return (
-    <ContactFormWrapper data-netlify="true">
+    <ContactFormWrapper data-netlify="true" method="POST" action="/contact-us">
       <input type="hidden" name="form-name" value="contact" />
 
       {/* <ErrorMessage>
@@ -56,7 +56,7 @@ const ContactForm = () => {
           </FormField>
 
           <ButtonRight>
-            <PrimaryButton>Submit</PrimaryButton>
+            <PrimaryButton type="submit">Submit</PrimaryButton>
           </ButtonRight>
         </form>
       </FormContent>
