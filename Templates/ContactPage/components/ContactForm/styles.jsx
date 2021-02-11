@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContactFormWrapper = styled.div`
+export const ContactFormWrapper = styled.form`
   background: #F6F6F6;
   border-radius: 10px;
   z-index: 2;
