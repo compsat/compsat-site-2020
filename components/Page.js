@@ -19,6 +19,10 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
+  input, textarea {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
   h1,
   h2,
   h3,

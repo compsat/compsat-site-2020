@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContactFormWrapper = styled.form`
+export const ContactFormWrapper = styled.div`
   background: #F6F6F6;
   border-radius: 10px;
   z-index: 2;
@@ -27,10 +27,9 @@ export const ErrorMessage = styled.div`
 export const ConfirmationMessage = styled.div`
   background: #2AC87C;
   border-radius: 10px 10px 0 0;
-  display: flex;
   align-items: center;
   padding: 16px 10%;
-  display: none;
+  display: ${({isSuccess}) => isSuccess ? "flex" : "none"};
 
   p {
     margin: 0 0 0 8px;
