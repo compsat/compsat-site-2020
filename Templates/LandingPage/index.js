@@ -25,7 +25,10 @@ export default () => {
         viewPagesHeader={viewPagesHeader}
         viewPagesDescription={viewPagesDescription}
       />
-      <Feedback contactHeader={contactHeader} contactDescription={contactDescription} />
+      <Feedback
+        contactHeader={contactHeader}
+        contactDescription={contactDescription}
+      />
     </LandingPageWrapper>
   );
 };

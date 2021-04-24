@@ -10,7 +10,7 @@ const Meta = () => (
     <title>CompSAt</title>
     <meta
       name="description"
-      content="Compsat" //need content
+      content="We are the Computer Society of the Ateneo (CompSAt). Our mission is to make programming and software development accessible to anyone."
     ></meta>
     <link rel="apple-touch-icon" sizes="180x180" href="/static/meta/logo.svg" />
     <link
