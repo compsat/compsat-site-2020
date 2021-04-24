@@ -12,7 +12,7 @@ const Hero = ({ heroHeader, heroDescription }) => (
       <h1>{heroHeader}</h1>
       <p>{heroDescription}</p>
       <Link href="/contact-us" passHref>
-        <PrimaryButton isLink>Get in touch</PrimaryButton>
+        <PrimaryButton>Get in touch</PrimaryButton>
       </Link>
     </HeroTextWrapper>
   </HeroWrapper>
