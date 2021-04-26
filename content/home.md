@@ -1,5 +1,6 @@
 ---
-title: CompSAt Website
+title: CompSAt
+description: We are the Computer Society of the Ateneo (CompSAt). Our mission is to make programming and software development accessible to anyone.
 date: 2020-07-17T20:15:20.591Z
 heroHeader: Here in CompSAt, we believe that anyone can code
 heroDescription: We are the Computer Society of the Ateneo (CompSAt). Our mission is to make programming and software development accessible to anyone.

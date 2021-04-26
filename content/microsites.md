@@ -1,21 +1,24 @@
 ---
+title: CompSAt | Microsites
+description: CompSAt has its own microsites geared for you and the community.
 date: 2020-07-17T20:15:20.591Z
-mainHeader: Geared for You
-mainDescription: Our mission is to make programming and software development accessible to anyone.
+mainHeader: Microsites
+mainDescription: CompSAt has its own microsites geared for you and the community.
 microsites:
   - name: QPI Calculator
-    description: We create high-quality websites and systems along with a range of add-ons that help provide the best experience for you and your users.
+    description: A useful tool for Ateneans to calculate their QPI based on their current grades.
     thumbnail: microsite-qpi-calculator.svg
     url: http://qpicalculator.compsat.org/
   - name: Gearbox
-    description: We create high-quality websites and systems along with a range of add-ons that help provide the best experience for you and your users.
+    description: A site containing a lot of sample long tests and exercises for various courses and subjects in ADMU.
     thumbnail: microsite-gearbox.svg
     url: http://gearbox.compsat.org/
   - name: Wildcard
-    description: We create high-quality websites and systems along with a range of add-ons that help provide the best experience for you and your users.
+    description: The official blog of CompSAt.
     thumbnail: microsite-wildcard.svg
     url: http://wildcard.compsat.org/
 ---
+
 Welcome to CompSite
 
 This page is built with NextJS, and content is managed in Netlify CMS

@@ -4,10 +4,13 @@ import { Container } from "./styles";
 import QPICalc_Icon from "../../public/static/img/microsite-qpi-calculator.svg";
 // import Gearbox_Icon from "../../public/static/img/microsite-gearbox.svg";
 // import Wildcard_Icon from "../../public/static/img/microsite-wildcard.svg";
+import Head from "next/head";
 import { attributes } from "../../content/microsites.md";
 
 export default () => {
   let {
+    title,
+    description,
     mainHeader,
     mainDescription,
     microsites,
@@ -15,16 +18,23 @@ export default () => {
 
   return (
     <div>
-      <MicrositeHeader mainHeader={mainHeader} mainDescription={mainDescription} />
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description}></meta>
+      </Head>
+      <MicrositeHeader
+        mainHeader={mainHeader}
+        mainDescription={mainDescription}
+      />
       <Container>
         {microsites.map((site, key) => (
-            <WebsiteCard 
-                key={key}
-                type="microsite"
-                MicrositeTitle={site.name}
-                PrimaryIcon={QPICalc_Icon}
-                url={site.url}
-            />
+          <WebsiteCard
+            key={key}
+            type="microsite"
+            MicrositeTitle={site.name}
+            PrimaryIcon={QPICalc_Icon}
+            url={site.url}
+          />
         ))}
       </Container>
     </div>

@@ -167,6 +167,7 @@ export default () => {
           <ContentContainer>
             {webDev.map((service) => (
               <Service
+                key={service.serviceTitle}
                 Title={service.serviceTitle}
                 Icon={service.serviceImage}
                 Caption={service.serviceDescription}
@@ -200,6 +201,7 @@ export default () => {
           <ContentContainer>
             {systems.map((service) => (
               <Service
+                key={service.serviceTitle}
                 Title={service.serviceTitle}
                 Icon={service.serviceImage}
                 Caption={service.serviceDescription}
@@ -228,6 +230,7 @@ export default () => {
           <ContentContainer>
             {learningServices.map((service) => (
               <Service
+                key={service.serviceTitle}
                 Title={service.serviceTitle}
                 Icon={service.serviceImage}
                 Caption={service.serviceDescription}

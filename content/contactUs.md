@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: CompSAt | Contact Us
 description: Contact CompSAt through any of the details found on the page.
 date: 2020-07-17T20:15:20.591Z
 address: Room 303, MVP Center for Student Leadership, Ateneo de Manila University, Katipunan, Quezon City

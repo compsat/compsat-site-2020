@@ -1,5 +1,10 @@
 ---
-title: Events
+title: CompSAt | Events
+description:
+  CompSAt is a home to students desiring to learn about programming and
+  software development, as well as new technologies emerging in this
+  fast-growing world. Our various events and activities provide avenues
+  for students to learn, appreciate, and excel in these fields.
 date: 2020-07-17T20:15:20.591Z
 eventsHeader:
   CompSAt is a home to students desiring to learn about programming and
