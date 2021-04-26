@@ -101,7 +101,7 @@ const NavBar = () => {
             </PseudoButton>
             <PseudoButton onClick={handleClick}>
               <Link href="/events" onClick={() => setClick(false)}>
-                <a>Event</a>
+                <a>Events</a>
               </Link>
             </PseudoButton>
             <PseudoButton onClick={handleClick}>
