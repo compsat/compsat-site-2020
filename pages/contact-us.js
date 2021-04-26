@@ -1,4 +1,3 @@
-import Head from "next/head"
-import ContactPage from "../Templates/ContactPage"
+import ContactPage from "../Templates/ContactPage";
 
-export default () => (<ContactPage />)
+export default () => <ContactPage />;
