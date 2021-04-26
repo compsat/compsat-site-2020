@@ -54,18 +54,18 @@ import S_bg from "../../public/static/img/services-systems-deskbg.svg";
 import ProgImg from "../../public/static/img/services-LS-prog.svg";
 import WebdevImg from "../../public/static/img/services-LS-webdev.svg";
 import Head from "next/head";
+import { attributes } from "../../content/services.md";
 
 export default () => {
+  let { title, description, webDev, systems, learningServices } = attributes;
+
   const [page, setPage] = useState("");
 
   return (
     <ServicesLandingContainer>
       <Head>
-        <title>CompSAt | Services</title>
-        <meta
-          name="description"
-          content="We create high-quality websites and systems along with a range of add-ons that help provide the best experience for you and your users."
-        ></meta>
+        <title>{title}</title>
+        <meta name="description" content={description}></meta>
       </Head>
       <DesktopWrapper>
         <Wrapper>
@@ -165,34 +165,13 @@ export default () => {
           </SectionTitleWrapper>
 
           <ContentContainer>
-            <Service
-              Title="Company and Org Websites"
-              Icon={CompanyImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
-            <Service
-              Title="Content Management Systems"
-              Icon={CMSImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
-            <Service
-              Title="E-Commerce Sites"
-              Icon={ECommImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
-            <Service
-              Title="Web Applications"
-              Icon={WebAppImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
+            {webDev.map((service) => (
+              <Service
+                Title={service.serviceTitle}
+                Icon={service.serviceImage}
+                Caption={service.serviceDescription}
+              />
+            ))}
           </ContentContainer>
 
           <DesignContainerBottom>
@@ -219,27 +198,13 @@ export default () => {
           </SectionTitleWrapper>
 
           <ContentContainer>
-            <Service
-              Title="Registration Systems"
-              Icon={RegImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
-            <Service
-              Title="Member-Tracking Systems"
-              Icon={MemTrackImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
-            <Service
-              Title="Custom Systems"
-              Icon={CustomImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
+            {systems.map((service) => (
+              <Service
+                Title={service.serviceTitle}
+                Icon={service.serviceImage}
+                Caption={service.serviceDescription}
+              />
+            ))}
           </ContentContainer>
           <Sys_BG>
             <img src={S_bg} />{" "}
@@ -261,20 +226,13 @@ export default () => {
           </SectionTitleWrapper>
 
           <ContentContainer>
-            <Service
-              Title="Programming Tutorials"
-              Icon={ProgImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
-            <Service
-              Title="Web Development Tutorials"
-              Icon={WebdevImg}
-              Caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus eget porttitor augue. Ut sed diam erat. Nunc laoreet libero 
-                    nec dui maximus, ac feugiat sem pellentesque."
-            />
+            {learningServices.map((service) => (
+              <Service
+                Title={service.serviceTitle}
+                Icon={service.serviceImage}
+                Caption={service.serviceDescription}
+              />
+            ))}
           </ContentContainer>
         </Wrapper>
       ) : null}
