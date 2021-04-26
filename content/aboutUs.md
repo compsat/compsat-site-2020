@@ -21,9 +21,106 @@ coreValues:
     coreValue3: Cultivate an empowering, supportive, and caring community
     coreValue4: Provide impactful and innovative services
 ebac:
-  - name: temp
-    position: temp
-    email: temp
+  top2:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  communications:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  correl:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  dnt:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  secgen:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  ea:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  finance:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+  memrel:
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
+    - name: Juan dela Cruz
+      position: President
+      email: first.last@compsat.org
+      image: image.png
 ---
 
 Welcome to CompSite
