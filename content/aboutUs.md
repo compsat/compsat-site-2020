@@ -1,5 +1,8 @@
 ---
-title: About Us
+title: CompSAt | About Us
+description: "CompSAt envisions itself as a community driven by the common belief that anyone
+can code. We strive to nurture curious Ateneans to become competent leaders in software
+development."
 date: 2020-07-17T20:15:20.591Z
 vision: "CompSAt envisions itself as a community driven by the common belief that anyone
 can code. We strive to nurture curious Ateneans to become competent leaders in software
@@ -22,6 +25,7 @@ ebac:
     position: temp
     email: temp
 ---
+
 Welcome to CompSite
 
 This page is built with NextJS, and content is managed in Netlify CMS
