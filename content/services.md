@@ -10,20 +10,20 @@ webDev:
     serviceDescription: Blogs, or any type of website that require constant uploading of content, can be made using a content management system.
     serviceImage: services-webdev-cms.svg
   - serviceTitle: E-Commerce Sites
-    serviceDescription: Sell products and services through an e-commerce site.
+    serviceDescription: Sell products and services for your business through an e-commerce site.
     serviceImage: services-webdev-ecomm.svg
   - serviceTitle: Web Applications
-    serviceDescription: Any type of application that runs on the web.
+    serviceDescription: Market your business or event through a website developed by CompSAt.
     serviceImage: services-webdev-webapp.svg
 systems:
   - serviceTitle: Registration Systems
-    serviceDescription: Systems to make your registration process more efficient
+    serviceDescription: Make your registration process more efficient with our tailor-fit systems.
     serviceImage: services-systems-reg.svg
   - serviceTitle: Member-Tracking Systems
-    serviceDescription: Tools that could help you track and organize multiple levels of data for your members over time.
+    serviceDescription: Track and organize multiple levels of data for your members over time.
     serviceImage: services-systems-memtrack.svg
   - serviceTitle: Custom Systems
-    serviceDescription: Any custom system that may have additional features.
+    serviceDescription: Deploy any custom system that best suit your own personal or business needs.
     serviceImage: services-systems-custom.svg
 learningServices:
   - serviceTitle: Programming Tutorials
