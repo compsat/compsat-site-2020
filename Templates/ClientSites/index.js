@@ -8,13 +8,18 @@ import {
   Header_text,
   CardContainer,
 } from "./styles";
+import Head from "next/head";
 import { attributes } from "../../content/clientSites.md";
 
 export default () => {
-  let { mainHeader, mainDescription, sites } = attributes;
+  let { title, description, mainHeader, mainDescription, sites } = attributes;
 
   return (
     <div>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description}></meta>
+      </Head>
       <Header_Img>
         <img src={header_img} />
       </Header_Img>
@@ -26,15 +31,15 @@ export default () => {
 
       <CardContainer>
         {sites.map((site, key) => (
-            <WebsiteCard
-                key={key}
-                MicrositeTitle={site.name}
-                PrimaryIcon={QPICalc_Icon}
-                // PrimaryIcon={site.thumbnail}
-                Subtitle={site.description}
-                url={site.url}
-                type="clientsite"
-            />
+          <WebsiteCard
+            key={key}
+            MicrositeTitle={site.name}
+            PrimaryIcon={QPICalc_Icon}
+            // PrimaryIcon={site.thumbnail}
+            Subtitle={site.description}
+            url={site.url}
+            type="clientsite"
+          />
         ))}
       </CardContainer>
     </div>
