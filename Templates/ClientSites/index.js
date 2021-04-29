@@ -34,8 +34,7 @@ export default () => {
           <WebsiteCard
             key={key}
             MicrositeTitle={site.name}
-            PrimaryIcon={QPICalc_Icon}
-            // PrimaryIcon={site.thumbnail}
+            PrimaryIcon={site.thumbnail}
             Subtitle={site.description}
             url={site.url}
             type="clientsite"

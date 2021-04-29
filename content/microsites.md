@@ -7,15 +7,15 @@ mainDescription: CompSAt has its own microsites geared for you and the community
 microsites:
   - name: QPI Calculator
     description: A useful tool for Ateneans to calculate their QPI based on their current grades.
-    thumbnail: microsite-qpi-calculator.svg
+    thumbnail: qpi-calc.png
     url: http://qpicalculator.compsat.org/
   - name: Gearbox
     description: A site containing a lot of sample long tests and exercises for various courses and subjects in ADMU.
-    thumbnail: microsite-gearbox.svg
+    thumbnail: gearbox.png
     url: http://gearbox.compsat.org/
   - name: Wildcard
     description: The official blog of CompSAt.
-    thumbnail: microsite-wildcard.svg
+    thumbnail: wildcard.png
     url: http://wildcard.compsat.org/
 ---
 

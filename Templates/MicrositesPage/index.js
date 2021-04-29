@@ -32,7 +32,7 @@ export default () => {
             key={key}
             type="microsite"
             MicrositeTitle={site.name}
-            PrimaryIcon={QPICalc_Icon}
+            PrimaryIcon={site.thumbnail}
             url={site.url}
           />
         ))}
