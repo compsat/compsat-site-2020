@@ -69,7 +69,12 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+              - {
+                  label: "Thumbnail",
+                  name: "thumbnail",
+                  widget: "image",
+                  media_folder: "/static/img/microsites-icons",
+                }
               - { label: "URL", name: "url", widget: "string" }
       - label: "Client Sites"
         name: "clientSitesPage"
@@ -90,7 +95,12 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+              - {
+                  label: "Thumbnail",
+                  name: "thumbnail",
+                  widget: "image",
+                  media_folder: "/static/img/clientsite-icons",
+                }
               - { label: "URL", name: "url", widget: "string" }
       - label: "About"
         name: "aboutUsPage"
@@ -138,7 +148,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "Communications"
                 name: "communications"
                 widget: "list"
@@ -146,7 +161,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "Corporate Relations"
                 name: "correl"
                 widget: "list"
@@ -154,7 +174,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "Development and Training"
                 name: "dnt"
                 widget: "list"
@@ -162,7 +187,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "Secretary-General"
                 name: "secgen"
                 widget: "list"
@@ -170,7 +200,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "External Affairs"
                 name: "ea"
                 widget: "list"
@@ -178,7 +213,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "Finance"
                 name: "finance"
                 widget: "list"
@@ -186,7 +226,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
               - label: "Member Relations"
                 name: "memrel"
                 widget: "list"
@@ -194,7 +239,12 @@ collections:
                   - { label: "Name", name: "name", widget: "string" }
                   - { label: "Position", name: "position", widget: "string" }
                   - { label: "Email", name: "email", widget: "string" }
-                  - { label: "Image", name: "image", widget: "image" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
       - label: "Contact Us"
         name: "contactUsPage"
         file: "content/contactUs.md"
