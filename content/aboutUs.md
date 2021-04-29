@@ -22,105 +22,105 @@ coreValues:
     coreValue4: Provide impactful and innovative services
 ebac:
   top2:
-    - name: Juan dela Cruz
+    - name: Keith Adrian C. Santos
       position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+      email: keith.santos@compsat.org
+      image: president.png
+    - name: Abigail S. Moreno
+      position: Executive Vice President
+      email: abigail.moreno@compsat.org
+      image: evp.png
   communications:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Christian Paul V. Penaflor
+      position: VP for Communications
+      email: christian.penaflor@compsat.org
+      image: vp-communications.png
+    - name: Kenneth King L. Ko
+      position: AVP for Promotions
+      email: kenneth.ko@compsat.org
+      image: avp-promotions.png
+    - name: Ralph Dominic D. Ceniza
+      position: AVP for Publications
+      email: ralph.ceniza@compsat.org
+      image: avp-publications.png
   correl:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Christian James P. Virtucio
+      position: VP for Corporate Relations
+      email: chase.virtucio@compsat.org
+      image: vp-correl.png
+    - name: John Mark R. Borja
+      position: AVP for Corporate Relations
+      email: mark.borja@compsat.org
+      image: avp-correl.png
   dnt:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Dan Mark D. Restoles
+      position: VP for Development and Training
+      email: dan.restoles@compsat.org
+      image: vp-dnt.png
+    - name: Jared John T. Javillo
+      position: AVP for Development Training
+      email: jared.javillo@compsat.org
+      image: avp-devtraining.png
+    - name: Raphael Jose A. Montemayor
+      position: AVP for Programming Training
+      email: raphael.montemayor@compsat.org
+      image: avp-progtraining.png
+    - name: Joaquin Lucas L. Gregorio
+      position: AVP for Development Projects
+      email: joaquin.gregorio@compsat.org
+      image: avp-devprojects1.png
+    - name: Joan Dominique L. Lee
+      position: AVP for Development Projects
+      email: joan.lee@compsat.org
+      image: avp-devprojects2.png
   secgen:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Patrick James B. Ong
+      position: Secretary-General
+      email: patrick.james.ong@compsat.org
+      image: secgen.png
+    - name: Alysha C. Columbres
+      position: Associate Secretary-General
+      email: alysha.columbres@compsat.org
+      image: a-secgen.png
   ea:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Gerick Jeremiah Niño N. Go
+      position: VP for External Affairs
+      email: gerick.go@compsat.org
+      image: vp-ea.png
+    - name: Enzo Anton P. Magdato
+      position: AVP for Community Relations
+      email: anton.magdato@compsat.org
+      image: avp-commrel.png
+    - name: Carl Andrew A. Rendol
+      position: AVP for University Relations
+      email: carl.rendol@compsat.org
+      image: avp-univrel.png
   finance:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Rainier G. Narboneta
+      position: VP for Finance
+      email: rainier.narboneta@compsat.org
+      image: vp-finance.png
+    - name: Raphael Christen K. Enriquez
+      position: AVP for Finance
+      email: raphael.enriquez@compsat.org
+      image: avp-finance.png
   memrel:
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
-    - name: Juan dela Cruz
-      position: President
-      email: first.last@compsat.org
-      image: image.png
+    - name: Kevin Daniel A. Sibug
+      position: VP for Member Relations
+      email: kevin.sibug@compsat.org
+      image: vp-memrel.png
+    - name: Ma. Erika Lourdes O. Casanova
+      position: AVP for Member Formation
+      email: erika.casanova@compsat.org
+      image: avp-memform1.png
+    - name: Rene Antonio S. Castillo
+      position: AVP for Member Formation
+      email: antonio.castillo@compsat.org
+      image: avp-memform2.png
+    - name: Ana Gabrielle S. Caligagan
+      position: AVP for Member Involvement
+      email: ana.caligagan@compsat.org
+      image: avp-meminv.png
 ---
 
 Welcome to CompSite
