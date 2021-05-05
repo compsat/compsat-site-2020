@@ -18,7 +18,7 @@ export default () => {
       <ContactCurve viewBox="0 0 800 400">
         <ContactPath d="M 0 75 C 200 125 500 0 800 0 L 800 400 Q 250 400 0 300"></ContactPath>
       </ContactCurve>
-      <svg height="0" width="0">
+      <svg height="0" width="0" style="margin-top:-64px">
         <defs>
           <linearGradient id="contact-gradient" gradientTransform="rotate(0)">
             <stop offset="0%" stop-color="#BA1C51"></stop>

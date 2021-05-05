@@ -3,27 +3,28 @@ import styled from "styled-components"
 export const Header_Img = styled.div`
     margin-top: -56px;
     margin-left: 60px;
-
+    
     img {
         width: 100vw;
     }
-
+    
     @media screen and (min-width: 500px) {
         margin-left: 180px;
         img {
             width: 70vw;
         }
     }
-
+    
     @media screen and (min-width: 800px) {
         margin-left: 284px;
-
+        
         img {
             width: 65vw;
         }
     }
-
+    
     @media screen and (min-width: 1080px) {
+        margin-top: -64px;
         margin-left:630px;
         img {
             width: 50vw;
