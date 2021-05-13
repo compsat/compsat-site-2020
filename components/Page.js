@@ -1,3 +1,4 @@
+import React from "react";
 import { createGlobalStyle } from "styled-components";
 import NavBar from "./NavBar";
 import Meta from "./Meta";
