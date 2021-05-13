@@ -1,117 +1,120 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Header_Img = styled.div`
-    margin-top: -56px;
-    margin-left: 60px;
+  margin-top: -56px;
+  margin-left: 60px;
+
+  img {
+    width: 100vw;
+    margin-top: -2em;
+  }
+
+  @media screen and (min-width: 500px) {
+    margin-left: 180px;
+    img {
+      width: 70vw;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    margin-left: 284px;
 
     img {
-        width: 100vw;
+      width: 65vw;
     }
+  }
 
-    @media screen and (min-width: 500px) {
-        margin-left: 180px;
-        img {
-            width: 70vw;
-        }
+  @media screen and (min-width: 1080px) {
+    margin-top: -64px;
+    margin-left: 630px;
+    img {
+      width: 50vw;
     }
+  }
+`;
 
-    @media screen and (min-width: 800px) {
-        margin-left: 284px;
+export const Header_text = styled.div`
+  margin-top: -160px;
+  margin-right: 136px;
 
-        img {
-            width: 65vw;
-        }
-    }
+  @media screen and (min-width: 500px) {
+    margin-top: -200px;
+  }
 
-    @media screen and (min-width: 1080px) {
-        margin-left:630px;
-        img {
-            width: 50vw;
-        }
-    }
-`
+  @media screen and (min-width: 700px) {
+    margin-top: -240px;
+  }
 
-export const Header_text = styled.div `
-    margin-top: -160px;
-    margin-right: 136px;
+  @media screen and (min-width: 800px) {
+    margin-top: -300px;
+  }
 
-    @media screen and (min-width: 500px) {
-        margin-top: -200px;
-    }
+  @media screen and (min-width: 1080px) {
+    margin-top: -440px;
+  }
 
-    @media screen and (min-width: 700px) {
-        margin-top: -240px;
-    }
+  @media screen and (min-width: 1080px) and (max-width: 1200px) {
+    margin-top: -300px;
+  }
+`;
 
-    @media screen and (min-width: 800px) {
-        margin-top: -300px;
-    }
+export const Title = styled.h2`
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
 
-    @media screen and (min-width: 1080px) {
-        margin-top: -470px;
-    }
-`
+  @media screen and (min-width: 800px) {
+    font-size: 48px;
+  }
 
-export const Title = styled.h2 `
-    text-align: left;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
+  @media screen and (min-width: 1080px) {
+    font-size: 52px;
+  }
+`;
 
-    @media screen and (min-width: 800px){
-        font-size: 48px;
-    }
+export const Subtitle = styled.p`
+  text-align: left;
+  margin-top: -8px;
 
-    @media screen and (min-width: 1080px) {
-        font-size: 52px;
-    }
-`
+  @media screen and (min-width: 500px) {
+    padding-right: 80px;
+  }
 
-export const Subtitle = styled.p `
-    text-align: left;
-    margin-top: -8px;
+  @media screen and (min-width: 700px) {
+    padding-right: 160px;
+  }
 
-    @media screen and (min-width: 500px) {
-        padding-right: 80px;
-    }
+  @media screen and (min-width: 800px) {
+    font-size: 16px;
+  }
 
-    @media screen and (min-width: 700px) {
-        padding-right: 160px;
-    }
+  @media screen and (min-width: 1000px) {
+    padding-right: 480px;
+    font-size: 20px;
+  }
+`;
 
-    @media screen and (min-width: 800px) {
-        font-size: 16px;
-    }
+export const CardContainer = styled.div`
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-    @media screen and (min-width: 1000px) {
-        padding-right: 480px;
-        font-size: 20px;
-    }
-`
+  margin-top: 48px;
+  margin-bottom: 64px;
 
-export const CardContainer = styled.div `
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
+  @media screen and (min-width: 400px) {
+    margin-top: 120px;
+  }
 
-    margin-top: 48px;
-    margin-bottom: 64px;
+  @media screen and (min-width: 700px) {
+    margin-top: 200px;
+  }
 
-    @media screen and (min-width: 400px) {
-        margin-top: 120px;
-    }
+  @media screen and (min-width: 1080px) {
+    margin-top: 360px;
+  }
+`;
 
-    @media screen and (min-width: 700px) {
-        margin-top: 200px;
-    }
-
-    @media screen and (min-width: 1080px) {
-        margin-top: 360px;
-    }
-`
-
-export const DescriptionContainer = styled.div `
-
-`
+export const DescriptionContainer = styled.div``;

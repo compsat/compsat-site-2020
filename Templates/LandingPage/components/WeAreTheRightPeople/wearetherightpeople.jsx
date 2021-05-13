@@ -1,5 +1,6 @@
 import { WATRPeopleWrapper, WATRPeopleButtonWrapper } from "./styles";
 import SecondaryButton from "../../../../components/SecondaryButton";
+import Link from "next/link";
 
 const WeAreTheRightPeople = ({ viewPagesHeader, viewPagesDescription }) => (
   <WATRPeopleWrapper>
@@ -9,8 +10,12 @@ const WeAreTheRightPeople = ({ viewPagesHeader, viewPagesDescription }) => (
     <p>{viewPagesDescription}</p>
 
     <WATRPeopleButtonWrapper>
-      <SecondaryButton>In-house projects</SecondaryButton>
-      <SecondaryButton>Client websites</SecondaryButton>
+      <Link passHref href="/microsites">
+        <SecondaryButton>In-house projects</SecondaryButton>
+      </Link>
+      <Link passHref href="/client-sites">
+        <SecondaryButton>Client websites</SecondaryButton>
+      </Link>
     </WATRPeopleButtonWrapper>
   </WATRPeopleWrapper>
 );

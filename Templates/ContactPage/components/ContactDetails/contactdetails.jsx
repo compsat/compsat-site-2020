@@ -6,7 +6,7 @@ let {
   email,
   fb,
   twitter,
-  cp 
+  // cp
 } = attributes;
 
 const ContactDetails = () => (
@@ -56,7 +56,7 @@ const ContactDetails = () => (
       <p>{twitter}</p>
     </ContactInfo>
 
-    <ContactInfo>
+    {/* <ContactInfo>
       <Platform>
         <img
           src="/static/img/logo_white_bullet.svg"
@@ -65,7 +65,7 @@ const ContactDetails = () => (
         <p>Cellphone Number</p>
       </Platform>
       <p>{cp}</p>
-    </ContactInfo>
+    </ContactInfo> */}
   </ContactDetailsWrapper>
 );
 

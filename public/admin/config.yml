@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: develop
 publish_mode: editorial_workflow
 media_folder: public/assets/img
@@ -13,6 +13,7 @@ collections:
         file: "content/home.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Hero Header", name: "heroHeader", widget: "string" }
           - {
@@ -53,6 +54,8 @@ collections:
         name: "micrositesPage"
         file: "content/microsites.md"
         fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Main Header", name: "mainHeader", widget: "string" }
           - {
@@ -66,12 +69,19 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Thumbnail", name: "Thumbnail", widget: "image" }
+              - {
+                  label: "Thumbnail",
+                  name: "thumbnail",
+                  widget: "image",
+                  media_folder: "/static/img/microsites-icons",
+                }
               - { label: "URL", name: "url", widget: "string" }
       - label: "Client Sites"
         name: "clientSitesPage"
         file: "content/clientSites.md"
         fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Main Header", name: "mainHeader", widget: "string" }
           - {
@@ -85,7 +95,12 @@ collections:
             fields:
               - { label: "Name", name: "name", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
-              - { label: "Thumbnail", name: "Thumbnail", widget: "image" }
+              - {
+                  label: "Thumbnail",
+                  name: "thumbnail",
+                  widget: "image",
+                  media_folder: "/static/img/clientsite-icons",
+                }
               - { label: "URL", name: "url", widget: "string" }
       - label: "About"
         name: "aboutUsPage"
@@ -124,24 +139,131 @@ collections:
               - { label: "Core Value 4", name: "coreValue4", widget: "string" }
           - label: "EB+AC"
             name: "ebac"
-            widget: list
+            widget: object
             fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Position", name: "position", widget: "string" }
-              - { label: "Email", name: "email", widget: "string" }
+              - label: "Top 2"
+                name: "top2"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "Communications"
+                name: "communications"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "Corporate Relations"
+                name: "correl"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "Development and Training"
+                name: "dnt"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "Secretary-General"
+                name: "secgen"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "External Affairs"
+                name: "ea"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "Finance"
+                name: "finance"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
+              - label: "Member Relations"
+                name: "memrel"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Position", name: "position", widget: "string" }
+                  - { label: "Email", name: "email", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      media_folder: "/static/img/ebac",
+                    }
       - label: "Contact Us"
         name: "contactUsPage"
         file: "content/contactUs.md"
         fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Address", name: "address", widget: "string" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Facebook", name: "fb", widget: "string" }
           - { label: "Twitter", name: "twitter", widget: "string" }
-          - { label: "Cellphone Number", name: "cp", widget: "string" }
+          # - { label: "Cellphone Number", name: "cp", widget: "string" }
       - label: "Events"
         name: "eventsPage"
         file: "content/events.md"
         fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Header", name: "eventsHeader", widget: "text" }
           - label: "Event Type"
             name: "eventType"
@@ -176,7 +298,7 @@ collections:
                         widget: "text",
                       },
                       { label: "Image Name", name: "imgName", widget: "text" },
-                      { label: "Image Alt", name: "imgAlt", widget: "text" }
+                      { label: "Image Alt", name: "imgAlt", widget: "text" },
                     ],
                 },
               ]
@@ -185,105 +307,63 @@ collections:
         name: "servicesPage"
         file: "content/services.md"
         fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
           - label: "Web Development"
             name: "webDev"
             widget: list
             fields:
               - {
-                  label: "Service 1 Title",
-                  name: "service1Title",
+                  label: "Service Title",
+                  name: "serviceTitle",
                   widget: "string",
                 }
               - {
-                  label: "Service 1 Description",
-                  name: "service1Description",
+                  label: "Service Description",
+                  name: "serviceDescription",
                   widget: "text",
                 }
               - {
-                  label: "Service 2 Title",
-                  name: "service2Title",
-                  widget: "string",
-                }
-              - {
-                  label: "Service 2 Description",
-                  name: "service2Description",
-                  widget: "text",
-                }
-              - {
-                  label: "Service 3 Title",
-                  name: "service3Title",
-                  widget: "string",
-                }
-              - {
-                  label: "Service 3 Description",
-                  name: "service3Description",
-                  widget: "text",
-                }
-              - {
-                  label: "Service 4 Title",
-                  name: "service4Title",
-                  widget: "string",
-                }
-              - {
-                  label: "Service 4 Description",
-                  name: "service4Description",
-                  widget: "text",
+                  label: "Service Image",
+                  name: "serviceImage",
+                  widget: "image",
                 }
           - label: "Systems"
             name: "systems"
             widget: list
             fields:
               - {
-                  label: "Service 1 Title",
-                  name: "service1Title",
+                  label: "Service Title",
+                  name: "serviceTitle",
                   widget: "string",
                 }
               - {
-                  label: "Service 1 Description",
-                  name: "service1Description",
+                  label: "Service Description",
+                  name: "serviceDescription",
                   widget: "text",
                 }
               - {
-                  label: "Service 2 Title",
-                  name: "service2Title",
-                  widget: "string",
-                }
-              - {
-                  label: "Service 2 Description",
-                  name: "service2Description",
-                  widget: "text",
-                }
-              - {
-                  label: "Service 3 Title",
-                  name: "service3Title",
-                  widget: "string",
-                }
-              - {
-                  label: "Service 3 Description",
-                  name: "service3Description",
-                  widget: "text",
+                  label: "Service Image",
+                  name: "serviceImage",
+                  widget: "image",
                 }
           - label: "Learning Services"
             name: "learningServices"
             widget: list
             fields:
               - {
-                  label: "Service 1 Title",
-                  name: "service1Title",
+                  label: "Service Title",
+                  name: "serviceTitle",
                   widget: "string",
                 }
               - {
-                  label: "Service 1 Description",
-                  name: "service1Description",
+                  label: "Service Description",
+                  name: "serviceDescription",
                   widget: "text",
                 }
               - {
-                  label: "Service 2 Title",
-                  name: "service2Title",
-                  widget: "string",
-                }
-              - {
-                  label: "Service 2 Description",
-                  name: "service2Description",
-                  widget: "text",
+                  label: "Service Image",
+                  name: "serviceImage",
+                  widget: "image",
                 }

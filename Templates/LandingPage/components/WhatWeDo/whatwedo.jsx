@@ -1,5 +1,6 @@
 import { WWDWrapper, SectionWrapper, SemiSectionWrapper } from "./styles";
 import PrimaryButton from "../../../../components/PrimaryButton";
+import Link from "next/link";
 
 const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
   <WWDWrapper>
@@ -590,14 +591,9 @@ const WhatWeDo = ({ whatWeDoHeader, whatWeDoItems }) => (
           )}
           <h3>{item.header}</h3>
           <p>{item.description}</p>
-          <PrimaryButton
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = item.buttonUrl;
-            }}
-          >
-            {item.buttonText}
-          </PrimaryButton>
+          <Link href={item.buttonUrl} passHref>
+            <PrimaryButton>{item.buttonText}</PrimaryButton>
+          </Link>
         </SectionWrapper>
       ))}
     </SemiSectionWrapper>

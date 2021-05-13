@@ -13,8 +13,8 @@ export const PrimaryButtonWrapper = styled.button`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  svg{
-    margin-left:8px;
+  svg {
+    margin-left: 8px;
   }
   @media screen and (min-width: 600px) {
     padding: 13px 20px;

@@ -75,6 +75,7 @@ const GlobalStyles = createGlobalStyle`
   }
   button{
     font-size: 12px;
+    cursor: pointer;
   }
 
   //headings responsive

@@ -22,7 +22,11 @@ const NavBar = () => {
   return (
     <NavWrapper>
       <NavMobileWrapper>
-        <img src="/static/img/logo.svg" alt="CompSAt Logo" />
+        <Link href="/" onClick={() => setClick(false)} passHref>
+          <a>
+            <img src="/static/img/logo.svg" alt="CompSAt Logo" />
+          </a>
+        </Link>
         <Hamburger onClick={handleClick}>
           <svg
             width="25"
@@ -97,7 +101,7 @@ const NavBar = () => {
             </PseudoButton>
             <PseudoButton onClick={handleClick}>
               <Link href="/events" onClick={() => setClick(false)}>
-                <a>Event</a>
+                <a>Events</a>
               </Link>
             </PseudoButton>
             <PseudoButton onClick={handleClick}>
@@ -124,7 +128,11 @@ const NavBar = () => {
         </CSSTransition>
       </NavMobileWrapper>
       <NavDesktopWrapper>
-        <img src="/static/img/logo.svg" alt="CompSAt Logo" />
+        <Link href="/" passHref>
+          <a>
+            <img src="/static/img/logo.svg" alt="CompSAt Logo" />
+          </a>
+        </Link>
         <div className="links">
           <Link href="/">
             <a>Home</a>

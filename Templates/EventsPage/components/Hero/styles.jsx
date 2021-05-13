@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const HeroWrapper = styled.div`
   width: 100vw;
   height: auto;
-  /* margin: -56px 0 64px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,21 +57,21 @@ export const HeroWrapper = styled.div`
     }
   }
   @media screen and (min-width: 1000px) {
-    margin: 0 -96px;
+    margin: -64px 0 -96px;
     padding: 64px 96px 200px;
     .ehbg {
       margin: 0 -96px;
     }
   }
   @media screen and (min-width: 1100px) {
-    margin: 0 -108px;
+    margin:  -64px 0 -108px;
     padding: 64px 108px 200px;
     .ehbg {
       margin: 0 -108px;
     }
   }
   @media screen and (min-width: 1200px) {
-    margin: 0 -128px;
+    margin:  -64px 0 -128px;
     padding: 64px 128px 200px;
     .ehbg {
       margin: -10px -128px;

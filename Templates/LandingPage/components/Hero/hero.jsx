@@ -1,5 +1,6 @@
 import { HeroWrapper, HeroTextWrapper } from "./styles";
 import PrimaryButton from "../../../../components/PrimaryButton";
+import Link from "next/link";
 
 const Hero = ({ heroHeader, heroDescription }) => (
   <HeroWrapper>
@@ -10,7 +11,9 @@ const Hero = ({ heroHeader, heroDescription }) => (
     <HeroTextWrapper>
       <h1>{heroHeader}</h1>
       <p>{heroDescription}</p>
-      <PrimaryButton>Get in touch</PrimaryButton>
+      <Link href="/contact-us" passHref>
+        <PrimaryButton>Get in touch</PrimaryButton>
+      </Link>
     </HeroTextWrapper>
   </HeroWrapper>
 );

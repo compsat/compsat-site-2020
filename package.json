@@ -10,14 +10,16 @@
   },
   "dependencies": {
     "@svgr/webpack": "^5.4.0",
+    "formik": "^2.2.6",
     "netlify-cms": "^2.10.54",
-    "next": "9.4.4",
+    "next": "^10.2.0",
     "next-images": "^1.6.2",
-    "react": "^17.0.1",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-transition-group": "^4.4.1",
     "schema-utils": "^2.7.0",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "file-loader": "^6.0.0",

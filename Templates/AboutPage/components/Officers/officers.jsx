@@ -1,231 +1,221 @@
-import { OfficersWrapper,Top2Container, DepartmentsContainer, DepartmentsHalf, Department, Top2Member, EBMember, ACMember, OfficerPicture, OfficerContent, OfficerDetails } from "./styles";
+import {
+  OfficersWrapper,
+  Top2Container,
+  DepartmentsContainer,
+  DepartmentsHalf,
+  Department,
+  Top2Member,
+  EBMember,
+  ACMember,
+  OfficerPicture,
+  OfficerContent,
+  OfficerDetails,
+} from "./styles";
+import { attributes } from "../../../../content/aboutUs.md";
 
-const Officers = () => (
-  <OfficersWrapper>
-    <h2>Executive Board + Associates Council</h2>
+const Officers = () => {
+  let { ebac } = attributes;
+  let { top2, communications, correl, dnt, secgen, ea, finance, memrel } = ebac;
 
-    <Top2Container>
-      <Top2Member>
-        <OfficerPicture/>
-        <OfficerContent>
-          <p>Juan dela Cruz</p>
-          <OfficerDetails>President</OfficerDetails>
-          <OfficerDetails>first.last@compsat.org</OfficerDetails>
-        </OfficerContent>
-      </Top2Member>
-      <Top2Member>
-        <OfficerPicture/>
-        <OfficerContent>
-          <p>Juan dela Cruz</p>
-          <OfficerDetails>Vice President</OfficerDetails>
-          <OfficerDetails>first.last@compsat.org</OfficerDetails>
-        </OfficerContent>
-      </Top2Member>
-    </Top2Container>
+  return (
+    <OfficersWrapper>
+      <h2>Executive Board + Associates Council</h2>
 
-    <DepartmentsContainer>
-      <DepartmentsHalf>
-        <Department>
-          <h3>Department of Communications</h3>
-          <EBMember>
-            <OfficerPicture/>
+      <Top2Container>
+        {top2.map((member) => (
+          <Top2Member key={member.name}>
+            <OfficerPicture />
             <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Vice President for Communications</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
+              <p>{member.name}</p>
+              <OfficerDetails>{member.position}</OfficerDetails>
+              <OfficerDetails>{member.email}</OfficerDetails>
             </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Promotions</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Publications</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
+          </Top2Member>
+        ))}
+      </Top2Container>
 
-        <Department>
-          <h3>Department of Corporate Relations</h3>
-          <EBMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Vice President for Corporate Relations</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Corporate Relations</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
+      <DepartmentsContainer>
+        <DepartmentsHalf>
+          <Department>
+            <h3>Department of Communications</h3>
+            {communications.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
 
-        <Department>
-          <h3>Department of Development and Training</h3>
-          <EBMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Vice President for Development and Training</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Development Training</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Programming Training</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Development Services</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Development Services</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
-      </DepartmentsHalf>
+          <Department>
+            <h3>Department of Corporate Relations</h3>
+            {communications.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
 
-      <DepartmentsHalf>
-        <Department>
-          <h3>Department of Documentation</h3>
-          <EBMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Secretary-General</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Secretary-General</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
+          <Department>
+            <h3>Department of Development and Training</h3>
+            {dnt.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
+        </DepartmentsHalf>
 
-        <Department>
-          <h3>Department of External Affairs</h3>
-          <EBMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Vice President for External Affairs</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Community Relations</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Univeristy Relations</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
+        <DepartmentsHalf>
+          <Department>
+            <h3>Department of Documentation</h3>
+            {secgen.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
 
-        <Department>
-          <h3>Department of Finance</h3>
-          <EBMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Vice President for Finance</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Finance</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
+          <Department>
+            <h3>Department of External Affairs</h3>
+            {ea.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
 
-        <Department>
-          <h3>Department of Member Relations</h3>
-          <EBMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Vice President for Member Relations</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </EBMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Member Formation</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Member Formation</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-          <ACMember>
-            <OfficerPicture/>
-            <OfficerContent>
-              <p>Juan dela Cruz</p>
-              <OfficerDetails>Associate Vice President for Member Involvement</OfficerDetails>
-              <OfficerDetails>first.last@compsat.org</OfficerDetails>
-            </OfficerContent>
-          </ACMember>
-        </Department>
-      </DepartmentsHalf>
+          <Department>
+            <h3>Department of Finance</h3>
+            {finance.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
 
-    </DepartmentsContainer>
-  </OfficersWrapper>
-);
+          <Department>
+            <h3>Department of Member Relations</h3>
+            {memrel.map((member, idx) =>
+              idx == 0 ? (
+                <EBMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </EBMember>
+              ) : (
+                <ACMember key={member.name}>
+                  <OfficerPicture />
+                  <OfficerContent>
+                    <p>{member.name}</p>
+                    <OfficerDetails>{member.position}</OfficerDetails>
+                    <OfficerDetails>{member.email}</OfficerDetails>
+                  </OfficerContent>
+                </ACMember>
+              )
+            )}
+          </Department>
+        </DepartmentsHalf>
+      </DepartmentsContainer>
+    </OfficersWrapper>
+  );
+};
 
 export default Officers;
