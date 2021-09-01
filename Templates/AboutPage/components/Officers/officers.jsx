@@ -11,10 +11,11 @@ import {
   OfficerContent,
   OfficerDetails,
 } from "./styles";
+import Moderator from "./../Moderator"
 import { attributes } from "../../../../content/aboutUs.md";
 
 const Officers = () => {
-  let { ebac } = attributes;
+  let { ebac, moderator } = attributes;
   let { top2, communications, correl, dnt, secgen, ea, finance, memrel } = ebac;
 
   const imagePath = (url) => `/static/img/officers/${url}`;
@@ -216,6 +217,8 @@ const Officers = () => {
           </Department>
         </DepartmentsHalf>
       </DepartmentsContainer>
+
+      <Moderator />
     </OfficersWrapper>
   );
 };

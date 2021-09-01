@@ -121,6 +121,11 @@ ebac:
       position: AVP for Member Involvement
       email: (Empty)
       image: avp-meminv.jpg
+moderator:
+  name: Jessica Sugay
+  position: Moderator
+  email: jess@compsat.org
+  image: moderator.jpg
 ---
 
 Welcome to CompSite
