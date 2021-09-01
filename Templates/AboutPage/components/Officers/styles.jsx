@@ -120,7 +120,10 @@ export const OfficerPicture = styled.div`
   border: 3px #FFF solid;
   border-radius: 50%;
   background: #07106D;
+  background-size: cover;
+  background-position: center;
   margin-right: 8px;
+  background-image: url('${props => props.image}');
 `;
 
 export const OfficerDetails = styled.p`

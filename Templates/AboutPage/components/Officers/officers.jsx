@@ -17,6 +17,8 @@ const Officers = () => {
   let { ebac } = attributes;
   let { top2, communications, correl, dnt, secgen, ea, finance, memrel } = ebac;
 
+  const imagePath = (url) => `/static/img/officers/${url}`;
+
   return (
     <OfficersWrapper>
       <h2>Executive Board + Associates Council</h2>
@@ -24,7 +26,7 @@ const Officers = () => {
       <Top2Container>
         {top2.map((member) => (
           <Top2Member key={member.name}>
-            <OfficerPicture />
+            <OfficerPicture image={imagePath(member.image)} />
             <OfficerContent>
               <p>{member.name}</p>
               <OfficerDetails>{member.position}</OfficerDetails>
@@ -41,7 +43,7 @@ const Officers = () => {
             {communications.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -50,7 +52,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -63,10 +65,10 @@ const Officers = () => {
 
           <Department>
             <h3>Department of Corporate Relations</h3>
-            {communications.map((member, idx) =>
+            {correl.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -75,7 +77,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -91,7 +93,7 @@ const Officers = () => {
             {dnt.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -100,7 +102,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -118,7 +120,7 @@ const Officers = () => {
             {secgen.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -127,7 +129,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -143,7 +145,7 @@ const Officers = () => {
             {ea.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -152,7 +154,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -168,7 +170,7 @@ const Officers = () => {
             {finance.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -177,7 +179,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -193,7 +195,7 @@ const Officers = () => {
             {memrel.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
@@ -202,7 +204,7 @@ const Officers = () => {
                 </EBMember>
               ) : (
                 <ACMember key={member.name}>
-                  <OfficerPicture />
+                  <OfficerPicture image={imagePath(member.image)} />
                   <OfficerContent>
                     <p>{member.name}</p>
                     <OfficerDetails>{member.position}</OfficerDetails>
