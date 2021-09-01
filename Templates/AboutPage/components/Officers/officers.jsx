@@ -11,7 +11,7 @@ import {
   OfficerContent,
   OfficerDetails,
 } from "./styles";
-import Moderator from "./../Moderator"
+import Moderator from "./../Moderator";
 import { attributes } from "../../../../content/aboutUs.md";
 
 const Officers = () => {

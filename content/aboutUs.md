@@ -35,14 +35,14 @@ ebac:
       position: VP for Communications
       email: brescia.amandy@compsat.org
       image: vp-communications.jpg
-    - name: (Empty)
-      position: AVP for Promotions
-      email: (Empty)
-      image: avp-promotions.jpg
-    - name: (Empty)
-      position: AVP for Publications
-      email: (Empty)
-      image: avp-publications.jpg
+    # - name: (Empty)
+    #   position: AVP for Promotions
+    #   email: (Empty)
+    #   image: avp-promotions.jpg
+    # - name: (Empty)
+    #   position: AVP for Publications
+    #   email: (Empty)
+    #   image: avp-publications.jpg
   correl:
     - name: Aedin Hunter Clay
       position: VP for Corporate Relations
@@ -57,10 +57,10 @@ ebac:
       position: VP for Development and Training
       email: franco.velasco@compsat.org
       image: vp-dnt.jpg
-    - name: (Empty)
-      position: AVP for Development Training
-      email: (Empty)
-      image: avp-devtraining.jpg
+    # - name: (Empty)
+    #   position: AVP for Development Training
+    #   email: (Empty)
+    #   image: avp-devtraining.jpg
     - name: Paolo Dano
       position: AVP for Programming Training
       email: paolo.dano@compsat.org
@@ -69,28 +69,28 @@ ebac:
       position: AVP for Development Projects
       email: emmanuel.evangelista@compsat.org
       image: avp-devprojects1.jpg
-    - name: (Empty)
-      position: AVP for Development Projects
-      email: (Empty)
-      image: avp-devprojects2.jpg
+    # - name: (Empty)
+    #   position: AVP for Development Projects
+    #   email: (Empty)
+    #   image: avp-devprojects2.jpg
   secgen:
-    - name: (Empty)
-      position: Secretary-General
-      email: (Empty)
-      image: secgen.jpg
+    # - name: (Empty)
+    #   position: Secretary-General
+    #   email: (Empty)
+    #   image: secgen.jpg
     - name: Martina Therese Reyes
       position: Associate Secretary-General
       email: martina.reyes@compsat.org
       image: a-secgen.jpg
   ea:
-    - name: (Empty)
-      position: VP for External Affairs
-      email: (Empty)
-      image: vp-ea.jpg
-    - name: (Empty)
-      position: AVP for Community Relations
-      email: (Empty)
-      image: avp-commrel.jpg
+    # - name: (Empty)
+    #   position: VP for External Affairs
+    #   email: (Empty)
+    #   image: vp-ea.jpg
+    # - name: (Empty)
+    #   position: AVP for Community Relations
+    #   email: (Empty)
+    #   image: avp-commrel.jpg
     - name: Earl Edison Felizardo
       position: AVP for University Relations
       email: earl.felizardo@compsat.org
@@ -100,10 +100,10 @@ ebac:
       position: VP for Finance
       email: elmo.gumapos@compsat.org
       image: vp-finance.jpg
-    - name: (Empty)
-      position: AVP for Finance
-      email: (Empty)
-      image: avp-finance.jpg
+    # - name: (Empty)
+    #   position: AVP for Finance
+    #   email: (Empty)
+    #   image: avp-finance.jpg
   memrel:
     - name: Irish Danielle Morales
       position: VP for Member Relations
@@ -113,14 +113,14 @@ ebac:
       position: AVP for Member Formation
       email: anna.habana@compsat.org
       image: avp-memform1.jpg
-    - name: (Empty)
-      position: AVP for Member Formation
-      email: (Empty)
-      image: avp-memform2.jpg
-    - name: (Empty)
-      position: AVP for Member Involvement
-      email: (Empty)
-      image: avp-meminv.jpg
+    # - name: (Empty)
+    #   position: AVP for Member Formation
+    #   email: (Empty)
+    #   image: avp-memform2.jpg
+    # - name: (Empty)
+    #   position: AVP for Member Involvement
+    #   email: (Empty)
+    #   image: avp-meminv.jpg
 moderator:
   name: Jessica Sugay
   position: Moderator
