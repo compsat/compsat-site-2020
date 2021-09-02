@@ -9,7 +9,7 @@ import {
 } from "./styles";
 import Link from "next/link";
 import React, { useState } from "react";
-import { CSSTransition } from "react-transition-group";
+// import { CSSTransition } from "react-transition-group";
 
 const NavBar = () => {
   const [clicked, setClick] = useState(false);
@@ -19,6 +19,19 @@ const NavBar = () => {
     clicked ? (html.style.overflow = null) : (html.style.overflow = "hidden");
     clicked ? (html.style.overflow = null) : (html.style.overflow = "hidden");
   };
+
+  /** for mobile nav bar, wrap in
+      <CSSTransition
+        in={clicked}
+        timeout={300}
+        classNames="is-active"
+        unmountOnExit
+        onEnter={() => setClick(true)}
+        onExited={() => setClick(false)}
+      >
+  **/
+
+
   return (
     <NavWrapper>
       <NavMobileWrapper>
@@ -58,15 +71,8 @@ const NavBar = () => {
             />
           </svg>
         </Hamburger>
-        <CSSTransition
-          in={clicked}
-          timeout={300}
-          classNames="is-active"
-          unmountOnExit
-          onEnter={() => setClick(true)}
-          onExited={() => setClick(false)}
-        >
-          <MobileMenuContainer>
+        {
+          clicked ? <MobileMenuContainer>
             <CrossButton onClick={handleClick}>
               <svg
                 viewBox="0 0 24 24"
@@ -125,7 +131,8 @@ const NavBar = () => {
               </Link>
             </PseudoButton>
           </MobileMenuContainer>
-        </CSSTransition>
+          : null
+        }
       </NavMobileWrapper>
       <NavDesktopWrapper>
         <Link href="/" passHref>
