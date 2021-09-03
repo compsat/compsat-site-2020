@@ -16,7 +16,7 @@ export const MicrositeContainer = styled.div`
     margin: 16px;
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1080px) {
     width: 352px;
     height: 352px;
   }
@@ -36,7 +36,7 @@ export const IconBox = styled.div`
   top: 0;
   left: 0;
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1080px) {
     width: 212px;
     height: 165px;
   }
@@ -50,26 +50,22 @@ export const Title = styled.div`
   color: #ffffff;
   margin-bottom: 18px;
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1080px) {
     font-size: 24px;
   }
 `;
 export const ClientSite = styled.div`
   background-color: #121c8c;
   width: 250px;
-  height: 263px;
+  height: 280px;
   border-radius: 9px;
   box-shadow: 0px 10px 12px rgba(3, 9, 80, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 28px;
+  margin: 16px 16px 28px 16px;
   overflow: hidden;
-
-  @media screen and (min-width: 700px) {
-    margin: 16px;
-  }
 
   @media screen and (min-width: 1080px) {
     width: 352px;
@@ -101,6 +97,7 @@ export const Description = styled.p`
   font-color: #f6f6f6;
   text-align: left;
   font-size: 12px;
+  margin: 0;
 
   @media screen and (min-width: 1080px) {
     font-size: 16px;
