@@ -25,7 +25,7 @@ const Officers = () => {
         <OfficerContent>
           <p>{member.name}</p>
           <OfficerDetails>{member.position}</OfficerDetails>
-          <OfficerDetails>{member.email}</OfficerDetails>
+          <OfficerDetails><a href={`mailto:${member.email}`}>{member.email}</a></OfficerDetails>
         </OfficerContent>
       </>
     );

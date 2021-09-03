@@ -31,7 +31,9 @@ const ContactDetails = () => (
         />
         <p>Email</p>
       </Platform>
-      <p>{email}</p>
+      <a href={`mailto:${email}`}>
+        <p>{email}</p>
+      </a>
     </ContactInfo>
 
     <ContactInfo>
@@ -42,7 +44,9 @@ const ContactDetails = () => (
         />
         <p>Facebook</p>
       </Platform>
-      <p>{fb}</p>
+      <a href={fb}>
+        <p>{fb}</p>
+      </a>
     </ContactInfo>
 
     <ContactInfo>
@@ -53,7 +57,9 @@ const ContactDetails = () => (
         />
         <p>Twitter</p>
       </Platform>
-      <p>{twitter}</p>
+      <a href={twitter}>
+        <p>{twitter}</p>
+      </a>
     </ContactInfo>
 
     {/* <ContactInfo>
