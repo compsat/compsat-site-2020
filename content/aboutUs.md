@@ -22,16 +22,16 @@ coreValues:
     coreValue4: Provide impactful and innovative services
 ebac:
   top2:
-    - name: Rene Antonio Castillo
+    - name: Rene Antonio S. Castillo
       position: President
       email: antonio.castillo@compsat.org
       image: president.jpg
-    - name: Kristen Mari Valle
+    - name: Kristen Mari J. Valle
       position: Executive Vice President
       email: mari.valle@compsat.org
       image: evp.jpg
   communications:
-    - name: Brescia Amandy
+    - name: Brescia V. Amandy
       position: VP for Communications
       email: brescia.amandy@compsat.org
       image: vp-communications.jpg
@@ -44,28 +44,28 @@ ebac:
     #   email: (Empty)
     #   image: avp-publications.jpg
   correl:
-    - name: Aedin Hunter Clay
+    - name: Aedin Hunter A. Clay
       position: VP for Corporate Relations
       email: aedin.clay@compsat.org
       image: vp-correl.jpg
-    - name: Neal Luigi Rodriguez
+    - name: Neal Luigi D. Rodriguez
       position: AVP for Corporate Relations
       email: neal.rodriguez@compsat.org
       image: avp-correl.jpg
   dnt:
-    - name: Franco Manuel Velasco
+    - name: Franco Manuel D. Velasco
       position: VP for Development and Training
       email: franco.velasco@compsat.org
       image: vp-dnt.jpg
-    # - name: (Empty)
-    #   position: AVP for Development Training
-    #   email: (Empty)
-    #   image: avp-devtraining.jpg
-    - name: Paolo Dano
+    - name: Charles Andrew P. Lim
+      position: AVP for Development Training
+      email: charles.lim@compsat.org
+      image: avp-devtraining.jpg
+    - name: Paolo G. Dano
       position: AVP for Programming Training
       email: paolo.dano@compsat.org
       image: avp-progtraining.jpg
-    - name: Emmanuel Linus Evangelista
+    - name: Emmanuel Linus T. Evangelista
       position: AVP for Development Projects
       email: emmanuel.evangelista@compsat.org
       image: avp-devprojects1.jpg
@@ -78,7 +78,7 @@ ebac:
     #   position: Secretary-General
     #   email: (Empty)
     #   image: secgen.jpg
-    - name: Martina Therese Reyes
+    - name: Martina Therese R. Reyes
       position: Associate Secretary-General
       email: martina.reyes@compsat.org
       image: a-secgen.jpg
@@ -91,12 +91,12 @@ ebac:
     #   position: AVP for Community Relations
     #   email: (Empty)
     #   image: avp-commrel.jpg
-    - name: Earl Edison Felizardo
+    - name: Earl Edison B. Felizardo
       position: AVP for University Relations
       email: earl.felizardo@compsat.org
       image: avp-univrel.jpg
   finance:
-    - name: Elmo Lenard Gumapos
+    - name: Elmo Lenard M. Gumapos
       position: VP for Finance
       email: elmo.gumapos@compsat.org
       image: vp-finance.jpg
@@ -122,7 +122,7 @@ ebac:
     #   email: (Empty)
     #   image: avp-meminv.jpg
 moderator:
-  name: Jessica Sugay
+  name: Jessica O. Sugay
   position: Moderator
   email: jess@compsat.org
   image: moderator.jpg
