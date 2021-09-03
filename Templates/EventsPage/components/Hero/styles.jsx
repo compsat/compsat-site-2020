@@ -13,6 +13,9 @@ export const HeroWrapper = styled.div`
   }
   .ehbg {
     display: none;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
   }
 
   padding: 56px 24px;
