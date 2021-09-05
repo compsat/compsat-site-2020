@@ -27,17 +27,37 @@ export const CoreValueContainer = styled.div`
   }
 `;
 
-export const CoreValueLeft = styled.div`
+export const CoreValue = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 0 32px 0;
 
   img {
-    margin: 0 32px 16px 0;
+    max-width: 192px;
+    width: 100%;
+    filter: grayscale(1) invert(1);
   }
 
   p {
     margin: 0 auto;
+  }
+
+  @media screen and (min-width: 800px) {
+    img {
+      filter: unset;
+    }
+
+    p {
+      width: 25vw;
+      max-width: 296px;
+    }
+  }
+`;
+
+export const CoreValueLeft = styled(CoreValue)`
+  img {
+    margin: 0 32px 16px 0;
   }
 
   @media screen and (min-width: 800px) {
@@ -49,24 +69,14 @@ export const CoreValueLeft = styled.div`
 
     p {
       margin-right: 24px;
-      width: 25vw;
-      max-width: 296px;
       text-align: right;
     }
   }
 `;
 
-export const CoreValueRight = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 32px 0;
-
+export const CoreValueRight = styled(CoreValue)`
   img {
     margin: 0 0 16px 32px;
-  }
-
-  p {
-    margin: 0 auto;
   }
 
   @media screen and (min-width: 800px) {
@@ -78,8 +88,6 @@ export const CoreValueRight = styled.div`
 
     p {
       margin-left: 24px;
-      width: 25vw;
-      max-width: 296px;
       text-align: left;
     }
   }

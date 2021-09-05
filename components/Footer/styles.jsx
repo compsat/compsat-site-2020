@@ -56,7 +56,7 @@ export const FooterSocialsWrapper = styled.div`
     width: 16px;
     height: auto;
   }
-  img:not(:last-child) {
+  a:not(:last-child) img {
     margin-right: 16px;
   }
 `;

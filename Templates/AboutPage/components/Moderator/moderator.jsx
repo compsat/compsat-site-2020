@@ -13,7 +13,7 @@ const Moderator = () => {
         <OfficerPicture image={`/static/img/officers/${moderator.image}`} />
         <OfficerContent>
           <p>{moderator.name}</p>
-          <OfficerDetails>{moderator.email}</OfficerDetails>
+          <OfficerDetails><a href={`mailto:${moderator.email}`}>{moderator.email}</a></OfficerDetails>
         </OfficerContent>
       </ModeratorContainer>
     </>

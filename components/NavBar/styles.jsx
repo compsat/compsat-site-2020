@@ -94,7 +94,7 @@ export const MobileMenuContainer = styled.div`
   right: 0;
   width: 100vw;
   height: 100vh;
-  display: flex;
+  display: ${(props) => props.clicked};
   flex-direction: column;
   align-items: center;
   padding: 64px 32px 32px;

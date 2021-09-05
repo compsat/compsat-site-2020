@@ -169,6 +169,7 @@ export const SectionTitle = styled.h1`
 `;
 
 export const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -284,10 +285,10 @@ export const Sys_BG = styled.div`
   display: none;
   @media screen and (min-width: 844px) {
     display: block;
-    width: auto;
-    position: relative;
+    width: 100vw;
+    position: absolute;
+    top: 0;
     z-index: -2;
-    margin: -1750px 0 700px 0;
 
     img {
       width: 100vw;
@@ -299,10 +300,10 @@ export const WD_bg1 = styled.div`
   display: none;
   @media screen and (min-width: 844px) {
     display: block;
-    width: auto;
-    position: relative;
+    width: 100vw;
+    position: absolute;
+    top: 0;
     z-index: -2;
-    margin: -2630px 0px 0 0;
 
     img {
       width: 100vw;
@@ -314,9 +315,10 @@ export const WD_bg2 = styled.div`
   display: none;
   @media screen and (min-width: 844px) {
     display: block;
-    position: relative;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
     z-index: -2;
-    margin: 200px 0px 0px 0px;
     overflow: hidden;
     height: 120vh;
 
