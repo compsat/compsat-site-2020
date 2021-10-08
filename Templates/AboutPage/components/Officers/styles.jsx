@@ -73,7 +73,7 @@ export const EBACMember = styled.div`
   margin-bottom: 8px;
 
   p {
-    color: #07106D;
+    color: #07106d;
   }
 
   @media screen and (min-width: 800px) {
@@ -92,17 +92,6 @@ export const EBMember = styled(EBACMember)``;
 
 export const ACMember = styled(EBACMember)``;
 
-// export const ACMember = styled.div`
-//   display: flex;
-//   align-items: center;
-//   padding: 16px;
-//   margin-bottom: 8px;
-
-//   @media screen and (min-width: 800px) {
-//     margin-bottom: 16px;
-//   }
-// `;
-
 export const OfficerContent = styled.div`
   width: 65%;
 `;
@@ -110,19 +99,20 @@ export const OfficerContent = styled.div`
 export const OfficerPicture = styled.div`
   width: 80px;
   height: 80px;
-  border: 3px #FFF solid;
+  border: 3px #fff solid;
   border-radius: 50%;
-  background: #07106D;
+  background: #07106d;
   background-size: cover;
   background-position: center;
   margin-right: 8px;
-  background-image: url('${props => props.image}');
+  background-image: url("${(props) => props.image}");
 `;
 
 export const OfficerDetails = styled.p`
-  font-size: 8px;
+  font-size: 12px;
+  word-break: break-word;
+`;
 
-  @media screen and (min-width: 800px) {
-    font-size: 12px;
-  }
+export const OfficerName = styled.p`
+  font-size: 16.5px;
 `;
