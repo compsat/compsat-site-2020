@@ -35,10 +35,10 @@ ebac:
       position: VP for Communications
       email: brescia.amandy@compsat.org
       image: vp-communications.jpg
-    # - name: (Empty)
-    #   position: AVP for Promotions
-    #   email: (Empty)
-    #   image: avp-promotions.jpg
+    - name: Joseph Raymund F. Izon
+      position: AVP for Promotions
+      email: joseph.izon@compsat.org
+      image: avp-promotions.jpg
     # - name: (Empty)
     #   position: AVP for Publications
     #   email: (Empty)
@@ -69,32 +69,32 @@ ebac:
       position: AVP for Development Projects
       email: emmanuel.evangelista@compsat.org
       image: avp-devprojects1.jpg
-    # - name: (Empty)
-    #   position: AVP for Development Projects
-    #   email: (Empty)
-    #   image: avp-devprojects2.jpg
+    - name: Gabriel Orlando L. Azores
+      position: AVP for Development Projects
+      email: gabriel.azores@compsat.org
+      image: avp-devprojects2.jpg
   secgen:
-    # - name: (Empty)
-    #   position: Secretary-General
-    #   email: (Empty)
-    #   image: secgen.jpg
     - name: Martina Therese R. Reyes
-      position: Associate Secretary-General
+      position: Secretary-General
       email: martina.reyes@compsat.org
-      image: a-secgen.jpg
-  ea:
+      image: secgen.jpg
     # - name: (Empty)
-    #   position: VP for External Affairs
+    #   position: Associate Secretary-General
     #   email: (Empty)
-    #   image: vp-ea.jpg
+    #   image: a-secgen.jpg
+  ea:
+    - name: Earl Edison B. Felizardo
+      position: VP for External Affairs
+      email: earl.felizardo@compsat.org
+      image: vp-ea.jpg
     # - name: (Empty)
     #   position: AVP for Community Relations
     #   email: (Empty)
     #   image: avp-commrel.jpg
-    - name: Earl Edison B. Felizardo
-      position: AVP for University Relations
-      email: earl.felizardo@compsat.org
-      image: avp-univrel.jpg
+    # - name: (Empty)
+    #   position: AVP for University Relations
+    #   email: (Empty)
+    #   image: avp-univrel.jpg
   finance:
     - name: Elmo Lenard M. Gumapos
       position: VP for Finance
@@ -113,14 +113,14 @@ ebac:
       position: AVP for Member Formation
       email: anna.habana@compsat.org
       image: avp-memform1.jpg
-    # - name: (Empty)
-    #   position: AVP for Member Formation
-    #   email: (Empty)
-    #   image: avp-memform2.jpg
-    # - name: (Empty)
-    #   position: AVP for Member Involvement
-    #   email: (Empty)
-    #   image: avp-meminv.jpg
+    - name: Chester Rey D.R. Tan
+      position: AVP for Member Formation
+      email: chester.rey@compsat.org
+      image: avp-memform2.jpg
+    - name: Emilio Antonio S. Gentolia
+      position: AVP for Member Involvement
+      email: mio.gentolia@compsat.org
+      image: avp-meminv.jpg
 moderator:
   name: Jessica O. Sugay
   position: Moderator

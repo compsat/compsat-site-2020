@@ -7,9 +7,10 @@ import {
   Top2Member,
   EBMember,
   ACMember,
-  OfficerPicture,
   OfficerContent,
   OfficerDetails,
+  OfficerName,
+  OfficerPicture,
 } from "./styles";
 import Moderator from "./../Moderator";
 import { attributes } from "../../../../content/aboutUs.md";
@@ -23,9 +24,11 @@ const Officers = () => {
       <>
         <OfficerPicture image={`/static/img/officers/${member.image}`} />
         <OfficerContent>
-          <p>{member.name}</p>
+          <OfficerName>{member.name}</OfficerName>
           <OfficerDetails>{member.position}</OfficerDetails>
-          <OfficerDetails><a href={`mailto:${member.email}`}>{member.email}</a></OfficerDetails>
+          <OfficerDetails>
+            <a href={`mailto:${member.email}`}>{member.email}</a>
+          </OfficerDetails>
         </OfficerContent>
       </>
     );
@@ -47,9 +50,13 @@ const Officers = () => {
             <h3>Department of Communications</h3>
             {communications.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>
@@ -58,9 +65,13 @@ const Officers = () => {
             <h3>Department of Corporate Relations</h3>
             {correl.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>
@@ -69,9 +80,13 @@ const Officers = () => {
             <h3>Department of Development and Training</h3>
             {dnt.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>
@@ -82,9 +97,13 @@ const Officers = () => {
             <h3>Department of Documentation</h3>
             {secgen.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>
@@ -93,9 +112,13 @@ const Officers = () => {
             <h3>Department of External Affairs</h3>
             {ea.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>
@@ -104,9 +127,13 @@ const Officers = () => {
             <h3>Department of Finance</h3>
             {finance.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>
@@ -115,9 +142,13 @@ const Officers = () => {
             <h3>Department of Member Relations</h3>
             {memrel.map((member, idx) =>
               idx == 0 ? (
-                <EBMember key={member.name}>{genOfficerContent(member)}</EBMember>
+                <EBMember key={member.name}>
+                  {genOfficerContent(member)}
+                </EBMember>
               ) : (
-                <ACMember key={member.name}>{genOfficerContent(member)}</ACMember>
+                <ACMember key={member.name}>
+                  {genOfficerContent(member)}
+                </ACMember>
               )
             )}
           </Department>

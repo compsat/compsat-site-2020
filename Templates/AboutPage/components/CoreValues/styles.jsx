@@ -44,10 +44,6 @@ export const CoreValue = styled.div`
   }
 
   @media screen and (min-width: 800px) {
-    img {
-      filter: unset;
-    }
-
     p {
       width: 25vw;
       max-width: 296px;
