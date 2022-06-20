@@ -83,6 +83,7 @@ const ContactForm = () => {
               name="contact"
               method="POST"
               data-netlify={true}
+              data-netlify-recaptcha={true}
               onSubmit={handleSubmit}
             >
               <input type="hidden" name="form-name" value="contact" />
@@ -145,6 +146,10 @@ const ContactForm = () => {
                   </WarningMessage>
                 )}
               </FormField>
+
+              <ButtonRight>
+                 <div data-netlify-recaptcha="true"></div>
+              </ButtonRight>  
 
               <ButtonRight>
                 <PrimaryButton type="submit" disabled={isSubmitting}>
