@@ -147,9 +147,7 @@ const ContactForm = () => {
                 )}
               </FormField>
 
-              <ButtonRight>
-                 <div data-netlify-recaptcha="true"></div>
-              </ButtonRight>  
+              <div data-netlify-recaptcha="true"></div>
 
               <ButtonRight>
                 <PrimaryButton type="submit" disabled={isSubmitting}>
