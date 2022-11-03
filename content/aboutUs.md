@@ -22,104 +22,104 @@ coreValues:
     coreValue4: Provide impactful and innovative services
 ebac:
   top2:
-    - name: Rene Antonio S. Castillo
+    - name: Charles Andrew P. Lim
       position: President
-      email: antonio.castillo@compsat.org
+      email: charles.lim@compsat.org
       image: president.jpg
-    - name: Kristen Mari J. Valle
+    - name: Irish Danielle Morales
       position: Executive Vice President
-      email: mari.valle@compsat.org
+      email: irish.morales@compsat.org
       image: evp.jpg
   communications:
-    - name: Brescia V. Amandy
+    - name: Rajo Christian Cadorna
       position: VP for Communications
-      email: brescia.amandy@compsat.org
+      email: rajo.cadorna@compsat.org
       image: vp-communications.jpg
-    - name: Joseph Raymund F. Izon
+    - name: Jan Ericsson O. Ang
       position: AVP for Promotions
-      email: joseph.izon@compsat.org
+      email: jan.ang@compsat.org
       image: avp-promotions.jpg
-    # - name: (Empty)
-    #   position: AVP for Publications
-    #   email: (Empty)
-    #   image: avp-publications.jpg
+    - name: Szel Leeven Y. Embay
+      position: AVP for Publications
+      email: szel.embay@compsat.org
+      image: avp-publications.jpg
   correl:
-    - name: Aedin Hunter A. Clay
+    - name: Alfonso Miguel Roldan
       position: VP for Corporate Relations
-      email: aedin.clay@compsat.org
+      email: alfonso.roldan@compsat.org
       image: vp-correl.jpg
-    - name: Neal Luigi D. Rodriguez
+    - name: Janelle Clarisse V. Co
       position: AVP for Corporate Relations
-      email: neal.rodriguez@compsat.org
+      email: janelle.co@compsat.org
       image: avp-correl.jpg
   dnt:
-    - name: Franco Manuel D. Velasco
+    - name: Ysabella B. Panghulan
       position: VP for Development and Training
-      email: franco.velasco@compsat.org
+      email: ysabella.panghulan@compsat.org
       image: vp-dnt.jpg
-    - name: Charles Andrew P. Lim
+    - name: Cheska Elise Hung
       position: AVP for Development Training
-      email: charles.lim@compsat.org
+      email: cheska.hung@compsat.org
       image: avp-devtraining.jpg
-    - name: Paolo G. Dano
+    - name: Anthony Christian Uy
       position: AVP for Programming Training
-      email: paolo.dano@compsat.org
+      email: anthony.uy@compsat.org
       image: avp-progtraining.jpg
-    - name: Emmanuel Linus T. Evangelista
+    - name: Jude Yra Corciga
       position: AVP for Development Projects
-      email: emmanuel.evangelista@compsat.org
+      email: yra.corciga@compsat.org
       image: avp-devprojects1.jpg
-    - name: Gabriel Orlando L. Azores
+    - name: Swailem Neil Angelo G. Lumba
       position: AVP for Development Projects
-      email: gabriel.azores@compsat.org
+      email: angelo.lumba@compsat.org
       image: avp-devprojects2.jpg
   secgen:
-    - name: Martina Therese R. Reyes
-      position: Secretary-General
-      email: martina.reyes@compsat.org
-      image: secgen.jpg
-    # - name: (Empty)
-    #   position: Associate Secretary-General
-    #   email: (Empty)
-    #   image: a-secgen.jpg
-  ea:
-    - name: Earl Edison B. Felizardo
-      position: VP for External Affairs
-      email: earl.felizardo@compsat.org
-      image: vp-ea.jpg
-    # - name: (Empty)
-    #   position: AVP for Community Relations
-    #   email: (Empty)
-    #   image: avp-commrel.jpg
-    # - name: (Empty)
-    #   position: AVP for University Relations
-    #   email: (Empty)
-    #   image: avp-univrel.jpg
-  finance:
-    - name: Elmo Lenard M. Gumapos
-      position: VP for Finance
-      email: elmo.gumapos@compsat.org
-      image: vp-finance.jpg
-    # - name: (Empty)
-    #   position: AVP for Finance
-    #   email: (Empty)
-    #   image: avp-finance.jpg
-  memrel:
-    - name: Irish Danielle Morales
-      position: VP for Member Relations
-      email: irish.morales@compsat.org
-      image: vp-memrel.jpg
-    - name: Anna Ysabella Habana
-      position: AVP for Member Formation
-      email: anna.habana@compsat.org
-      image: avp-memform1.jpg
     - name: Chester Rey D.R. Tan
-      position: AVP for Member Formation
+      position: Secretary-General
       email: chester.rey@compsat.org
+      image: secgen.jpg
+    - name: Teodoro Jose C. Cruz IV
+      position: Associate Secretary-General
+      email: teodoro.cruz@compsat.org
+      image: a-secgen.jpg
+  ea:
+    - name: Mario Franco C. Deuna
+      position: VP for External Affairs
+      email: mario.deuna@compsat.org
+      image: vp-ea.jpg
+    - name: Patricia Isabella P. Nava
+      position: AVP for Community Relations
+      email: patricia.nava@compsat.org
+      image: avp-commrel.jpg
+    - name: Chino Gabriel G. Tesoro
+      position: AVP for University Relations
+      email: chino.tesoro@compsat.org
+      image: avp-univrel.jpg
+  finance:
+    - name: Marchrius Danielle G. Gallardo
+      position: VP for Finance
+      email: marchrius.gallardo@compsat.org
+      image: vp-finance.jpg
+    - name: Elmo Lenard M. Gumapos
+      position: AVP for Finance
+      email: elmo.gumapos@compsat.org
+      image: avp-finance.jpg
+  memrel:
+    - name: Ansley Paul S. Sze
+      position: VP for Member Relations
+      email: ansley.sze@compsat.org
+      image: vp-memrel.jpg
+    - name: Andre Matthew G. Dumandan
+      position: AVP for Member Formation
+      email: andre.dumandan@compsat.org
+      image: avp-memform1.jpg
+    - name: Simone Benedict B. Celestial
+      position: AVP for Member Formation
+      email: simone.celestial@compsat.org
       image: avp-memform2.jpg
-    - name: Emilio Antonio S. Gentolia
+    - name: Eugene Ezekiel P. Tan
       position: AVP for Member Involvement
-      email: mio.gentolia@compsat.org
+      email: eugene.tan@compsat.org
       image: avp-meminv.jpg
 moderator:
   name: Jessica O. Sugay
