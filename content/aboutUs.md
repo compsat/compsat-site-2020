@@ -51,7 +51,7 @@ ebac:
     - name: Janelle Clarisse V. Co
       position: AVP for Corporate Relations
       email: janelle.co@compsat.org
-      image: avp-correl.jpg
+      image: avp-correl.jpeg
   dnt:
     - name: Ysabella B. Panghulan
       position: VP for Development and Training
@@ -64,7 +64,7 @@ ebac:
     - name: Anthony Christian Uy
       position: AVP for Programming Training
       email: anthony.uy@compsat.org
-      image: avp-progtraining.jpg
+      image: avp-progtraining.jpeg
     - name: Jude Yra Corciga
       position: AVP for Development Projects
       email: yra.corciga@compsat.org
