@@ -11,13 +11,14 @@ import {
   OfficerDetails,
   OfficerName,
   OfficerPicture,
-} from "./styles";
-import Moderator from "./../Moderator";
-import { attributes } from "../../../../content/aboutUs.md";
+} from './styles';
+import Moderator from './../Moderator';
+import { attributes } from '../../../../content/aboutUs.md';
 
 const Officers = () => {
   let { ebac } = attributes;
-  let { top2, communications, correl, dnt, secgen, ea, finance, memrel } = ebac;
+  // let { top2, communications, correl, dnt, secgen, ea, finance, memrel } = ebac;
+  let { top2, creatives, dnt, secgen, ea, finance, memrel } = ebac;
 
   const genOfficerContent = (member) => {
     return (
@@ -48,7 +49,7 @@ const Officers = () => {
         <DepartmentsHalf>
           <Department>
             <h3>Department of Communications</h3>
-            {communications.map((member, idx) =>
+            {creatives.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
                   {genOfficerContent(member)}
@@ -61,7 +62,7 @@ const Officers = () => {
             )}
           </Department>
 
-          <Department>
+          {/* <Department>
             <h3>Department of Corporate Relations</h3>
             {correl.map((member, idx) =>
               idx == 0 ? (
@@ -74,7 +75,7 @@ const Officers = () => {
                 </ACMember>
               )
             )}
-          </Department>
+          </Department> */}
 
           <Department>
             <h3>Department of Development and Training</h3>
@@ -124,8 +125,8 @@ const Officers = () => {
           </Department>
 
           <Department>
-            <h3>Department of Finance</h3>
-            {finance.map((member, idx) =>
+            <h3>Department of Member Relations</h3>
+            {memrel.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
                   {genOfficerContent(member)}
@@ -139,8 +140,8 @@ const Officers = () => {
           </Department>
 
           <Department>
-            <h3>Department of Member Relations</h3>
-            {memrel.map((member, idx) =>
+            <h3>Department of Finance</h3>
+            {finance.map((member, idx) =>
               idx == 0 ? (
                 <EBMember key={member.name}>
                   {genOfficerContent(member)}
